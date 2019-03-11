@@ -72,7 +72,7 @@ exports.createPages = ({ graphql, actions }) => {
             result.data.allDisciplinesJson.group
           );
           disciplines.forEach(async discipline => {
-            const slug = slugify(discipline.toLowerCase());
+            const slug = `thaumaturgy/${slugify(discipline.toLowerCase())}`;
             await createPage({
               path: slug,
               component: path.resolve(`./src/templates/Thaumaturgie.jsx`),
@@ -101,7 +101,6 @@ exports.createPages = ({ graphql, actions }) => {
         }
       `)
         .then(result => {
-          console.log(result.group);
           const thaumaturgies = Array.from(
             new Set(
               result.data.allDisciplinesJson.group
@@ -114,22 +113,15 @@ exports.createPages = ({ graphql, actions }) => {
                 .flat()
             )
           );
-          const flu = result.data.allDisciplinesJson.group.map(discipline =>
-            discipline.edges.map(node => [
-              discipline.fieldValue,
-              node.node.subname,
-            ])
-          );
-          console.log({ flu: [1, 2, [3, 4, [5, 6]]].flat() });
           thaumaturgies.forEach(async thaumaturgy => {
-            console.log(thaumaturgy);
             const thauSlug = slugify(thaumaturgy[0].toLowerCase());
             const pathSlug = slugify(thaumaturgy[1].toLowerCase());
             await createPage({
-              path: `${thauSlug}/${pathSlug}`,
+              path: `thaumaturgy/${thauSlug}/${pathSlug}`,
               component: path.resolve(`./src/templates/ThaumaturgiePath.jsx`),
               context: {
-                thaumaturgy,
+                discipline: thaumaturgy[0],
+                thaumaturgyPath: thaumaturgy[1],
               },
             });
           });

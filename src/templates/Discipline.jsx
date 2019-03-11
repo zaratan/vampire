@@ -2,25 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-
-const DisciplinePower = ({ power }) => (
-  <li>
-    <header>{power.title}</header>
-    <p>{power.description}</p>
-    <span>{power.source}</span>
-  </li>
-);
-
-const DisciplineLevel = ({ level }) => (
-  <li>
-    <header>LEVEL: {level.level}</header>
-    <ul>
-      {level.powers.map(power => (
-        <DisciplinePower power={power} />
-      ))}
-    </ul>
-  </li>
-);
+import SEO from '../components/seo';
+import DisciplineLevel from '../components/DisciplineLevel';
 
 const Discipline = ({ pageContext, data }) => {
   const { discipline } = pageContext;
@@ -32,14 +15,15 @@ const Discipline = ({ pageContext, data }) => {
     .sort((a, b) => a.level - b.level);
 
   return (
-    <>
+    <Layout>
+      <SEO title={discipline} />
       <h1>{discipline}</h1>
       <ul>
         {disciplineData.map(level => (
           <DisciplineLevel level={level} />
         ))}
       </ul>
-    </>
+    </Layout>
   );
 };
 
@@ -57,6 +41,8 @@ export const query = graphql`
             title
             description
             source
+            extra_table
+            extra_table_two
           }
         }
       }
