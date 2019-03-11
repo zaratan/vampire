@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Table from './Table';
 
 const Title = styled.header`
   font-weight: 700;
@@ -22,28 +23,8 @@ const DisciplinePower = ({ power }) => (
       ))}
     </Description>
     <small>{power.source}</small>
-    {power.extra_table && (
-      <div>
-        {power.extra_table.map(line => (
-          <div>
-            {line.map(cell => (
-              <span>{cell}</span>
-            ))}
-          </div>
-        ))}
-      </div>
-    )}
-    {power.extra_table_two && (
-      <div>
-        {power.extra_table.map(line => (
-          <div>
-            {line.map(cell => (
-              <span>{cell}</span>
-            ))}
-          </div>
-        ))}
-      </div>
-    )}
+    <Table data={power.extra_table} />
+    <Table data={power.extra_table_two} />
   </Item>
 );
 

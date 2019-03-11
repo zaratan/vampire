@@ -380,6 +380,11 @@ ul {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+
+  @media (max-width: 600px) {
+    margin-left: 0
+  
+  }
 }
 ol {
   margin-left: 1.45rem;
@@ -563,6 +568,10 @@ li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
+  
+  @media (max-width: 600px) {
+    margin-left: 0;
+  }
 }
 blockquote *:last-child {
   margin-bottom: 0;
