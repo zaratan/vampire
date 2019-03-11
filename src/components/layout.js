@@ -15,6 +15,12 @@ import Header from './Header';
 import Footer from './Footer';
 import GlobalStyle from '../styles/GlobalStyle';
 
+const Main = styled.main`
+  @media only screen and (max-width: 980px) {
+    padding: 0 1rem;
+  }
+`;
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -31,7 +37,7 @@ const Layout = ({ children }) => (
         <>
           <GlobalStyle />
           <Header siteTitle={data.site.siteMetadata.title} />
-          <main>{children}</main>
+          <Main>{children}</Main>
           <Footer />
         </>
       </ThemeProvider>

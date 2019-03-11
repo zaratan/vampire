@@ -4,6 +4,7 @@ import Table from './Table';
 
 const Title = styled.header`
   font-weight: 700;
+  margin-bottom: 0.5rem;
 `;
 
 const Description = styled.div`
@@ -11,7 +12,20 @@ const Description = styled.div`
 `;
 
 const Item = styled.li`
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+`;
+
+const Small = styled.small`
+  margin-top: 0.5rem;
+  align-self: flex-end;
+  max-width: 50%;
+  font-size: 1.1rem;
+`;
+
+const Line = styled.p`
+  margin-bottom: 0.3rem;
 `;
 
 const DisciplinePower = ({ power }) => (
@@ -19,10 +33,10 @@ const DisciplinePower = ({ power }) => (
     <Title>{power.title}</Title>
     <Description>
       {power.description.map(line => (
-        <p>{line}</p>
+        <Line>{line}</Line>
       ))}
     </Description>
-    <small>{power.source}</small>
+    <Small>{power.source}</Small>
     <Table data={power.extra_table} />
     <Table data={power.extra_table_two} />
   </Item>
