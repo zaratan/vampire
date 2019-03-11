@@ -5,15 +5,10 @@ import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { toDisciplineNames, displineToPath, thaumaturgyToPath } from '../utils';
+import SectionHeader from '../styles/SectionHeader';
 
 const Disciplines = styled.ul`
   columns: 3;
-`;
-
-const Header = styled.h1`
-  text-align: center;
-  margin 2rem;
-  font-size: 3rem;
 `;
 
 const IndexPage = () => {
@@ -40,7 +35,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Liste" keywords={[`WOD`, `discipline`, `jdr`]} />
-      <Header>Disciplines</Header>
+      <SectionHeader>Disciplines</SectionHeader>
       <Disciplines>
         {normalDisciplines.map(disc => (
           <li key={disc}>
@@ -48,7 +43,7 @@ const IndexPage = () => {
           </li>
         ))}
       </Disciplines>
-      <Header>Thaumaturgies</Header>
+      <SectionHeader>Thaumaturgies</SectionHeader>
       <Disciplines>
         {thaumaturgies.map(disc => (
           <li key={disc}>

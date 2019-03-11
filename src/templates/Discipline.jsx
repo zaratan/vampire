@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import DisciplineLevel from '../components/DisciplineLevel';
+import SectionHeader from '../styles/SectionHeader';
 
 const Discipline = ({ pageContext, data }) => {
   const { discipline } = pageContext;
@@ -17,7 +18,7 @@ const Discipline = ({ pageContext, data }) => {
   return (
     <Layout>
       <SEO title={discipline} />
-      <h1>{discipline}</h1>
+      <SectionHeader>{discipline}</SectionHeader>
       <ul>
         {disciplineData.map(level => (
           <DisciplineLevel level={level} />
