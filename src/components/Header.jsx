@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const StyledHeader = styled.header`
   height: 5rem;
   display: flex;
+  justify-content: space-between;
   background-color: ${props => props.theme.normal};
   box-shadow: 0 1px 2px ${props => props.theme.shadow};
   margin-bottom: 2rem;
@@ -13,7 +14,14 @@ const StyledHeader = styled.header`
 
 const Title = styled.h1`
   margin: auto 0;
-  padding-left: 2rem;
+  padding: 0 2rem;
+  color: #fff;
+`;
+
+const About = styled(Title)`
+  font-weight: 400;
+  font-size: 1.6rem;
+  opacity: 0.9;
 `;
 
 const StyledLink = styled(Link)`
@@ -25,6 +33,9 @@ const Header = ({ siteTitle }) => (
     <Title>
       <StyledLink to="/">{siteTitle}</StyledLink>
     </Title>
+    <About>
+      <StyledLink to="/about">À propos</StyledLink>
+    </About>
   </StyledHeader>
 );
 

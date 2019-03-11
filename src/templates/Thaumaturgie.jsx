@@ -7,6 +7,7 @@ import { thaumaturgyPathToPath } from '../utils';
 import DisciplinePower from '../components/DisciplinePower';
 import Disciplines from '../styles/Disciplines';
 import DisciplineLevel from '../components/DisciplineLevel';
+import SectionHeader from '../styles/SectionHeader';
 
 const Thaumaturgie = ({ pageContext, data }) => {
   const { discipline } = pageContext;
@@ -22,7 +23,7 @@ const Thaumaturgie = ({ pageContext, data }) => {
   return (
     <Layout>
       <SEO title={discipline} />
-      <h1>{discipline}</h1>
+      <SectionHeader>{discipline}</SectionHeader>
       <ul>
         <DisciplineLevel level={{ level: '0', powers }} />
       </ul>
