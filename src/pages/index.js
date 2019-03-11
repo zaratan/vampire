@@ -9,6 +9,10 @@ import SectionHeader from '../styles/SectionHeader';
 
 const Disciplines = styled.ul`
   columns: 3;
+
+  @media only screen and (max-width: 600px) {
+    columns: 2;
+  }
 `;
 
 const IndexPage = () => {

@@ -12,6 +12,18 @@ const StyledFooter = styled.footer`
 
 const FooterComponent = styled.span`
   margin 0 0.4rem;
+
+  @media only screen and (max-width: 710px) {
+    font-size: 1.3rem;
+  }
+
+  @media only screen and (max-width: 510px) {
+    font-size: 1rem;
+  }
+  
+  @media only screen and (max-width: 440px) {
+    font-size: 0.9rem;
+  }
 `;
 
 const Link = styled.a`
