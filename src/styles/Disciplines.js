@@ -6,6 +6,10 @@ const Disciplines = styled.ul`
   @media only screen and (max-width: 600px) {
     columns: 2;
   }
+
+  @media only screen and (max-width: 300px) {
+    columns: 1;
+  }
 `;
 
 export default Disciplines;

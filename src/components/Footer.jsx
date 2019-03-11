@@ -8,6 +8,8 @@ const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 0.3rem;
 `;
 
 const FooterComponent = styled.span`
@@ -16,13 +18,9 @@ const FooterComponent = styled.span`
   @media only screen and (max-width: 710px) {
     font-size: 1.3rem;
   }
-
-  @media only screen and (max-width: 510px) {
-    font-size: 1rem;
-  }
   
-  @media only screen and (max-width: 440px) {
-    font-size: 0.9rem;
+  @media only screen and (max-width: 307px) {
+    font-size: 1rem;
   }
 `;
 
