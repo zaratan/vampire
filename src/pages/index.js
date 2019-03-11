@@ -1,19 +1,11 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
-import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { toDisciplineNames, displineToPath, thaumaturgyToPath } from '../utils';
 import SectionHeader from '../styles/SectionHeader';
-
-const Disciplines = styled.ul`
-  columns: 3;
-
-  @media only screen and (max-width: 600px) {
-    columns: 2;
-  }
-`;
+import Disciplines from '../styles/Disciplines';
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
