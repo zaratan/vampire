@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Header from './Header';
+import Footer from './Footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,21 +28,8 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           <main>{children}</main>
-          <footer>
-            <span>
-              Made with <span>♥</span> by{' '}
-            </span>
-            <a
-              href="https://twitter.com/zaratan"
-              className="twitter-link Footer__FooterLink-sc-10p5xp5-1 dYmKxa"
-            >
-              @zaratan
-            </a>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
         </div>
+        <Footer />
       </>
     )}
   />
