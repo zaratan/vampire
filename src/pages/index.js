@@ -1,9 +1,20 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { toDisciplineNames, displineToPath, thaumaturgyToPath } from '../utils';
+
+const Disciplines = styled.ul`
+  columns: 3;
+`;
+
+const Header = styled.h1`
+  text-align: center;
+  margin 2rem;
+  font-size: 3rem;
+`;
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -29,22 +40,22 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Liste" keywords={[`WOD`, `discipline`, `jdr`]} />
-      <h1>Disciplines</h1>
-      <ul>
+      <Header>Disciplines</Header>
+      <Disciplines>
         {normalDisciplines.map(disc => (
-          <li>
+          <li key={disc}>
             <Link to={displineToPath(disc)}>{disc}</Link>
           </li>
         ))}
-      </ul>
-      <h1>Thaumaturgies</h1>
-      <ul>
+      </Disciplines>
+      <Header>Thaumaturgies</Header>
+      <Disciplines>
         {thaumaturgies.map(disc => (
-          <li>
+          <li key={disc}>
             <Link to={thaumaturgyToPath(disc)}>{disc}</Link>
           </li>
         ))}
-      </ul>
+      </Disciplines>
     </Layout>
   );
 };

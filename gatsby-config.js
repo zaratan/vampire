@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Vampire Codex.`,
+    title: `Vampire Codex`,
     description: `Une bibliothèque d'informations sur le Jeu de Role Vampire (extraites depuis les Litanies de Sang)`,
     author: `@zaratan`,
   },

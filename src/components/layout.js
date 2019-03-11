@@ -8,9 +8,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
+import styled, { ThemeProvider } from 'styled-components';
 
+import theme from '../styles/theme';
 import Header from './Header';
 import Footer from './Footer';
+import GlobalStyle from '../styles/GlobalStyle';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,13 +27,14 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
+      <ThemeProvider theme={theme}>
+        <>
+          <GlobalStyle />
+          <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
-        </div>
-        <Footer />
-      </>
+          <Footer />
+        </>
+      </ThemeProvider>
     )}
   />
 );
