@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Disciplines de Vampire.`,
+    description: `Les disciplines de vampire (extraites depuis les Litanies de Sang)`,
+    author: `@zaratan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,13 +13,20 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `disciplines-vampire`,
+        short_name: `disciplines`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -31,4 +38,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
-}
+};
