@@ -28,8 +28,8 @@ module.exports = {
         name: `vampire-codex`,
         short_name: `vampire`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#4A7296`,
+        theme_color: `#4A7296`,
         display: 'standalone',
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
