@@ -63,6 +63,18 @@ a {
   :hover {
     color: ${props => props.theme.highlight2};
   }
+
+  :focus {
+    outline: none;
+    box-shadow: none;
+    color: ${props => props.theme.highlight2};
+  }
+
+  :focus svg{
+    outline: none;
+    box-shadow: none;
+    color: ${props => props.theme.highlight2};
+  }
 }
 
 ul {
