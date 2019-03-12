@@ -44,7 +44,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 980px;
+  max-width: 780px;
   align-self: center;
   flex-grow: 1;
   width: 100%;

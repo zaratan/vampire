@@ -6,7 +6,9 @@ const Title = styled.h3`
   margin-bottom: 0.5rem;
 `;
 
-const Description = styled.div``;
+const Description = styled.div`
+  font-size: 0.9rem;
+`;
 
 const Item = styled.li`
   margin-bottom: 2rem;

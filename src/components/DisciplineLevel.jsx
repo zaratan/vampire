@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import DisciplinePower from './DisciplinePower';
 
 const NoteLevel = styled.li`
-  /* font-size: 1.5rem; */
   margin-bottom: 2rem;
 `;
 
