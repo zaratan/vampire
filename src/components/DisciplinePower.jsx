@@ -8,7 +8,7 @@ import { LinkIcon } from '../styles/Icon';
 const Title = styled.h3`
   margin-bottom: 0.5rem;
 
-  @media (hover: hover) {
+  @media (pointer: fine) and (hover: hover) {
     .link {
       transition: display 0.3s ease-in-out;
       display: none;

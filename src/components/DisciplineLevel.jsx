@@ -16,7 +16,7 @@ const LevelItem = styled.li`
 const LevelHeader = styled.h2`
   margin-bottom: 2rem;
 
-  @media (hover: hover) {
+  @media (pointer: fine) and (hover: hover) {
     .link {
       transition: display 0.3s ease-in-out;
       display: none;
@@ -25,6 +25,23 @@ const LevelHeader = styled.h2`
     :hover .link {
       display: inline;
     }
+  }
+`;
+
+const LevelName = styled.span`
+  cursor: pointer;
+
+  :focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  :focus svg {
+    color: ${props => props.theme.highlight2};
+  }
+
+  :hover svg {
+    color: ${props => props.theme.highlight2};
   }
 `;
 
@@ -66,15 +83,16 @@ const DisciplineLevel = ({ level }) => {
   return (
     <LevelItem>
       <LevelHeader id={`level-${level.level}`} ref={header}>
-        <Icon
-          icon={`caret-${open ? 'down' : 'right'}`}
+        <LevelName
           onClick={toggleFold}
+          tabIndex="0"
           onKeyPress={toggleFold}
           role="button"
-          tabIndex="0"
-          title="fold "
-        />
-        Niveau {level.level}
+          title={`Fold level ${level.level}`}
+        >
+          <Icon icon={`caret-${open ? 'down' : 'right'}`} />
+          Niveau {level.level}
+        </LevelName>
         <a href={`#level-${level.level}`} className="link">
           <LinkIcon icon="link" />
         </a>
