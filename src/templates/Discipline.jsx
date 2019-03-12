@@ -1,21 +1,11 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import DisciplineLevel from '../components/DisciplineLevel';
 import SectionHeader from '../styles/SectionHeader';
-
-const LevelContainer = styled.p`
-  display: flex;
-  justify-content: center;
-`;
-
-const LevelLink = styled.a`
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
-`;
+import LevelsLink from '../components/LevelsLink';
 
 const Discipline = ({ pageContext, data }) => {
   const { discipline } = pageContext;
@@ -30,14 +20,7 @@ const Discipline = ({ pageContext, data }) => {
     <Layout>
       <SEO title={discipline} />
       <SectionHeader>{discipline}</SectionHeader>
-      <LevelContainer>
-        Go to level:{' '}
-        {disciplineData.map(({ level }) => (
-          <LevelLink href={`#level-${level}`}>
-            <span>{level}</span>
-          </LevelLink>
-        ))}
-      </LevelContainer>
+      <LevelsLink data={disciplineData} />
       <ul>
         {disciplineData.map(level => (
           <DisciplineLevel level={level} />

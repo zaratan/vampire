@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import DisciplineLevel from '../components/DisciplineLevel';
 import SectionHeader from '../styles/SectionHeader';
+import LevelsLink from '../components/LevelsLink';
 
 const Discipline = ({ pageContext, data }) => {
   const { discipline, thaumaturgyPath } = pageContext;
@@ -22,6 +23,7 @@ const Discipline = ({ pageContext, data }) => {
       <SectionHeader>
         {discipline} - {thaumaturgyPath}
       </SectionHeader>
+      <LevelsLink data={disciplineData} />
       <ul>
         {disciplineData.map(level => (
           <DisciplineLevel level={level} />
