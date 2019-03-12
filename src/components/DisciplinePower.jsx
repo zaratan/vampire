@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import styled from 'styled-components';
+import slugify from 'slugify';
+
 import Table from './Table';
+import { LinkIcon } from '../styles/Icon';
 
 const Title = styled.h3`
   margin-bottom: 0.5rem;
+
+  @media (hover: hover) {
+    .link {
+      transition: display 0.3s ease-in-out;
+      display: none;
+    }
+
+    :hover .link {
+      display: inline;
+    }
+  }
 `;
 
 const Description = styled.div`
@@ -27,18 +41,37 @@ const Line = styled.p`
   margin-bottom: 0.3rem;
 `;
 
-const DisciplinePower = ({ power }) => (
-  <Item>
-    <Title>{power.title}</Title>
-    <Description>
-      {power.description.map(line => (
-        <Line>{line}</Line>
-      ))}
-    </Description>
-    <Small>{power.source}</Small>
-    <Table data={power.extra_table} />
-    <Table data={power.extra_table_two} />
-  </Item>
-);
+const DisciplinePower = ({ power, level }) => {
+  const linkHash = `level-${level}-power-${slugify(power.title.toLowerCase())}`;
+
+  const header = useRef(null);
+  useEffect(() => {
+    console.log({ linkHash, hash: window.location.hash });
+    if (window.location.hash === `#${linkHash}`) {
+      header.current.scrollIntoView();
+    }
+  }, [linkHash]);
+
+  return (
+    <Item>
+      {power.title ? (
+        <Title name={linkHash} ref={header}>
+          {power.title}
+          <a href={`#${linkHash}`} className="link">
+            <LinkIcon icon="link" />
+          </a>
+        </Title>
+      ) : null}
+      <Description>
+        {power.description.map(line => (
+          <Line>{line}</Line>
+        ))}
+      </Description>
+      <Small>{power.source}</Small>
+      <Table data={power.extra_table} />
+      <Table data={power.extra_table_two} />
+    </Item>
+  );
+};
 
 export default DisciplinePower;
