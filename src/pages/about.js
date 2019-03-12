@@ -26,6 +26,13 @@ const AboutPage = () => (
       <a href="http://www.white-wolf.com">White Wolf Publishing Inc.</a> © 2002
       édité en version Française par Hexagonal © 2002.
     </p>
+    <p>
+      Si vous voulez me proposer des choses à ajouter, n'hésitez pas a ouvrir
+      une issue sur Github ou par ici:{' '}
+      <a href="https://subox-front.herokuapp.com/suggestions/9076bc4b-0a03-400c-a34b-2c5d76f087ab">
+        Subox.co
+      </a>
+    </p>
   </Layout>
 );
 
