@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledFooter = styled.footer`
   background-color: ${props => props.theme.shadow};
   color: #fff;
-  height: 40px;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +16,11 @@ const FooterComponent = styled.span`
   margin 0 0.4rem;
 
   @media only screen and (max-width: 710px) {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
   }
   
-  @media only screen and (max-width: 307px) {
-    font-size: 1rem;
+  @media only screen and (max-width: 347px) {
+    font-size: 0.7rem;
   }
 `;
 

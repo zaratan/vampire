@@ -1,11 +1,11 @@
-import React, { useState, useRef, useEffect } from "react";
-import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState, useRef, useEffect } from 'react';
+import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import DisciplinePower from "./DisciplinePower";
+import DisciplinePower from './DisciplinePower';
 
 const NoteLevel = styled.li`
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin-bottom: 2rem;
 `;
 
@@ -31,27 +31,27 @@ const Icon = styled(FontAwesomeIcon)`
 
 const LinkIcon = styled(Icon)`
   color: ${props => props.theme.accent};
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   margin: 0 0.5rem;
 `;
 
-const LevelHeader = styled.header`
-  font-weight: 700;
-  font-size: 2.4rem;
+const LevelHeader = styled.h2`
   margin-bottom: 2rem;
 
-  .link {
-    transition: display 0.3s ease-in-out;
-    display: none;
-  }
+  @media (hover: hover) {
+    .link {
+      transition: display 0.3s ease-in-out;
+      display: none;
+    }
 
-  :hover .link {
-    display: inline;
+    :hover .link {
+      display: inline;
+    }
   }
 `;
 
 const Powers = styled.ul`
-  display: ${props => (props.show ? "inherit" : "none")};
+  display: ${props => (props.show ? 'inherit' : 'none')};
 `;
 
 const DisciplineLevel = ({ level }) => {
@@ -70,7 +70,7 @@ const DisciplineLevel = ({ level }) => {
     }
   }, [level.level]);
 
-  if (level.level === "0") {
+  if (level.level === '0') {
     return (
       <NoteLevel>
         <ul>
@@ -86,7 +86,7 @@ const DisciplineLevel = ({ level }) => {
     <LevelItem>
       <LevelHeader id={`level-${level.level}`} ref={header}>
         <Icon
-          icon={`caret-${open ? "down" : "right"}`}
+          icon={`caret-${open ? 'down' : 'right'}`}
           onClick={toggleFold}
           onKeyPress={toggleFold}
           role="button"

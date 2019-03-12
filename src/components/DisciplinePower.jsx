@@ -2,14 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import Table from './Table';
 
-const Title = styled.header`
-  font-weight: 700;
+const Title = styled.h3`
   margin-bottom: 0.5rem;
 `;
 
-const Description = styled.div`
-  font-size: 1.6rem;
-`;
+const Description = styled.div``;
 
 const Item = styled.li`
   margin-bottom: 2rem;
@@ -21,7 +18,7 @@ const Small = styled.small`
   margin-top: 0.5rem;
   align-self: flex-end;
   max-width: 50%;
-  font-size: 1.1rem;
+  font-size: 0.6rem;
 `;
 
 const Line = styled.p`

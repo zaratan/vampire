@@ -3,12 +3,11 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
-  font-size: 10px;
+  /* font-size: 10px; */
   height: 100%;
   min-height: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: georgia, serif;
   overflow-y: scroll;
 }
 *,
@@ -19,7 +18,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
   height: 100%;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -27,10 +26,6 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
   word-wrap: break-word;
   font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
 #___gatsby{
@@ -135,7 +130,6 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 3.6rem;
   margin: 0.67rem 0;
 }
 mark {
@@ -143,7 +137,7 @@ mark {
   color: #000;
 }
 small {
-  font-size: 80%;
+  /* font-size: 80%; */
 }
 sub,
 sup {
@@ -279,12 +273,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
 }
 h2 {
   margin-left: 0;
@@ -296,12 +285,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
-  line-height: 1.1;
 }
 h3 {
   margin-left: 0;
@@ -313,12 +297,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
-  line-height: 1.1;
 }
 h4 {
   margin-left: 0;
@@ -330,12 +309,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
-  line-height: 1.1;
 }
 h5 {
   margin-left: 0;
@@ -347,12 +321,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
-  line-height: 1.1;
 }
 h6 {
   margin-left: 0;
@@ -364,12 +333,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
-  line-height: 1.1;
 }
 hgroup {
   margin-left: 0;
@@ -393,9 +357,8 @@ ul {
   list-style-position: outside;
   list-style-image: none;
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     margin-left: 0
-  
   }
 }
 ol {
@@ -581,7 +544,7 @@ li > ul {
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
   
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     margin-left: 0;
   }
 }

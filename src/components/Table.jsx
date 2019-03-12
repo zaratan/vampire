@@ -8,7 +8,11 @@ const TableStyle = styled.div`
   border-radius: 5px;
   padding: 1rem;
   margin: 2rem;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
+
+  @media (max-width: 700px) {
+    margin: 2rem 0;
+  }
 `;
 
 const Line = styled.div`
