@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import DisciplinePower from './DisciplinePower';
 import { Icon, LinkIcon } from '../styles/Icon';
+import { useScroll } from '../hooks/use_scroll';
 
 const NoteLevel = styled.li`
   margin-bottom: 2rem;
@@ -56,17 +57,14 @@ const DisciplineLevel = ({ level }) => {
     setOpen(!open);
   };
 
-  const header = useRef(null);
+  const hash = `level-${level.level}`;
+  const header = useScroll(hash);
+
   useEffect(() => {
-    if (window.location.hash === `#level-${level.level}`) {
-      header.current.scrollIntoView();
-    } else if (
-      window.location.hash &&
-      !window.location.hash.startsWith(`#level-${level.level}`)
-    ) {
+    if (window.location.hash && !window.location.hash.startsWith(`#${hash}`)) {
       setOpen(false);
     }
-  }, [level.level]);
+  }, [hash]);
 
   if (level.level === '0') {
     return (
@@ -81,8 +79,8 @@ const DisciplineLevel = ({ level }) => {
   }
 
   return (
-    <LevelItem>
-      <LevelHeader id={`level-${level.level}`} ref={header}>
+    <LevelItem key={hash}>
+      <LevelHeader id={hash} ref={header}>
         <LevelName
           onClick={toggleFold}
           tabIndex="0"
@@ -93,7 +91,7 @@ const DisciplineLevel = ({ level }) => {
           <Icon icon={`caret-${open ? 'down' : 'right'}`} />
           Niveau {level.level}
         </LevelName>
-        <a href={`#level-${level.level}`} className="link">
+        <a href={`#${hash}`} className="link">
           <LinkIcon icon="link" />
         </a>
       </LevelHeader>

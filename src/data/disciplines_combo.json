@@ -1,7 +1,10 @@
 [
   {
     "name": "Sucer le Tout !",
-    "requirements": [["Animalisme", "1"], ["Protean", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "1" }] },
+      { "or": [{ "name": "Protean", "level": "2" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "En touchant du sang, permet de le prendre pour soi, en l'absorbant. Il peut rester quelques traces après, mais ce pouvoir est bien pratique pour vider un corps entier de son sang sans en donner l'impression, ou assécher une flaque."
@@ -9,13 +12,19 @@
   },
   {
     "name": "Voile Ténébreux",
-    "requirements": [["Dissimulation", "1"], ["Obtenebration", "1"]],
+    "requirements": [
+      { "or": [{ "name": "Dissimulation", "level": "1" }] },
+      { "or": [{ "name": "Obtenebration", "level": "1" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": ["Permet de créer instantanément l'ombre pour se cacher."]
   },
   {
     "name": "Vision Accélérée",
-    "requirements": [["Auspex", "1"], ["Célérité", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "1" }] },
+      { "or": [{ "name": "Célérité", "level": "2" }] }
+    ],
     "source": "Archons and Templars (2425) p140",
     "description": [
       "1 Sang pour une scène, Esprit+Vigilance SR 6 ou 7 pour suivre des yeux un objet très rapide (carte dans un jeu, flèche etc)."
@@ -23,7 +32,10 @@
   },
   {
     "name": "Façade de Fer",
-    "requirements": [["Force d'Ame ", "1"], ["Dissimulation", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "1" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
     "source": "Archons and Templars (2425) p140",
     "description": [
       "Pouvoir connu des archontes, et de quelques templiers. Manipulation+Subterfuge SR6. Le vampire semble n'avoir subit aucun dégât. Brisable sur Auspex > Dissimulation. Ne marche pas si l'utilisateur est Incapacité."
@@ -32,7 +44,13 @@
   {
     "name": "Nommer les Disparus",
     "requirements": [
-      [["Auspex", "3"], ["Thaumaturgie", "1"], ["Nécromancie", "1"]]
+      {
+        "or": [
+          { "name": "Auspex", "level": "3" },
+          { "name": "Thaumaturgie", "level": "1" },
+          { "name": "Nécromancie", "level": "1" }
+        ]
+      }
     ],
     "source": "Archons and Templars (2425) p140",
     "description": [
@@ -52,7 +70,10 @@
   },
   {
     "name": "Faille Mémorielle",
-    "requirements": [["Dissimulation", "2"], ["Présence", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Dissimulation", "level": "2" }] },
+      { "or": [{ "name": "Présence", "level": "2" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "1 Sang, Charisme+Subterfuge SR Volonté. Permet de faire croire à un témoin qu'on était pas là."
@@ -60,7 +81,10 @@
   },
   {
     "name": "Roi de la Montagne",
-    "requirements": [["Force d'Ame", "2"], ["Présence", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] },
+      { "or": [{ "name": "Présence", "level": "2" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "Le vampire n'est jamais projeté à terre par un choc, sauf s'il le désire ou est tué par l'impact. Il reste debout... mais bien sur peut avoir très mal !"
@@ -68,7 +92,10 @@
   },
   {
     "name": "Peau du Blaireau",
-    "requirements": [["Force d'Ame", "1"], ["Protean", "4"]],
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "1" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "1 Sang pour une scène, Esprit+Vigilance SR 6 ou 7 pour suivre des yeux un objet très rapide (carte dans un jeu, flèche etc)."
@@ -76,7 +103,10 @@
   },
   {
     "name": "Façade de Fer",
-    "requirements": [["Force d'Ame", "1"], ["Dissimulation", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "1" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
     "source": "Archons and Templars (2425) p140",
     "description": [
       "Pouvoir connu des archontes, et de quelques templiers. Manipulation+Subterfuge SR6. Le vampire semble n'avoir subit aucun dégât. Brisable sur Auspex > Dissimulation. Ne marche pas si l'utilisateur est Incapacité."
@@ -85,7 +115,13 @@
   {
     "name": "Nommer les Disparus",
     "requirements": [
-      [["Auspex", "3"], ["Thaumaturgie", "1"], ["Nécromancie", "1"]]
+      {
+        "or": [
+          { "name": "Auspex", "level": "3" },
+          { "name": "Thaumaturgie", "level": "1" },
+          { "name": "Nécromancie", "level": "1" }
+        ]
+      }
     ],
     "source": "Archons and Templars (2425) p140",
     "description": [
@@ -101,7 +137,10 @@
   },
   {
     "name": "Chair de Vent et d'Eau",
-    "requirements": [["Célérité ", "2"], ["Vicissitude", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": "2" }] },
+      { "or": [{ "name": "Vicissitude", "level": "3" }] }
+    ],
     "source": "Archons and Templars (2425) p141",
     "description": [
       "2 Sang. Permet defaire en un tour, sur soit même, les pouvoirs 1-2-3 de Vicissitude.Le jet se fait normalement."
@@ -109,7 +148,10 @@
   },
   {
     "name": "Appeler le Sang",
-    "requirements": [["Auspex ", "3"], ["Animalisme", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "3" }] },
+      { "or": [{ "name": "Animalisme", "level": "3" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "Permet de ressentir la Bête dans une environnement. Toute créature ayant une Bête(garou, vampire, goule etc) est détectable.",
@@ -124,7 +166,10 @@
   },
   {
     "name": "Peau de l'Ours",
-    "requirements": [["Animalisme", "2"], ["Protean", "4 "]],
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "2" }] },
+      { "or": [{ "name": "Protean", "level": "4 " }] }
+    ],
     "source": "Wolves of the Sea (2820) p70, Dark Ages: Players Guide to Low Clans (20006) - p159",
     "description": [
       "Frénésie, 1 SangLe vampire prend l'apparence mythique d'un Bersek ours: ses muscles segonflent, sa peau se couvre de fourrure. +2 Force, +2 Vigueur tant qudure la frénésie.",
@@ -133,7 +178,10 @@
   },
   {
     "name": "Terreur Mortelle",
-    "requirements": [["Animalisme", "3"], ["Présence", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Présence", "level": "3" }] }
+    ],
     "source": "Archons and Templars (2425) p142",
     "description": [
       "Charisme+Intimidation SR7 vs VolontéSR7. Permet de faire rentrer en frénésie de peur lapersonne visée. Un contact physique, ou les yeux dans les yeux,est nécessaire."
@@ -141,7 +189,10 @@
   },
   {
     "name": "La Blague de Smiling Jack",
-    "requirements": [["Domination", "3"], ["Dissimulation", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "3" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "Manipulation+Performance SR Intelligence+5(max=10) vs Esprit+Subterfuge SR7. La personne viséeprend une autre personne pour le vampire lançant le pouvoir."
@@ -149,7 +200,10 @@
   },
   {
     "name": "Hibernation",
-    "requirements": [["Animalisme", "4"], ["Force d'Ame", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] }
+    ],
     "source": "Wolves of the Sea (2820) p71",
     "description": [
       "Si le vampire rentre volontairement en torpeur, Vigueur+Survie SR 8. Chaque succès représente 1Sang qui ne sera pas consumé lors de la torpeur. "
@@ -157,7 +211,9 @@
   },
   {
     "name": "Parole Anticipée",
-    "requirements": [["Connaitre Visage Anticipé", ""]],
+    "requirements": [
+      { "or": [{ "name": "Connaitre Visage Anticipé", "level": "" }] }
+    ],
     "source": "Archons and Templars (2425) p142",
     "description": [
       "Nécessite de connaître \"Visage anticipé\". Manipulation+Subterfuge SR7. Ce pouvoir permet de faire croire à la victime qu'il entend ce qu'il veut entendre. Ceci ne peut être qu'une phrase courte, qu'un mot de passe. Toute discussion permet de passer outre ce pouvoir."
@@ -165,7 +221,10 @@
   },
   {
     "name": "Le 7eme Frère Chinois",
-    "requirements": [["Célérité", "2"], ["Force d'Ame", "5"]],
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": "2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "5" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "1 point de volonté.Empêche qu'on puisse couper un appendice du vampire. Ceci permetd'ignorer les dégâts sur la première tentative contrel'appendice (bras, tête...). Ne marche que pour un membre àla fois. Une variante permet de protéger le coeur."
@@ -173,7 +232,10 @@
   },
   {
     "name": "Visage Anticipé",
-    "requirements": [["Auspex", "4"], ["Dissimulation", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
     "source": "Archons and Templars (2425) p142",
     "description": [
       "Pouvoir archonte. 1Sang, Manipulation+Performance SR6. Le vampire prend l'apparence d'unepersonne attendue par l'interlocuteur. Si plusieurs visages sont possibles,un choix est nécessaire. Il ne sait pas quelle tête il prend."
@@ -182,8 +244,14 @@
   {
     "name": "Transformation Instantanée",
     "requirements": [
-      ["Célérité", "2"],
-      [["Protean", "5"], ["Dissimulation", "5"], ["Vicissitude", "5"]]
+      { "or": [{ "name": "Célérité", "level": "2" }] },
+      {
+        "or": [
+          { "name": "Protean", "level": "5" },
+          { "name": "Dissimulation", "level": "5" },
+          { "name": "Vicissitude", "level": "5" }
+        ]
+      }
     ],
     "source": "Archons and Templars (2425) p143",
     "description": [
@@ -192,7 +260,10 @@
   },
   {
     "name": "Retrait du Chaos",
-    "requirements": [["Domination", "4"], ["Aliénation", "4"]],
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "4" }] },
+      { "or": [{ "name": "Aliénation", "level": "4" }] }
+    ],
     "source": "Guide to the Anarchs (2424) p164-167",
     "description": [
       "Manipulation+Empathie SR6 (8 sile Malkav ne possède pas la folie voulue) vs VolontéSR7. Permet de déclencher une folie à rebours, quandun évènement survient. (attention, usage de Domination doncla génération entre en compte)."
@@ -200,7 +271,10 @@
   },
   {
     "name": "Yeux de l'Esprit",
-    "requirements": [["Auspex", "4"], ["Domination", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Domination", "level": "3" }] }
+    ],
     "source": "Archons and Templars (2425) p144",
     "description": [
       "Permet de voir/sentir/entendre un événement particulier, en fouillant l'esprit de la victime. Si le sujet coopère ou est de génération plus grande : Perception+Subterfuge SR6. Si le sujet est de génération inférieure et résiste : il utilise sa volonté SR6 pour résister.",
@@ -214,7 +288,10 @@
   },
   {
     "name": "Résistance du Martyr",
-    "requirements": [["Auspex", "4"], ["Force d'Ame", "7"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "7" }] }
+    ],
     "source": "Guide to the Camarilla (2302) p114-115",
     "description": [
       "Le vampire doit avoir bu du sangdu bénéficiaire au moins une fois durant l'année passée. Il peut, s'ille désire, encaisser Vigueur dégâts à la place du bénéficiaire, résist"
@@ -222,7 +299,10 @@
   },
   {
     "name": "Stoïcime Elémentaire",
-    "requirements": [["Force d'Ame", "8"], ["Dissimulation", "4"]],
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "8" }] },
+      { "or": [{ "name": "Dissimulation", "level": "4" }] }
+    ],
     "source": "Guide to the Camarilla (2302) p115",
     "description": [
       "Pour chaque heurepassée exposée au soleil ou au feu, 1 Sang. Les dégâts deviennentnon aggravés et sont résistibles normalement. "
@@ -230,7 +310,10 @@
   },
   {
     "name": "Parade Irréfutable",
-    "requirements": [["Auspex", "3"], ["Célérité", "7"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "3" }] },
+      { "or": [{ "name": "Célérité", "level": "7" }] }
+    ],
     "source": "Guide to the Camarilla (2302) p114",
     "description": [
       "Permet de parer ou d'attraper toute sorte de projectiles sur Dextérité+Sport Le vampire doit au moins faire 3 succès, sinon il encaisse les dégâts normaux."
@@ -248,7 +331,10 @@
   },
   {
     "name": "Forme de toutes les Bêtes",
-    "requirements": [["Protean", "4"], ["Vicissitude", "4"]],
+    "requirements": [
+      { "or": [{ "name": "Protean", "level": "4" }] },
+      { "or": [{ "name": "Vicissitude", "level": "4" }] }
+    ],
     "source": "Mexico City by Night (2412) p114",
     "description": [
       "Permet de se changer en toutanimal depuis un lapin jusqu'à un tigre. A la différence de Protean4, les vêtements ne sont pas assimilés par la forme. Il est possiblede changer une autre personne (Volonté SR6 pour résister auDextérité+Alteration corporelle du vampire) en manipulant son corps.Un vampire de génération inférieure ou égale peut guérir de cettetransformation en dépensant 5 Sang. Un vampire de générationsupérieure doit trouver quelqu'un avec Vicissitude. Les restrictionsd'utilisation de pouvoirs sous formes animales sont les mêmes qued'habitude. </p</di>"
@@ -256,7 +342,10 @@
   },
   {
     "name": "Attaché pour l'impact",
-    "requirements": [["Force d'âme", "4"], ["Puissance", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "4" }] },
+      { "or": [{ "name": "Puissance", "level": "2" }] }
+    ],
     "source": "Mexico City by Night (2412) p115",
     "description": [
       "Permet de résister à deschocs traumatisant l'ensemble du corps : voiture, tomber de haut,explosion etc. Le vampire doit se préparer à l'impact. Il résisteà Puissance niveaux de blessure (même aggravées), du momentqu'elles ne sont que sous forme d'impact. </p</di>"
@@ -264,7 +353,10 @@
   },
   {
     "name": "Double psychique",
-    "requirements": [["Auspex", "5"], ["Dissimulation", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "5" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
     "source": "Lair of the Hidden (2430) p140",
     "description": [
       "Ce pouvoir permet de projeterson âme astralement, mais surtout de faire apparaître son corpsastral dans le monde vivant, aussi réel que le vrai. Coûte 1Volonté, nécessite Perception+Occultisme pour se projeter au bonendroit. Le SR dépend de la familiarité du lieu (7 pour un lieufamilier et proche, 10 pour l'autre bout du monde). SurManipulation+Performance SR7, possibilité d'assumer l'apparence d'unautre (même système que Masque aux mille visages). Puisque le corpsapparaît, et même s'il ne peut y avoir d'interaction physique, il est possible d'utiliser les compétences mentales... qui permettent éventuellement l'interaction physique."
@@ -272,7 +364,10 @@
   },
   {
     "name": "Projection cadavérique",
-    "requirements": [["Auspex", "5"], ["Mortis", "6"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "5" }] },
+      { "or": [{ "name": "Mortis", "level": "6" }] }
+    ],
     "source": "Lair of the Hidden (2430) p140",
     "description": [
       "Permet, sous forme astrale, dese projeter dans un cadavre et de le posséder pour déambuler. Cecisuppose donc de rechercher un cadavre, et impose la limite de distancede 1500km/h. Agir ainsi coûte 1 Volonté, et ne nécessite pas dejet, la possession est automatique. Alternativement, le vampire peutdécider de se projeter instantanément dans un cadavre, ne sachantpas forcément où il va arriver dans le monde. Perception+Occulte SR7à 10 (suivant la connaissance de l'endroit), le nombre de succèsdétermine à quelle distance le cadavre dans lequel il se projette setrouve de sa cible théorique.",
@@ -290,7 +385,10 @@
   },
   {
     "name": "Terreur assomante",
-    "requirements": [["Domination", "2"], ["Présence", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "2" }] },
+      { "or": [{ "name": "Présence", "level": "2" }] }
+    ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p169",
     "description": [
       "La victime est terrassée parla terreur et une compulsion mystique, ce qui la ralentit totalement. Manipulation+Intimidation SR Volonté, chaque succès terrasse la victime en lui retirant 1 Dé pour agir. Au bout de succès tour, l'effet décroît de 1 dé par tour supplémentaire. Si le nombre desuccès dépasse l'Astuce de la victime, l'effet se compte en minutes. Si la victime subit une douleur, elle lance Volonté SR7, chaque succès décroît sa pénalité de 1. Cette résistance n'est applicable qu'une fois par tour. En cas d'échec critique de la part du vampire, la victime n'est plus sujette à sa Présence ou sa Domination jusqu'à la fin de la nuit. "
@@ -298,7 +396,10 @@
   },
   {
     "name": "Mesurer la Volonté",
-    "requirements": [["Auspex ", "2"], ["Domination ", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Domination", "level": "2" }] }
+    ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p168",
     "description": [
       "Ce pouvoir permet d'évaluer la force de l'esprit et la résolution d'une cible. Perception+Intimidation SR6 résisté par Volonté SR6. La cible neressent rien, à moins d'un échec critique. Si c'est un succès, le vampire peut savoir quelle est la valeur de la Volonté, de la Volonté temporaire, ou d'une des Vertus."
@@ -306,7 +407,10 @@
   },
   {
     "name": "Aura de rage maudite",
-    "requirements": [["Animalisme", "3"], ["Présence ", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Présence", "level": "2" }] }
+    ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p158",
     "description": [
       "Ce pouvoir provoque une augmentation de la Frénésie dans un groupe donné. Charisme+Intimidation SR7, tout jet de Maîtrise de Soi est à +1SR par succès, ceci est valable pour tout vampire dans la ligne de vue du vampire. L'effet dure le reste de la scène, même si la victime quitte le champs visuel du vampire. Ceux entrant dans la scène après activation ne sont pas affectés. En cas d'échec critique, le vampire entre en Frénésie de peur."
@@ -314,7 +418,10 @@
   },
   {
     "name": "Imprégnation férale",
-    "requirements": [["Animalisme", "4"], ["Puissance", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Puissance", "level": "2" }] }
+    ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
     "description": [
       "Ce pouvoir permet de transférer sa force surnaturelle à un animal visible. Force+Dressage SR6. Le vampire peut transférer jusqu'à succès niveaux de Puissance. Le vampire peut les récupérer lors d'une action réflexe"
@@ -322,7 +429,10 @@
   },
   {
     "name": "Enfouissement partagé",
-    "requirements": [["Puissance", "1"], ["Protean", "3"]],
+    "requirements": [
+      { "or": [{ "name": "Puissance", "level": "1" }] },
+      { "or": [{ "name": "Protean", "level": "3" }] }
+    ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
     "description": [
       "Permet d'entraîner dans la terre descadavres avec soit sous terre. Par pointde sang en plus des 3 points normaux, permet d'entraîner 1 corps."
@@ -330,7 +440,10 @@
   },
   {
     "name": "Gouffre mémoriel",
-    "requirements": [["Dissimulation", "2"], ["Présence", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Dissimulation", "level": "2" }] },
+      { "or": [{ "name": "Présence", "level": "2" }] }
+    ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p163",
     "description": [
       "Ce pouvoir permet de faire oublier à une personne qu'on a été présent lors d'une scène. Il est utilisable sur une personne à la fois. 1 Sang, Manipulation+Subterfuge SR Volonté. Le souvenir est réprimé. Il peut ressurgir si des évènements concordants sont rappelés à la victime, il est trouvable par Auspex, Domination ou pouvoir similaire. Parfois les victimes rationnalisent seules leur perte de mémoire. Le vampire doit quitter dans les 5 minutes la présence de la victime et ne doit pas la croiser pendant l'heure suivante, sous peine d'annuler tout effet."
@@ -338,7 +451,10 @@
   },
   {
     "name": "Instincts accélérés",
-    "requirements": [["Auspex", "1"], ["Célérité", "2"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "1" }] },
+      { "or": [{ "name": "Célérité", "level": "2" }] }
+    ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p163",
     "description": [
       "En dépensant 1 Sang, ce pouvoir permet de réagir à une attaque ou une ambûche, dans un but purement défensif, permettant même de dépenser du Sang pour la Célérité. Une fois l'effet de surprise passé, le reste du combat (ou tout autre interaction) se passe normalement. Ce pouvoir peut être suspendu pour une scène, mais ne peut être réactivé lors de celle-ci."
@@ -346,7 +462,10 @@
   },
   {
     "name": "Voir la vraie forme",
-    "requirements": [["Auspex", "2"], ["Protean", "4"]],
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
+    ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p164",
     "description": [
       "Ce pouvoir permet de discerner la vraie forme de toute personne en ayant changé. Perception+Empathie SR8. 1 succès permet de savoir que le sujet peut changer de forme. 2 succès permettent de savoir si la forme actuelle est la réelle. 3 pour voir la vraie forme en surimpression. 4 pour connaître toutes les formes déjà prises par le sujet. Ce pouvoir ne marche pas sur les illusions ou les influences sur l'esprit, seulement les pouvoirs affectant le corps réellement."

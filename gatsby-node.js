@@ -60,6 +60,49 @@ exports.createPages = ({ graphql, actions }) => {
     new Promise(async resolve => {
       await graphql(`
         {
+          allDisciplinesComboJson {
+            edges {
+              node {
+                requirements {
+                  or {
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      `)
+        .then(result => {
+          console.log(result);
+          const comboRequirements = Array.from(
+            new Set(
+              result.data.allDisciplinesComboJson.edges
+                .map(e => e.node)
+                .map(e => e.requirements)
+                .flat()
+                .map(e => e.or)
+                .flat()
+                .map(e => e.name)
+            )
+          );
+          comboRequirements.forEach(async comboDiscipline => {
+            const slug = slugify(comboDiscipline.toLowerCase());
+            await createPage({
+              path: `combo/${slug}`,
+              component: path.resolve(`./src/templates/ComboDisciplines.jsx`),
+              context: {
+                discipline: comboDiscipline,
+              },
+            });
+          });
+        })
+        .catch(e => console.log(e));
+      resolve();
+    }),
+    new Promise(async resolve => {
+      await graphql(`
+        {
           allDisciplinesJson(filter: { subname: { ne: "" } }) {
             group(field: name) {
               fieldValue

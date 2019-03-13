@@ -1,3 +1,5 @@
+import Discipline from './templates/Discipline';
+
 const slugify = require('slugify');
 
 export const toDisciplineNames = arr =>
@@ -11,3 +13,6 @@ export const thaumaturgyPathToPath = (thaumaturgy, path) =>
   `/thaumaturgy/${slugify(thaumaturgy.toLowerCase())}/${slugify(
     path.toLowerCase()
   )}`;
+
+export const comboWithPath = comboDiscipline =>
+  `combo/${slugify(comboDiscipline.toLowerCase())}`;
