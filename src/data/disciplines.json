@@ -20699,9 +20699,20 @@
     "title": "Ces mains d'ombre qui vous servent",
     "level": 1,
     "description": [
-      "Appel des plus petites créatures des Abysses. Ces créatures haïssent la lumière, adorent toucher la vie, et on une pensée vicieuse à faire trembler quiconque les comprendrait. Le vampire écrase une bougie dans sa paume (1 aggravé, Courage SR4 pour ne pas entrer en Frénésie). Intelligence+Occulte SR6. Si c'est un échec critique, le vampire prend un autre aggravé. Si c'est un succès, le vampire sert le poing jusqu'à se faire saigner. Le sang noircit en tombant, brûle, des tentacules d'ombre jaillissent et se propagent vers la fumée du sang. En tombant, ce sang ouvre une porte sur l'Abysse. Un globe d'ombre (5cm de diamètre environ) se forme sur cette ouverture, et vient dans la main du vampire, nettoyant le sang par des tentacules. La créature reste une nuit par succès. Elle sert aveuglément le vampire, peut communiquer par des images et des impressions émotionnelles. Ses caractéristiques sont : <table><tr><td>Force</td><td>1</td><td>Dextérité</td><td>5</td><td>Vigueur</td><td>1</td></tr><tr><td>Charisme</td><td>1</td><td>Manipulation</td><td>3</td><td>Apparence</td><td>0</td></tr><tr><td>Perception</td><td>3</td><td>Intelligence</td><td>2</td><td>Astuce</td><td>3</td></tr> </table> Vigilance 3, Sport 3, Esquive 3, Intimidation 2, Se Cacher 5 (6 dans les ombres), Obtenebration 1, Volonté 3, 3 niveaux de blessure. Les pouvoirs d'Obtenebration ne nécessitent pas de Sang, mais une dépense de Volonté si le but est d'augmenter les effets.  La créature vole à 30m/tour, et est toujours sous forme ténébreuse. Elle est désintégrée par le Soleil ou le feu, instantanément. La communication se fait par contact. Un maximum de Occulte créatures servent le vampire."
+      "Appel des plus petites créatures des Abysses. Ces créatures haïssent la lumière, adorent toucher la vie, et on une pensée vicieuse à faire trembler quiconque les comprendrait.",
+      "Le vampire écrase une bougie dans sa paume (1 aggravé, Courage SR4 pour ne pas entrer en Frénésie). Intelligence+Occulte SR6. Si c'est un échec critique, le vampire prend un autre aggravé. Si c'est un succès, le vampire sert le poing jusqu'à se faire saigner. Le sang noircit en tombant, brûle, des tentacules d'ombre jaillissent et se propagent vers la fumée du sang. En tombant, ce sang ouvre une porte sur l'Abysse. Un globe d'ombre (5cm de diamètre environ) se forme sur cette ouverture, et vient dans la main du vampire, nettoyant le sang par des tentacules.",
+      "La créature reste une nuit par succès. Elle sert aveuglément le vampire, peut communiquer par des images et des impressions émotionnelles.",
+      "Les pouvoirs d'Obtenebration ne nécessitent pas de Sang, mais une dépense de Volonté si le but est d'augmenter les effets.  La créature vole à 30m/tour, et est toujours sous forme ténébreuse. Elle est désintégrée par le Soleil ou le feu, instantanément. La communication se fait par contact. Un maximum de Occulte créatures servent le vampire."
     ],
-    "source": "Dark Ages: Players Guide to High Clans (20007) p177"
+    "source": "Dark Ages: Players Guide to High Clans (20007) p177",
+    "extra_table": [
+      ["Force: 1", "Dextérité: 5", "Vigueur: 1"],
+      ["Charisme: 1", "Manipulation: 3", "Apparence: 0"],
+      ["Perception: 3", "Intelligence: 2", "Astuce: 3"],
+      ["Vigilance: 3", "Sport: 3", "Esquive: 3"],
+      ["Se cacher: 5 (6 dans les ombres)", "Obtenebration: 1"],
+      ["Volonté: 3", "3 niveaux de blessures"]
+    ]
   },
   {
     "name": "Obtenebration",
@@ -20709,7 +20720,9 @@
     "title": "Transubtantation de l'essence",
     "level": 2,
     "description": [
-      "Le mystique tire de l'Abysse un pouvoir pour se guérir. Concentration d'un tour, Vigueur+Occulte SR8. Un échec critique inflige un dégât aggravé. Chaque succès permet de guérir 2 blessures avec 1 Sang. Il est même possible de passer outre la limite de dépense de Sang par tour. L'Abysse se nourrit à posteriori, consumant le Sang ingéré par le vampire, à hauteur de 2 fois les blessures guéries. Ce rituel ne peut être utiliser plus d'une fois par nuit, et pas avant que l'Abysse ait pu consumer le Sang désiré. Dès la première utilisation de ce pouvoir, le Sang du vampire devient noir."
+      "Le mystique tire de l'Abysse un pouvoir pour se guérir.",
+      "Concentration d'un tour, Vigueur+Occulte SR8. Un échec critique inflige un dégât aggravé. Chaque succès permet de guérir 2 blessures avec 1 Sang. Il est même possible de passer outre la limite de dépense de Sang par tour. L'Abysse se nourrit à posteriori, consumant le Sang ingéré par le vampire, à hauteur de 2 fois les blessures guéries. Ce rituel ne peut être utiliser plus d'une fois par nuit, et pas avant que l'Abysse ait pu consumer le Sang désiré.",
+      "Dès la première utilisation de ce pouvoir, le Sang du vampire devient noir."
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p177"
   },
@@ -20719,9 +20732,21 @@
     "title": "Le coeur qui bat en silence",
     "level": 2,
     "description": [
-      "Appel de petites créatures des Abysses. Ces créatures haïssent la lumière, adorent toucher la vie, et on une pensée vicieuse à faire trembler quiconque les comprendrait. Le vampire écrase une bougie dans sa paume (1 aggravé, Courage SR4 pour ne pas entrer en Frénésie). Intelligence+Occulte SR6. Si c'est un échec critique, le vampire prend un autre aggravé. Si c'est un succès, le vampire sert le poing jusqu'à se faire saigner. Le sang noircit en tombant, brûle, des tentacules d'ombre jaillissent et se propagent vers la fumée du sang. En tombant, ce sang ouvre une porte sur l'Abysse. Un globe d'ombre (10cm de diamètre environ) se forme sur cette ouverture, et vient dans la main du vampire, nettoyant le sang par des tentacules. La créature reste une nuit par succès. Elle sert aveuglément le vampire, peut communiquer par des images et des impressions émotionnelles. Ses caractéristiques sont : <table><tr><td>Force</td><td>2</td><td>Dextérité</td><td>5</td><td>Vigueur</td><td>1</td></tr><tr><td>Charisme</td><td>1</td><td>Manipulation</td><td>3</td><td>Apparence</td><td>0</td></tr><tr><td>Perception</td><td>3</td><td>Intelligence</td><td>2</td><td>Astuce</td><td>3</td></tr> </table> Vigilance 3, Sport 3, Bagarre 3, Esquive 3, Intimidation 2, Se Cacher 5 (6 dans les ombres), Obtenebration 3, Volonté 5, 5 niveaux de blessure. Les pouvoirs d'Obtenebration ne nécessitent pas de Sang, mais une dépense de Volonté si le but est d'augmenter les effets.  La créature vole à 30m/tour, et est toujours sous forme ténébreuse. Elle est désintégrée par le Soleil ou le feu, instantanément. La communication se fait par contact. Elle peut attaquer. Un maximum de Occulte créatures servent le vampire."
+      "Appel de petites créatures des Abysses. Ces créatures haïssent la lumière, adorent toucher la vie, et on une pensée vicieuse à faire trembler quiconque les comprendrait.",
+      "Le vampire écrase une bougie dans sa paume (1 aggravé, Courage SR4 pour ne pas entrer en Frénésie). Intelligence+Occulte SR6. Si c'est un échec critique, le vampire prend un autre aggravé. Si c'est un succès, le vampire sert le poing jusqu'à se faire saigner. Le sang noircit en tombant, brûle, des tentacules d'ombre jaillissent et se propagent vers la fumée du sang. En tombant, ce sang ouvre une porte sur l'Abysse. Un globe d'ombre (10cm de diamètre environ) se forme sur cette ouverture, et vient dans la main du vampire, nettoyant le sang par des tentacules.",
+      "La créature reste une nuit par succès. Elle sert aveuglément le vampire, peut communiquer par des images et des impressions émotionnelles.",
+      "Les pouvoirs d'Obtenebration ne nécessitent pas de Sang, mais une dépense de Volonté si le but est d'augmenter les effets.  La créature vole à 30m/tour, et est toujours sous forme ténébreuse. Elle est désintégrée par le Soleil ou le feu, instantanément. La communication se fait par contact. Elle peut attaquer. Un maximum de Occulte créatures servent le vampire."
     ],
-    "source": "Dark Ages: Players Guide to High Clans (20007) p177"
+    "source": "Dark Ages: Players Guide to High Clans (20007) p177",
+    "extra_table": [
+      ["Force: 2", "Dextérité: 5", "Vigueur: 1"],
+      ["Charisme: 1", "Manipulation: 3", "Apparence: 0"],
+      ["Perception: 3", "Intelligence: 2", "Astuce: 3"],
+      ["Vigilance: 3", "Sport: 3", "Esquive: 3"],
+      ["Bagarre: 3", "Intimidation: 2", ""],
+      ["Se cacher: 5 (6 dans les ombres)", "Obtenebration: 3"],
+      ["Volonté: 5", "5 niveaux de blessures"]
+    ]
   },
   {
     "name": "Obtenebration",
@@ -20729,7 +20754,10 @@
     "title": "Boire le Sang d'Arhiman",
     "level": 3,
     "description": [
-      "Le mystique invoque une Nocturne (voir rituel niveau 1), avec un couteau qui n'a jamais connu le sang. Il laisse couler le Sang dans la Nocturne, et la laisse pénétrer sa plaie. L'ombre se fond dans le vampire, par ses veines, durant un processus douloureux d'une demi-heure. Tout jet pendant cette période est à -2 dés. A la fin du rituel, Manipulation+Occulte SR8. Sur un échec, la nocturne s'échappe. Sur un échec critique, perte d'un Sang par 1 tiré, et l'ombre part. Sur un succès, la peau du vampire noircit, ses yeux deviennent noir d'encre. Ses attributs physiques plus bas que son niveau d'Obtenebration augmentent jusqu'à cette valeur. Tout pouvoir d'Obtenebration jusqu'à niveau 3 se fait à -2SR. Le coût en Sang pour développer les Bras d'Arhiman est divisé par 2.  L'effet revers est la nécessité de dépenser à chaque réveil Obtenebration Sang (sinon l'effet cesse), la prise de 3 fois les blessures normales par le soleil, et l'Apparence baisse de 1. De plus, chaque fois que le vampire passe plus de jours consécutifs dans cette forme que sa plus haute Vertu, sa peau fonce."
+      "Le mystique invoque une Nocturne (voir rituel niveau 1), avec un couteau qui n'a jamais connu le sang. Il laisse couler le Sang dans la Nocturne, et la laisse pénétrer sa plaie. L'ombre se fond dans le vampire, par ses veines, durant un processus douloureux d'une demi-heure.",
+      "Tout jet pendant cette période est à -2 dés. A la fin du rituel, Manipulation+Occulte SR8.",
+      "Sur un échec, la nocturne s'échappe. Sur un échec critique, perte d'un Sang par 1 tiré, et l'ombre part.",
+      "Sur un succès, la peau du vampire noircit, ses yeux deviennent noir d'encre. Ses attributs physiques plus bas que son niveau d'Obtenebration augmentent jusqu'à cette valeur. Tout pouvoir d'Obtenebration jusqu'à niveau 3 se fait à -2SR. Le coût en Sang pour développer les Bras d'Arhiman est divisé par 2.  L'effet revers est la nécessité de dépenser à chaque réveil Obtenebration Sang (sinon l'effet cesse), la prise de 3 fois les blessures normales par le soleil, et l'Apparence baisse de 1. De plus, chaque fois que le vampire passe plus de jours consécutifs dans cette forme que sa plus haute Vertu, sa peau fonce."
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p178"
   },
@@ -20739,7 +20767,11 @@
     "title": "Appeler l'Ombre affamée",
     "level": 3,
     "description": [
-      "Permet d'appeler des créatures des Abysses. Ces créatures sont puissantes, et si elles s'échappent, se retournent contre leur maîtres sans aucun remord. Le rituel est le suivant : le mystique trace un cercle avec son Sang, puis sort du cercle, et veille à ce qu'aucune goutte ne tombe plus à terre. Il tourne en spirale convergeant vers le cercle, tout en chantant. D'autres personnes connaissant le rituel peut aider et participer, en se répartissant autour du cercle (max de participants = plus grand Occulte). Chaque participant lance Intelligence+Occulte SR6 par heure de chant (note: les joueurs ne doivent pas savoir combien de succès ils accumulent). Il est possible de prolonger le rituel jusqu'à une heure avant l'aube. Chaque échec critique réduit de 5 les succès. Quand ils le désirent, les mystiques arrêtent le chant, se tournent vers le cercle, prononcent à l'unisson des syllabes d'invocation, et dépensent 1 Volonté.  Chaque succès donne 3 Freebie à dépenser pour la créature. Les caractéristiques peuvent être augmentées jusqu'à la valeur maximale d'Obtenebration des invocateurs, sauf cas suivant: l'Obtenebration de base est de 5 (au maximum augmentée à 8), la Volonté peut valoir 2 fois l'Obtenebration maximale. La Volonté temporaire est illimitée (1 Freebie par point. Chaque niveau de blessure coûte 2 Freebies (pas de pénalités dûes aux blessures) Pas de Voie, ni de Vertues, ni d'Historiques. Les seules disciplines possibles sont Célérité, Force d'Ame, Puissane, et Obtenebration. La forme de base est ombrale, 1 Volonté pour se solidifier. La créature regagne 1 Volonté par sang consommé, ou blessure infligée. La volonté se substitue au Sang pour activer les pouvoirs. L'Ombre subit des dégâts aggravés par le Feu et le Soleil si elle est matérialisée, et résiste comme un vampire aux dégâts dans ce cas. L'Ombre peut communiquer par images et sensations. Une fois l'Ombre formée, jet de Volonté SR4 contre la somme des 2 plus hauts traits (hors Volonté) SR4. +1dé pour le mystique par assistant. Si le vampire gagne, l'Ombre le sert pour Volonté nuits, +1 nuit par sang ou Sang donné immédiatement à l'Ombre (il est impossible de prolonger après coup la servitude). Si l'Ombre gagne, elle est libre de faire ce qu'elle veut: tuer les invocateurs, retourner dans l'Abysse, aller faire un tour libre (mais doit dépenser Obtenebration volonté chaque nuit pour rester sur terre)."
+      "Permet d'appeler des créatures des Abysses. Ces créatures sont puissantes, et si elles s'échappent, se retournent contre leur maîtres sans aucun remord.",
+      "Le rituel est le suivant : le mystique trace un cercle avec son Sang, puis sort du cercle, et veille à ce qu'aucune goutte ne tombe plus à terre. Il tourne en spirale convergeant vers le cercle, tout en chantant. D'autres personnes connaissant le rituel peut aider et participer, en se répartissant autour du cercle (max de participants = plus grand Occulte). Chaque participant lance Intelligence+Occulte SR6 par heure de chant (note: les joueurs ne doivent pas savoir combien de succès ils accumulent). Il est possible de prolonger le rituel jusqu'à une heure avant l'aube. Chaque échec critique réduit de 5 les succès. Quand ils le désirent, les mystiques arrêtent le chant, se tournent vers le cercle, prononcent à l'unisson des syllabes d'invocation, et dépensent 1 Volonté.",
+      "Chaque succès donne 3 Freebie à dépenser pour la créature. Les caractéristiques peuvent être augmentées jusqu'à la valeur maximale d'Obtenebration des invocateurs, sauf cas suivant: l'Obtenebration de base est de 5 (au maximum augmentée à 8), la Volonté peut valoir 2 fois l'Obtenebration maximale. La Volonté temporaire est illimitée (1 Freebie par point. Chaque niveau de blessure coûte 2 Freebies (pas de pénalités dûes aux blessures) Pas de Voie, ni de Vertues, ni d'Historiques. Les seules disciplines possibles sont Célérité, Force d'Ame, Puissane, et Obtenebration.",
+      "La forme de base est ombrale, 1 Volonté pour se solidifier. La créature regagne 1 Volonté par sang consommé, ou blessure infligée. La volonté se substitue au Sang pour activer les pouvoirs. L'Ombre subit des dégâts aggravés par le Feu et le Soleil si elle est matérialisée, et résiste comme un vampire aux dégâts dans ce cas. L'Ombre peut communiquer par images et sensations.",
+      "Une fois l'Ombre formée, jet de Volonté SR4 contre la somme des 2 plus hauts traits (hors Volonté) SR4. +1dé pour le mystique par assistant. Si le vampire gagne, l'Ombre le sert pour Volonté nuits, +1 nuit par sang ou Sang donné immédiatement à l'Ombre (il est impossible de prolonger après coup la servitude). Si l'Ombre gagne, elle est libre de faire ce qu'elle veut: tuer les invocateurs, retourner dans l'Abysse, aller faire un tour libre (mais doit dépenser Obtenebration volonté chaque nuit pour rester sur terre)."
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p178"
   },
@@ -20749,7 +20781,9 @@
     "title": "Reflets des révélations du Vide",
     "level": 4,
     "description": [
-      "Tout secret est caché par les Ténèbres... le mystique appelle le pouvoir 1 d'Obtenebration, se concentre sur le globe contracté (1 Volonté). L'ombre prend la forme d'une sphère translucide noire de 20cm de diamètre. Le vampire peut voir au travers d'ombre d'endroits connus distants de Obtenebration+Occult x 1.5 km. Perception+Occulte SR 7. Un échec critique disperse la Nocturnae, et trouble le mystique (-2 dé pour une scène). Si c'est un succès, la cible apparait dans la sphère, suivant le meilleur point de vue (en fonction des ombres disponibles). L'effet dure pour une scène, ou jusqu'à ce que la cible quitte l'endroit vu. Toute cible possédant des sens mystiques ou Obtenebration  peut se rendre compte que les ombres l'observent sur Perception+Occulte SR 8. A noter que pour la nuit suivant l'effet, le vampire reste inconsciemment concentré sur une cible au loin, et est moins attentif à ce qui l'entoure (-2 dés sur les jets de Vigilance liés à l'environnement immédiat)."
+      "Tout secret est caché par les Ténèbres...",
+      "le mystique appelle le pouvoir 1 d'Obtenebration, se concentre sur le globe contracté (1 Volonté). L'ombre prend la forme d'une sphère translucide noire de 20cm de diamètre. Le vampire peut voir au travers d'ombre d'endroits connus distants de Obtenebration+Occult x 1.5 km. Perception+Occulte SR 7. Un échec critique disperse la Nocturnae, et trouble le mystique (-2 dé pour une scène). Si c'est un succès, la cible apparait dans la sphère, suivant le meilleur point de vue (en fonction des ombres disponibles). L'effet dure pour une scène, ou jusqu'à ce que la cible quitte l'endroit vu. Toute cible possédant des sens mystiques ou Obtenebration  peut se rendre compte que les ombres l'observent sur Perception+Occulte SR 8.",
+      "A noter que pour la nuit suivant l'effet, le vampire reste inconsciemment concentré sur une cible au loin, et est moins attentif à ce qui l'entoure (-2 dés sur les jets de Vigilance liés à l'environnement immédiat)."
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p179"
   },
@@ -20759,7 +20793,11 @@
     "title": "Murmures dans les ténèbres",
     "level": 5,
     "description": [
-      "Toute illumination retourne à l'Abysse, et Arhiman s'en souvient. Tout ce qui n'est plus, a été détruit, est mort, est connu d'Arhiman. Le mystique conjure une Nocturne, la concentre en une sphère d'une 20aine de cm de diamètre (1 Volonté). Puis il aspire les Ténèbres, qui prennent possession de lui.  Il tombe en torpeur, se mêle aux Abysses. Il peut alors poser une question au Vide. Cette question, suivant son importance nécessite X succès, X étant fixé par le Mj. Chaque nuit, Occulte+Intelligence SR 9. Si le nombre de succès dépasse X, le vampire sort de torpeur, avec sa réponse. Si le vampire  n'obtient pas de succès pour une nuit, le délai entre chaque jet passe à une semaine, puis à 1 mois, 1 an, 1 décade, 1 siècle, et enfin 1 millénaire. On dit qu'un mystique a demandé comment tuer Dieu, et que son esprit erre dans les images d'avant la Création. Si un vampire réussit une telle quête dans l'Abysse, tout jet d'Intimidation qu'il fait est à -1SR, mais tout jet social à +1 SR, sauf avec d'autres mystiques de l'Abysse. Toute personne croisant le mystique sent que ce dernier a touché quelque chose de spécial, d'étranger à ce monde."
+      "Toute illumination retourne à l'Abysse, et Arhiman s'en souvient. Tout ce qui n'est plus, a été détruit, est mort, est connu d'Arhiman.",
+      "Le mystique conjure une Nocturne, la concentre en une sphère d'une 20aine de cm de diamètre (1 Volonté). Puis il aspire les Ténèbres, qui prennent possession de lui.  Il tombe en torpeur, se mêle aux Abysses. Il peut alors poser une question au Vide. Cette question, suivant son importance nécessite X succès, X étant fixé par le Mj.",
+      "Chaque nuit, Occulte+Intelligence SR 9. Si le nombre de succès dépasse X, le vampire sort de torpeur, avec sa réponse. Si le vampire  n'obtient pas de succès pour une nuit, le délai entre chaque jet passe à une semaine, puis à 1 mois, 1 an, 1 décade, 1 siècle, et enfin 1 millénaire.",
+      "On dit qu'un mystique a demandé comment tuer Dieu, et que son esprit erre dans les images d'avant la Création.",
+      "Si un vampire réussit une telle quête dans l'Abysse, tout jet d'Intimidation qu'il fait est à -1SR, mais tout jet social à +1 SR, sauf avec d'autres mystiques de l'Abysse. Toute personne croisant le mystique sent que ce dernier a touché quelque chose de spécial, d'étranger à ce monde."
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p179"
   },
@@ -20769,7 +20807,8 @@
     "title": "Dans la Faille",
     "level": 6,
     "description": [
-      "Le vampire ne fait pas que passer d'Ombre en Ombre, il peut aller autre part, dans l'Abysse, totalement. 1h à peindre des glyphes avec 3Sang, sur une surface unie (sol ou mur). Intelligence+Occulte SR7. Un échec brûle le Sang, qui est perdu. Un échec critique ou un succès ouvre le portail, qui devient une huile noire. Il dure succès tours. Sur un échec critique, autant d'Ombres affamées (voir rituel de niveau 3) que de 1 apparaissent et attaquent, mais le portail est quand même utilisable. Des personnes voyageant ensemble doivent rester en contact, sinon elles se  perdent dans l'Abysse. Ceux qui ne disposent pas d'Obtenebration ou Protean 1 ne voient rien dans l'Abysse, les autres  voient les créatures arriver, les mouvements de l'Abysse. Dans tout les cas, 1 dommage létal est appliqué par  minute, à cause du froid du vide abyssal, aux créatures vivantes.  L'avantage de ce voyage réside dans le fait que le mystique peut prononcer le nom de n'importe quelle destination connue, contenant une ombre assez grande pour l'accueillir. L'Abysse se modifie pour le faire émerger à l'endroit désiré, sur Astuce+Obtenebration SR 6 (ou 8 si pas de spécialisation Abysse en Occulte). Si c'est un échec, le mystique peut réessayer à -1SR. Chaque nouvelle tentative dure 1 minute. Un échec critique attire une Ombre Affamée, et augmente le SR de 1. Amener des personnes avec soi coûte 1 Volonté par personne. Si un visiteur se sépare du mystique, il doit trouver seule sa sortie. A noter que les créatures de l'Abysse aiment le Sang, mais qu'un vampire peut très bien tomber en torpeur pour l'éternité dans l'Abysse. Tout vampire passant par l'Abysse doit lancer Volonté SR = nombre de minutes dans l'Abysse durant le voyage (maximum 9). Un échec indique le défaut Ombre animée, un échec critique donne Hérault de l'Abysse. Les passagers peuvent aussi devenir porteurs de ces défauts, mais pour le reste de la nuit seulement."
+      "Le vampire ne fait pas que passer d'Ombre en Ombre, il peut aller autre part, dans l'Abysse, totalement.",
+      "1h à peindre des glyphes avec 3Sang, sur une surface unie (sol ou mur). Intelligence+Occulte SR7. Un échec brûle le Sang, qui est perdu. Un échec critique ou un succès ouvre le portail, qui devient une huile noire. Il dure succès tours. Sur un échec critique, autant d'Ombres affamées (voir rituel de niveau 3) que de 1 apparaissent et attaquent, mais le portail est quand même utilisable. Des personnes voyageant ensemble doivent rester en contact, sinon elles se  perdent dans l'Abysse. Ceux qui ne disposent pas d'Obtenebration ou Protean 1 ne voient rien dans l'Abysse, les autres  voient les créatures arriver, les mouvements de l'Abysse. Dans tout les cas, 1 dommage létal est appliqué par  minute, à cause du froid du vide abyssal, aux créatures vivantes.  L'avantage de ce voyage réside dans le fait que le mystique peut prononcer le nom de n'importe quelle destination connue, contenant une ombre assez grande pour l'accueillir. L'Abysse se modifie pour le faire émerger à l'endroit désiré, sur Astuce+Obtenebration SR 6 (ou 8 si pas de spécialisation Abysse en Occulte). Si c'est un échec, le mystique peut réessayer à -1SR. Chaque nouvelle tentative dure 1 minute. Un échec critique attire une Ombre Affamée, et augmente le SR de 1. Amener des personnes avec soi coûte 1 Volonté par personne. Si un visiteur se sépare du mystique, il doit trouver seule sa sortie. A noter que les créatures de l'Abysse aiment le Sang, mais qu'un vampire peut très bien tomber en torpeur pour l'éternité dans l'Abysse. Tout vampire passant par l'Abysse doit lancer Volonté SR = nombre de minutes dans l'Abysse durant le voyage (maximum 9). Un échec indique le défaut Ombre animée, un échec critique donne Hérault de l'Abysse. Les passagers peuvent aussi devenir porteurs de ces défauts, mais pour le reste de la nuit seulement."
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p180"
   },
@@ -22350,9 +22389,16 @@
     "title": "Envoyer la 8ème plaie",
     "level": 7,
     "description": [
-      "Méditation d'au moins une demi-heure à l'endroit où la plaie doit être déchainée. Le vampire se coupe les poignets et verse au moins 10 Sang par terre. Charisme+Dressage SR6. Les succès sont divisés entre temps et durée. La vermine mange tout ce qui l'est, poussant à la famine la population.<table><tr><td>1 succès</td><td>1 champs </td><td>24 heures</td></tr><tr><td>2 succès</td><td>2 terrains proches</td><td>3 jours</td></tr><tr><td>3 succès</td><td>tout les champs d'un village</td><td>1 semaine</td></tr><tr><td>4 succès </td><td>les champs de plusieurs villages</td><td>une lune</td></tr><tr><td>5 succès </td><td>tout champ d'un territoire</td><td>3 mois</td></tr></table>"
+      "Méditation d'au moins une demi-heure à l'endroit où la plaie doit être déchainée. Le vampire se coupe les poignets et verse au moins 10 Sang par terre. Charisme+Dressage SR6. Les succès sont divisés entre temps et durée. La vermine mange tout ce qui l'est, poussant à la famine la population."
     ],
-    "source": "Dark Ages: Players Guide to Low Clans (20006) p145"
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p145",
+    "extra_table": [
+      ["1 succès", "1 champs", "24 heures"],
+      ["2 succès", "2 terrains proches", "3 jours"],
+      ["3 succès", "tout les champs d'un village", "1 semaine"],
+      ["4 succès", "les champs de plusieurs villages", "une lune"],
+      ["5 succès", "tout champ d'un territoire", "3 mois"]
+    ]
   },
   {
     "name": "Animalisme",
@@ -22460,14 +22506,13 @@
     "title": "Création obscure de Dieu",
     "level": 9,
     "description": [
-      "Permet de retirer un objet ou une personne de la mémoire d'une personne. Manipulation+Subterfuge SR Volonté. 1 point de volonté est nécessaire pour un objet petit à moyen (jusqu'à une épée), 2 points jusqu'à un cheval, 3 pour un bâtiment, 4 pour un château. Les succès sont répartis entre le lien émotionnel  à briser et le temps. <table>",
-      "<tr><td>0</td><td>pas de lien/1 heure</td></tr>",
-      "<tr><td>1</td><td>connait l'objet du pouvoir/1 nuit</td></tr>",
-      "<tr><td>2</td><td>sentiments légers/1 semaine</td></tr>",
-      "<tr><td>3</td><td>sentiments réels/1 mois</td></tr>",
-      "<tr><td>4</td><td>sentiments forts/1 année</td></tr>",
-      "<tr><td>5</td><td>parent, lieu de naissance etc/Permanent</td></tr>",
-      "</table>"
+      "Permet de retirer un objet ou une personne de la mémoire d'une personne. Manipulation+Subterfuge SR Volonté. 1 point de volonté est nécessaire pour un objet petit à moyen (jusqu'à une épée), 2 points jusqu'à un cheval, 3 pour un bâtiment, 4 pour un château. Les succès sont répartis entre le lien émotionnel  à briser et le temps.",
+      "0 pas de lien/1 heure",
+      "1 connait l'objet du pouvoir/1 nuit",
+      "2 sentiments légers/1 semaine",
+      "3 sentiments réels/1 mois",
+      "4 sentiments forts/1 année",
+      "5 parent, lieu de naissance etc/Permanent"
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p151"
   },
