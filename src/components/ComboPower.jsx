@@ -39,6 +39,7 @@ const RequirementsDiv = styled.div`
   display: inline;
   font-size: 1.1rem;
 `;
+
 const ExtraRequirements = ({ requirements, extraRequirements }) => {
   if (requirements.length === 0) {
     return (

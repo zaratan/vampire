@@ -656,7 +656,11 @@
     "name": "Odeur de Cain",
     "requirements": [
       { "or": [{ "name": "Auspex", "level": " 2" }] },
-      { "or": [{ "name": "Rego Vitae", "level": " 1" }] }
+      {
+        "or": [
+          { "name": "Thaumaturgie", "subname": "Rego Vitae", "level": " 1" }
+        ]
+      }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p164",
     "description": [
@@ -883,6 +887,62 @@
     "description": [
       "Ce rituel est appris par les Cappadocéens ne pouvant posséder Mortis à 6. Il permet de créer un perle de Sang, qui demande 8 heures de rituel et 3 Sang.",
       "Intelligence+Occulte, le SR est déterminé par le cappadocéen : c'est le nombre d'heure pendant lequel le zombie sera actif. La perle peut être conservée, avant d'être insérée dans la bouche d'un corps. A la fin du délai, le corps tombe en poussière."
+    ]
+  },
+  {
+    "name": "Eclosion de la Vipère",
+    "requirements": [
+      { "or": [{ "name": "Serpentis", "level": " 4" }] },
+      { "or": [{ "name": "Protean", "level": " 2" }] }
+    ],
+    "source": "Vampire: The Dark Ages (2800) p164",
+    "description": [
+      "Le vampire se concentre un tour, dépense 4 Sang, et dégorge un serpent fait de son sang, possédant une morsure venimeuse. Nécessite <b>1 Sang tous les trois jours</b> pour survivre, obéit aux commandements de son maître dont il reflète l'esprit.",
+      "Le Players guide to the low-clans ajoute que le serpent possède Force d'Ame 1 et Puissance 1. Il se dissout si détruit ou non nourri, le sang acide fait 4 dés de dommages aggravés s'il est ingéré. Animalisme permet de communiquer avec eux, mais la personnalité de leur créateur est trop proche pour les rendre naturels."
+    ]
+  },
+  {
+    "name": "Visage de l'être aimé",
+    "requirements": [
+      { "or": [{ "name": "Dissimulation", "level": " 3" }] },
+      { "or": [{ "name": "Présence", "level": " 3" }] }
+    ],
+    "source": "Clanbook: Setite (Revised Edition) (2360) p69, Dark Ages: Players Guide to Low Clans (20006) p167",
+    "description": [
+      "Permet de se faire passer pour <b>un être aimé</b> par la victime. Si on ne connaît pas un tel être, la personne voit qui elle désire (et le vampire a intérêt à réfléchir très vite pour savoir comment réagir!). <b> Charisme+Empathie</b> SR6"
+    ]
+  },
+  {
+    "name": "Bête typhonienne",
+    "requirements": [
+      { "or": [{ "name": "Puissance", "level": " 3" }] },
+      { "or": [{ "name": "Serpentis", "level": " 4" }] }
+    ],
+    "source": "Clanbook: Setite (Revised Edition) (2360) p69",
+    "description": [
+      "Ce pouvoir permet de prendre la forme de la mythique <b>Bête Typhonienne</b>. Coûte <b>3 Sang, </b>la transformation dure 3 tours. +1 en Force, Vigueur, Dextérité, bénéfice du niveau 3 de Serpentis \"Peau de la vipère\", le vampire peut utiliser sa Vigeur pour résister aux morsures et aux griffes. De plus, la morsure de la Bête est empoisonnée, la Bête court à double vitesse, et gagne +2Dés pour tout jet lié à l'odorat ou l'ouïe."
+    ]
+  },
+  {
+    "name": "Peser le coeur",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 3" }] },
+      { "or": [{ "name": "Serpentis", "level": " 5" }] }
+    ],
+    "source": "Clanbook: Setite (Revised Edition) (2360) p70",
+    "description": [
+      "Le Sétite peut lire le coeur de la victime (sans avoir besoin de l'extraire), tel Thoth. Sur Perception+Empathie SR8, il découvre 1 secret sur les passions, les culpabilités, ou les faiblesses de la victime. Le premier élément révélé est sa nature, puis ses folies, ses faiblesses ou ses peurs."
+    ]
+  },
+  {
+    "name": "Baiser engourdissant du serpent",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      { "or": [{ "name": "Serpentis", "level": " 2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p164",
+    "description": [
+      "Permet d'empoisonner la langue avec un poison subtil. 1 Sang, le vampire frappe avec sa langue sa victime. La blessure se referme lorsque la langue se rétracte, celle-ci reprend tout de suite sa forme normale. Si au moins une blessure est infligée à la victime, elle doit réussir Vigueur (SR6 pour un vampire, SR8 pour un être vivant), avec 3 succès. Pendant l'heure qui suit, tout pouvoir affectant les perceptions, les altérations mentales ou émotionnelles reçoit un succès automatique. Il faut noter que l'effet est souvent utilisé à des fins négatives, mais permet aussi de réparer plus facilement les dégâts dus à Domination par exemple. Les visions semblent aussi plus vivaces. Un humain faisant un échec critique devient apathique pour une heure (Volonté 8 pour faire une action)."
     ]
   }
 ]
