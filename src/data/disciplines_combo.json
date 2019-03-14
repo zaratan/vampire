@@ -1750,5 +1750,145 @@
     "description": [
       "Ce pouvoir permet de voir les flux magiques des objets et de l'environnement, et les vivants. Vigilance+Empathie SR8. 1 succès permet de voir l'aspect magique de l'objet étudié. 2 succès permet de voir si le flux magique lui est propre ou non. 3 succès disent si l'effet est nuisible ou pas, si c'est une illusion. 4 succès permettent de savoir quelle magie est employée, mais pas le style s'il n'a pas été utilisé auparavant. 5 succès ouvrent l'esprit du vampire au flot magique, permettant de voir les lignes de forces et les réserves de pouvoir. Les humains capables de magie luisent d'étincelles par ce pouvoir."
     ]
+  },
+  {
+    "name": "Eminence de l'Ombre conquérant le sang",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "5" }] },
+      { "or": [{ "name": "Vicissitude", "level": "5" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p166",
+    "description": [
+      "Le vampire prend la forme Ténébreuse, ou bien la forme Sanguine, niveau 5 de son pouvoir. Il entre alors dans le corps du réceptacle, en saisissant sa victime (Dextérité+Bagarre), par la bouche, en 3 tours. Une fois à l'intérieur, le vampire tente de réduire la volonté de la victime, avec Domination 5. Si c'est un échec critique, le vampire est vomit hors du corps, il est incapable de faire quoique ce soit pendant 5-Esprit tours. Si la Volonté est brisée, le vampire prend contrôle du corps, à loisirs. Il dort le jour, peut rester dans le corps tant qu'il a du Sang (il ressort quand il le veut, ou est expulsé comme décrit plus haut s'il a 0 Sang), il ne peut regagner de Sang par quelque moyen que ce soit.",
+      "Pouvoir avec Obtenebration : possibilité de posséder un vampire ou un humain. Sur un vampire, possibilité d'utiliser le Sang de celui-ci pour maintenir le corps en vie et guérir les blessures. Les yeux de la victime ont des pupilles qui sont des abysses noires sans fond.",
+      "Pouvoir avec Vicissitude : possibilité de posséder un humain (sur un vampire ... la victime diableriserait le vampire!). L'humain devient une goule, peut utiliser le Sang du vampire le possédant. De plus, possibilité d'utiliser des pouvoirs de Vicissitude pour reformer le corps. Des vagues courent parfois sur le corps de la goule.",
+      "A noter que dans le cas d'une possession humaine, le possédé peut résister à tout dégât avec Vigueur, et les dégâts peuvent être guéris avec le Sang du vampire. De plus, les signes (les yeux ou les vagues) sont très peu visibles (Perception+Vigilance SR9 pour les voir)"
+    ]
+  },
+  {
+    "name": "Devenir Kupala",
+    "requirements": [
+      {
+        "or": [
+          { "name": "Koldunic", "subname": "Voie des Esprits", "level": "6" }
+        ]
+      },
+      { "or": [{ "name": "Vicissitude", "level": "6" }] }
+    ],
+    "source": "Players guide to the High Clans p164",
+    "description": [
+      "Ce pouvoir ne permet pas de devenir un démon, mais de fusionner avec la terre. Dépense de 10 Sang, Vigueur+Vigilance étendu SR6. Chaque succès fait perdre un point de Réserve de Sang au vampire. Quand il n'a plus de Réserve, son corps se propage dans le sol en des milliers de petites racines, sur une surface de succès x 10 mètres. Sur cette surface, le vampire ressent tout évènement à volonté; il peut activer tout jet de Koldunic à -2SR. S'il utilise Voie de la Terre à 3, il peut choisir de prendre 1 Sang au lieu de faire une blessure. C'est le seul moyen de se nourrir sous cette forme, à moins de verser du Sang là où le vampire se trouve. Sous cette forme, le vampire reste un vampire, il dort le jour. Toutefois, il est insensible aux rayons du soleil. Mais dévaster la terre par le feu le brûle, de même que retourner la terre le blesse. Le pouvoir dure autant que désirer, et peut être écourté en dépensant 1 Volonté. Si le vampire n'a plus de sang, son corps est éjecté de la terre, et il se reforme. S'il se repose plus de jours dans une terre que la valeur de sa plus haute Vertu,le sol du défaut de clan devient celui où il est présentement."
+    ]
+  },
+  {
+    "name": "Toucher de l'écorcheur",
+    "requirements": [
+      { "or": [{ "name": "Potence", "level": "2" }] },
+      { "or": [{ "name": "Vicissitude", "level": "2" }] }
+    ],
+    "source": "Players guide to the High Clans p167",
+    "description": [
+      "En agrippant la peau d'une victime,, ou juste en l'effleurant, le Tzimisce peut l'écorcher, arrachant la peau. Jet normal de Vicissitude 2, à +1SR (max 9). Sur une victime non restreinte, le pouvoir est déclenché par réflexe si voulu. Chaque succès inflige 1 dommage léthale, résistible par Vigueur SR8 (les humains ne peuvent résister). Si les dégâts sont supérieurs à la Vigueur de la victime, elle ne peut rien faire d'autre que hurler pour le reste du tour. De plus, elle saigne abondamment de cette blessure : par minute, un humain ressubit le même nombre de dégâts, mais en non léthaux. Ceci dure pendant succès du premier jet minutes. Pour un vampire, chaque dégât fait lors que la blessure a été infligée fait perdre 1 Sang, pendant le même temps. Si le dommage est partiellement guéri, ou si Dextérité+Médecine SR9 est réussit, la perte de Sang n'est plus que de 1 par heure (soit 1 dégât non léthale pour les humains). La blessure ne cesse de saigner qu'une fois entièrement guérit. Sur un humain, la possibilité d'infection est quasiment sûre."
+    ]
+  },
+  {
+    "name": "Mâchoires du Dracon",
+    "extra_requirements": ["Les 5 voies de Koldunic à 5"],
+    "requirements": [{ "or": [{ "name": "Koldunic", "level": "6" }] }],
+    "source": "Players guide to the High Clans p168",
+    "description": [
+      "Le Koldun peut déclencher une tempête dont la puissance défie l'imagination, combinaison de la tornade, due la tempête de grêle, d'éclairs, de feu etc... Une heure de méditation sur la terre qui va être frappée, Charisme+Occulte SR8, dépense de tout ses points de Sang lui restant. Pour chaque succès, la tempête à 1.5km de rayon. Il entre en frénésie immédiate, et les nuages s'amoncellent dans le ciel. Dans l'heure qui suit, tout objet ou personne se trouvant sous la tempête subit l'équivalent de Volonté+Occultisme du Koldun dégâts aggravés. La furie des éléments dure 1h. Les dégâts sur les bâtiments sont à la discrétion du Mj."
+    ]
+  },
+  {
+    "name": "Voir la vraie forme",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Vicissitude", "level": "2" }] }
+    ],
+    "source": "Players guide to the High Clans p169",
+    "description": [
+      "Le Tzimisce voit quand une chair é a été modifiée. Perception+Altération Corporelle SR6. 1 succès permet de voir un travail de Vicissitude, 2 décèle un changement de forme du à une discipline vampirique, 3 perce une altération magique, 4 permet de mettre à jour un changeur de forme \"naturel\". Si le seuil du nombre de succès est dépassé de 2, le vampire devine de plus quelle est la forme initiale."
+    ]
+  },
+  {
+    "name": "Déchaîner la Bête colérique",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "5" }] },
+      { "or": [{ "name": "Vicissitude", "level": "4" }] }
+    ],
+    "source": "Players guide to the High Clans p170",
+    "description": [
+      "Le Tzimisce relâche sa bête dans le corps d'une victime, qui immédiatement commence à se transformer (douloureusement) en un monstre. Le jet pour relâcher la Bête est standard. La transformation en Zulo de la victime dure 2 tours, puis elle attaque toute personne autre que le vampire. Manipulation+Animaux SR6 pour rappeler la Bête. Si la victime meurt, un nuage de miasmes noir regagne à toute vitesse le vampire. Une fois l'effet fini, la victime ne reprend pas de suite forme humaine : un vampire perd 1 dans chaque attribut augmenté, jusqu'à redevenir normal en 3 nuits. Un humain reste sous forme Zulo : ses tissus dégénèrent, pourrissent, deviennent tumoraux, il subit 1 aggravé par jour jusqu'à mourir. Si c'est une goule, l'effet n'est que de 1 aggravé par semaine. Seule de la magie très puissante peut sauver un humain ou une goule de la mort."
+    ]
+  },
+  {
+    "name": "Sculpter la blessure s'épanchant",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] },
+      { "or": [{ "name": "Vicissitude", "level": "2" }] }
+    ],
+    "source": "Players guide to the High Clans p169",
+    "description": [
+      "Le Tzimisce dépense 1 Sang, et lance Esprit+Altération corporelle SR8. Chaque succès guérit 1 blessure, avec au maximum un nombre de blessure limité par la limite de dépense de Sang donné par la génération, le vampire forçant les chairs à se refermer. Si la limite de dépense de Sang est dépassée, l'effet se poursuit sur les tours suivants."
+    ]
+  },
+  {
+    "name": "Armurerie Corporelle",
+    "requirements": [
+      { "or": [{ "name": "Vicissitude", "level": "3" }] },
+      { "or": [{ "name": "Protean", "level": "3" }] }
+    ],
+    "source": "Vampire l'Age des Ténèbres - p173 et Guide du Sabbat - p111",
+    "description": [
+      "Permet de créer des armes à partir de son propre corps (bras en épée, doigt en paire de ciseaux, etc). Chaque arme créée coûte 2 Sang. Les armes à 2 mains coûtent le double en Sang. Même dégats que les armes de bases, mais en dégats aggravés. Dex + Artisanat du Corps SR 7."
+    ]
+  },
+  {
+    "name": "Décoration de l'âme",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Dissimulation", "level": "2" }] }
+    ],
+    "source": "Clanbook Tzimisce 2 p72",
+    "description": [
+      "L'aura est le reflet de l'âme, mais aussi du corps. En changeant des zones érogènes, des chakras, des articulations, le Tzimisce change l'aura qu'il génère. Ce pouvoir coûte 3 Volonté,  Perception+Empathie SR Volonté (une forte Volonté ne permet pas de changer facilement son aura!)"
+    ],
+    "extra_table": [
+      ["Succès", "Effet"],
+      ["1", "Peut altérer des nuances (pâleur ou brillance)"],
+      ["2", "Altération de la couleur principale"],
+      ["3", "Altération de l'état psychologique apparent"],
+      [
+        "4",
+        "Peut retirer une preuve de diablerie, falsifier des preuues magiques"
+      ],
+      [
+        "5",
+        "Peut changer l'aspect naturel de l'aura (mage vampire, garou, humain etc)"
+      ]
+    ]
+  },
+  {
+    "name": "Pater Szlachta",
+    "requirements": [
+      { "or": [{ "name": "Vicissitude", "level": "3" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
+    ],
+    "source": "Clanbook Tzimisce p72",
+    "description": [
+      "Dépense de 2 points de Sang, Vigueur+Médecine SR7. Le Tzimisce change son corps en celui d'un Szlatcha, une goule de guerre. Cette transformation est très douloureuse, dure 5-succès tours, et permet de modifier la répartition des attributs physiques (1 point par succès, limités par la génération). De plus, on peut faire apparaître des pics, une épine dorsale etc... à la discrétion du Mj"
+    ]
+  },
+  {
+    "name": "Naissance du Vozhd",
+    "requirements": [
+      { "or": [{ "name": "Vicissitude", "level": "6" }] },
+      { "or": [{ "name": "Animalisme", "level": "6" }] }
+    ],
+    "source": "Clanbook Tzimisce p73",
+    "description": [
+      "Ce pouvoir permet de créer un Vozhd, sans recours à la magie koldunique. Le vampire regroupe 15 à 20 goules, puis lance Intelligence+Altération Corporelle SR10. Avec 1 succès, construire et maîtriser la Vozhd dure presque 1 an, avec 5 succès, ce délai est réduit à 1 mois. Tout jet de Vicissitude par la suite sur le Vozhd est à +2SR, et tout jet d'Animalisme à +3SR. Un échec critique résulte en une masse de chair non viable, ou bien en un Vozhd en frénésie permanente."
+    ]
   }
 ]
