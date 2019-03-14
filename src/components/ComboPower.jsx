@@ -28,27 +28,57 @@ const Ou = styled.span`
   }
 `;
 
+const Extra = styled.span`
+  ::before {
+    content: ' et ';
+  }
+`;
+
 const RequirementsDiv = styled.div`
   padding-left: 0.5rem;
   display: inline;
   font-size: 1.1rem;
 `;
-
-const Requirements = ({ requirements }) => (
-  <RequirementsDiv>
-    (
-    {requirements
-      .sort((a, b) => b.or[0].name - a.or[0].name)
-      .map(requirement => (
-        <Et>
-          {requirement.or.map(req => (
-            <Ou>
-              {req.name}: {req.level}
-            </Ou>
-          ))}
-        </Et>
+const ExtraRequirements = ({ requirements, extraRequirements }) => {
+  if (requirements.length === 0) {
+    return (
+      <span>
+        {extraRequirements.map(extraReq => (
+          <span>{extraReq}</span>
+        ))}
+      </span>
+    );
+  }
+  return (
+    <Extra>
+      {extraRequirements.map(extraReq => (
+        <span>{extraReq}</span>
       ))}
-    )
+    </Extra>
+  );
+};
+const Requirements = ({ requirements, extraRequirements }) => (
+  <RequirementsDiv>
+    <span>
+      {requirements
+        .sort((a, b) => b.or[0].name - a.or[0].name)
+        .map(requirement => (
+          <Et>
+            {requirement.or.map(req => (
+              <Ou>
+                {req.name}
+                {req.subname && ` (${req.subname})`}: {req.level}
+              </Ou>
+            ))}
+          </Et>
+        ))}
+    </span>
+    {extraRequirements && (
+      <ExtraRequirements
+        requirements={requirements}
+        extraRequirements={extraRequirements}
+      />
+    )}
   </RequirementsDiv>
 );
 
@@ -59,7 +89,10 @@ const ComboPower = ({ power }) => {
     <Item key={power.name}>
       <Title ref={scrollRef} name={hash}>
         {power.name}
-        <Requirements requirements={power.requirements} />
+        <Requirements
+          requirements={power.requirements}
+          extraRequirements={power.extra_requirements}
+        />
         <a href={`#${hash}`} className="link">
           <LinkIcon icon="link" />
         </a>

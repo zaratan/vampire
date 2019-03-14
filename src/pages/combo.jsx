@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
-import styled from 'styled-components';
+import React from "react";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import SectionHeader from '../styles/SectionHeader';
-import ComboPower from '../components/ComboPower';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import SectionHeader from "../styles/SectionHeader";
+import ComboPower from "../components/ComboPower";
 
 // Remove me when gatsby build can finally flatten array…
-Object.defineProperty(Array.prototype, 'flat', {
+Object.defineProperty(Array.prototype, "flat", {
   value(depth = 1) {
     return this.reduce(function(flat, toFlatten) {
       return flat.concat(
@@ -17,7 +17,7 @@ Object.defineProperty(Array.prototype, 'flat', {
           : toFlatten
       );
     }, []);
-  },
+  }
 });
 
 const ComboPage = () => {
@@ -29,9 +29,11 @@ const ComboPage = () => {
             requirements {
               or {
                 name
+                subname
                 level
               }
             }
+            extra_requirements
             name
             source
             description

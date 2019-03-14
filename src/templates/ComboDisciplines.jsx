@@ -53,9 +53,11 @@ export const query = graphql`
           requirements {
             or {
               name
+              subname
               level
             }
           }
+          extra_requirements
           name
           source
           description

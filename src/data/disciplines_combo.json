@@ -211,9 +211,8 @@
   },
   {
     "name": "Parole Anticipée",
-    "requirements": [
-      { "or": [{ "name": "Connaitre Visage Anticipé", "level": "" }] }
-    ],
+    "requirements": [],
+    "extra_requirements": ["Connaitre Visage Anticipé"],
     "source": "Archons and Templars (2425) p142",
     "description": [
       "Nécessite de connaître \"Visage anticipé\". Manipulation+Subterfuge SR7. Ce pouvoir permet de faire croire à la victime qu'il entend ce qu'il veut entendre. Ceci ne peut être qu'une phrase courte, qu'un mot de passe. Toute discussion permet de passer outre ce pouvoir."
@@ -758,6 +757,132 @@
       "Pouvoir appris typiquement à un nouveau Primogène Brujah. Il permet en général d'impressionner toute personne (du clan Brujah souvent) qui n'est pas tout a fait d'accord avec son supérieur.",
       "Charisme+Manipulation SR Standard, démonstration de force (briser une table en chêne etc..). Les succès s'ajoutent à tout jet d'intimidation sur la personne qui a croisé le regard du personnage lors de sa démonstration ou juste après.",
       "Ce pouvoir perd son effet s'il est trop utilisé : 1/2 effet si plus deux fois par mois, 1/4 effet si 3 fois par mois. Au delà, tout le monde devient accoutumé à ces démonstrations, donc il n'y a plus d'effet."
+    ]
+  },
+  {
+    "name": "Fontaine d'humeurs malignes",
+    "requirements": [
+      { "or": [{ "name": "Puissance", "level": " 2" }] },
+      {
+        "or": [
+          { "name": "Mortis", "subname": "Voie des 4 humeurs", "level": "3" }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p167",
+    "description": [
+      "Pouvoir Lamie. Permet de cracher les humeurs créées par Humeurs Noires. 2 Sang, Dextérité+Sport SR6 pour toucher la cible, distance maximum de Force+Puissance mètres. On peut tenter d'esquiver, mais ce n'est pas un crachat, mais une brumisation. La victime peut résister à l'effet de l'humeur par Vigueur SR8."
+    ]
+  },
+  {
+    "name": "Effigie de la tombe sculptée",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
+      { "or": [{ "name": "Puissance", "level": "2" }] },
+      {
+        "or": [
+          { "name": "Mortis", "subname": "Pourriture du tombeau", "level": "2" }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p165",
+    "description": [
+      "Pouvoir quasi exclusif des Lamies. 1 Volonté, Vigueur+Médecine SR6, permet de donner la dureté d'un cadavre rigide à son corps, mais sans les inconvénients. Chaque succès s'ajoute à la Force ou à la Vigueur (au choix, mais un seul des 2 attributs), dans la limite maximum de la Force d'Ame, ou de la Puissance. Cet effet est cumulable avec les effets d'augmentation d'attributs par le sang."
+    ]
+  },
+  {
+    "name": "Rame de Charon",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 5" }] },
+      { "or": [{ "name": "Nécromancie ", "level": "5" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p165",
+    "description": [
+      "Permet de passer corporellement dans le monde des morts. 1 Sang et 1 Volonté, Perception+Occulte SR9 (-2 sur les lieux imbibés par la mort, le jet est impossible en journée). Le vampire se dissout, et devient un fantôme, avec les objets qu'il porte. Il n'a pas de corde d'argent, a les mêmes statistiques que vivant, et prend des dommages normalement. Il peut interagir physiquement avec les morts, passer au travers des murs solides, ne peut affecter le monde physique, est invisible au monde des esprits (Umbra moyenne), et donc aux personnes utilisant seulement Auspex 5. On peut la ressentir en réussissant Perception+Occulte SR9. Pour repasser dans le monde des vivants, il faut réutiliser ce pouvoir. A noter que le feu ne fait rien au vampire, mais que le soleil le frappe normalement, et qu'il dort le jour."
+    ]
+  },
+  {
+    "name": "Eveiller la malédiction endormie",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Mortis", "level": "5" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p164",
+    "description": [
+      "Ce pouvoir est un moyen de punir une goule traîtresse. Le vampire se concentre sur elle, en la voyant, et lance Intelligence+Occulte SR Volonté. Chaque succès corrompt la Vitae dans la goule pour une heure. Elle se sent fiévreuse, et si elle va au soleil, son Sang brûle au soleil, comme pour les vampires. Chaque blessure aggravée correspond à 1 Sang qui brûle, l'effet cesse après consommation du Sang, ou hors du soleil. Résistible avec Force d'Ame."
+    ]
+  },
+  {
+    "name": "Clarté du vide",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      {
+        "or": [
+          { "name": "Mortis", "subname": "Le corps du monstre", "level": "2" }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p165",
+    "description": [
+      "Ce pouvoir permet de mettre de côté toute passion, pour ne conserver que la pensée pure. Esprit+Occulte SR7, chaque succès ajoute 1 dé à la prochaine action mentale (maximum = doubler le nombre dés possibles). Toute action sociale se fait à +2SR."
+    ]
+  },
+  {
+    "name": "Sous l'Egide de l'Entropie",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": " 3" }] },
+      {
+        "or": [
+          {
+            "name": "Mortis",
+            "subname": "Pourriture de la tombe",
+            "level": "1"
+          }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p163",
+    "description": [
+      "Une aura de pourrissement renforce le corps du vampire : une fois le pouvoir activé après qu'il ait été touché (sur Esprit+Artisanat SR6, impossible de déclencher le pouvoir si on a été pris par surprise), l'arme pourrit en un tour, sauf si elle est magique. Ceci n'affecte pas les coups portés à mains nues."
+    ]
+  },
+  {
+    "name": "Maladie D&eacute;voil&eacute;e",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 2" }] },
+      { "or": [{ "name": "Fortitude", "level": " 7" }] }
+    ],
+    "source": "Clanbook: Cappadocian (2805) p41",
+    "description": [
+      "Perception+Médecine (ou Herbalisme) SR 8, permet de diagnostiquer une maladie (si le vampire la connaît). Vig+Medecine SR 5 à 9, suivant la maladie, permet de guérir la maladie."
+    ]
+  },
+  {
+    "name": "Constitution Merveilleuse",
+    "requirements": [
+      { "or": [{ "name": "Mortis", "level": " 2" }] },
+      { "or": [{ "name": "Fortitude", "level": " 8" }] }
+    ],
+    "source": "Clanbook: Cappadocian (2805) p41",
+    "description": [
+      "Tout point de sang restant, 4 Volonté + 1 Volonté/membre coupé (y compris la tête) : le vampire reconstitue son corps, et revient de la mort finale (il lui reste encore 5 niveaux de blessure à guérir).",
+      "S'il n'a pas assez de Volonté, il meurt. Sinon, il perd un point de volonté permanente, réduit tout ses Attributs de 1, et abaisse son niveau maximal d'attributs de 1."
+    ]
+  },
+  {
+    "name": "Créer un zombie",
+    "requirements": [
+      { "or": [{ "name": "Mortis", "level": "2" }] },
+      { "or": [{ "name": "Nécromancie", "level": "2" }] },
+      { "or": [{ "name": "Thaumaturgie", "level": "2" }] }
+    ],
+    "extra_requirements": [
+      "La somme des niveaux des 3 disciplines doit faire au moins 8"
+    ],
+    "source": "Clanbook: Cappadocian (2805) p37",
+    "description": [
+      "Ce rituel est appris par les Cappadocéens ne pouvant posséder Mortis à 6. Il permet de créer un perle de Sang, qui demande 8 heures de rituel et 3 Sang.",
+      "Intelligence+Occulte, le SR est déterminé par le cappadocéen : c'est le nombre d'heure pendant lequel le zombie sera actif. La perle peut être conservée, avant d'être insérée dans la bouche d'un corps. A la fin du délai, le corps tombe en poussière."
     ]
   }
 ]
