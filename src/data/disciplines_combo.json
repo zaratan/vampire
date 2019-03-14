@@ -1530,5 +1530,38 @@
     "description": [
       "Permet de donner une substance à un objet créé via ce pouvoir, le rendant même fonctionnel, et on ne peut nier son existence. L'effet dure jusqu'au lever du jour. 3 Sang, 1 Volonté, Volonté SR8. L'objet créé ne doit pas être plus gros que le vampire. Si l'objet est vraiment compliqué, Intelligence+Artisanat pour le créer. Le seul moyen de nier l'objet est d'avoir Auspex (ou équivalent) supérieur à la Chimérie du vampire, et de dépenser 1 Volonté."
     ]
+  },
+  {
+    "name": "Résignation pénitente",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] },
+      { "or": [{ "name": "Valeren", "level": "4" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p169",
+    "description": [
+      "Quand le Salubri est touché par le Soleil, il peut dépenser un Sang. Les dégâts du soleil ne deviennent plus automatiques, mais sont lancés. Chaque succès fait perdre 1Sang au lieu d'infliger une blessure. Il est impossible d'utiliser Force d'Ame pour résister. Quand il n'y a plus de point de Sang, les dégâts peuvent se réappliquer normalement."
+    ]
+  },
+  {
+    "name": "Regard de mensonges",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 2" }] },
+      { "or": [{ "name": "Valeren", "level": "1" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p168",
+    "description": [
+      "Le 3ème oeil du Salubri s'ouvre et scrute l'interlocuteur. Perception+Empathie SR6, l'interlocuteur doit réussir plus de succès avec Manipulation+Subterfige SR8 pour pouvoir mentir sans être percé à jour par le Salubri. Ne permet pas de percevoir les demi-vérités, ou les mensonges par omission, car il ne se concentre que sur la notion de vérité."
+    ]
+  },
+  {
+    "name": "Oeil du Paradis impitoyable",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Valeren", "level": "4" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p166",
+    "description": [
+      "L'oeil du Salubri s'ouvre en grand, et devient d'un doré incandescent, tel le soleil, illuminant, et brûlant les vampires. 1 Sang et 1 Volonté, Conscience SR6 (donc, requiert Conscience). L'effet touche tout vampire devant lui, qui est brûlé par le Soleil, de 1 à 3 dégâts aggravés, suivant les habits le couvrant. L'effet dure un tour, mais peut être prolongé en redépensant 1 Volonté et 1 Sang, autant de fois que voulu. Le Salubri subit en partie l'effet sous la forme de 3 blessures léthales, résistibles normalement. Chaque dégât se manifeste par un flux de Sang tombant du 3ème oeil. Un Salubri mourrant à cause de ces blessures voit ses cendres se disperser dans une lumière blanche."
+    ]
   }
 ]
