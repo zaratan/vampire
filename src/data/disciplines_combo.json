@@ -523,7 +523,7 @@
     "name": "Voler la terrible rapidité",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": " 1" }] },
-      { "or": [{ "name": "Fortitude", "level": " 2" }] }
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
     ],
     "source": "Wind from the East: The Mongols (2828) p70",
     "description": [
@@ -854,7 +854,7 @@
     "name": "Maladie D&eacute;voil&eacute;e",
     "requirements": [
       { "or": [{ "name": "Auspex", "level": " 2" }] },
-      { "or": [{ "name": "Fortitude", "level": " 7" }] }
+      { "or": [{ "name": "Force d'Ame", "level": " 7" }] }
     ],
     "source": "Clanbook: Cappadocian (2805) p41",
     "description": [
@@ -865,7 +865,7 @@
     "name": "Constitution Merveilleuse",
     "requirements": [
       { "or": [{ "name": "Mortis", "level": " 2" }] },
-      { "or": [{ "name": "Fortitude", "level": " 8" }] }
+      { "or": [{ "name": "Force d'Ame", "level": " 8" }] }
     ],
     "source": "Clanbook: Cappadocian (2805) p41",
     "description": [
@@ -1193,7 +1193,7 @@
     "name": "Armure de Ténèbres",
     "requirements": [
       { "or": [{ "name": "Obtenebration", "level": " 4" }] },
-      { "or": [{ "name": "Fortitude", "level": " 2" }] }
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
     ],
     "source": "Vampire: The Dark Ages Companion (2804) p87",
     "description": [
@@ -1270,6 +1270,128 @@
     "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
       "Permet de fusionner avec un arbre comme avec Protean 3. Pour 1 Sang supplémentaire, possibilité de fusionner avec du bois mort. Si l'objet ou l'arbre est détruit, le vampire est expulsé."
+    ]
+  },
+  {
+    "name": " Prophétie",
+    "requirements": [
+      { "or": [{ "name": "Aliénation", "level": " 3" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] }
+    ],
+    "source": "Libellus Sanguinis IV (2830) p109-111",
+    "description": [
+      "Les instruments de prédiction peuvent être des ossements que l'on jette à terre, des volutes de fumée, les entrailles d'animaux, d'humains, ou même les vagues de la mer. L'oracle peut prédire l'avenir sans prononcer un mot (il n'est pas obligé de communiquer). Le joueur doit poser une question ou se référer au sujet de la divination (ex: \"Qui trahira le Prince, Quelle sera la destinée de mon infant....).",
+      "2 Sang, Perception+ Intuition SR 8, et un rituel d'1 heure. 1 succès donnera des impressions provenant de la mer du destin, alors que 5 donneront une réel expérience du futur. Si le personnage applique la Prophétie à une action qu'il va entreprendre comme affronter un ennemi ou traverser une région dangereuse, il bénificiera d'un avantage instinctif. Le joueur peut alors traiter les succès comme des points de réserve qu'il pourra dépenser pour baisser la difficulté de n'importe quel jet lié à cette action. Chaque succès ne peut être utilisé qu'une seule fois.",
+      "Permet également de déterminer la destinée d'autres individus. Les jets sont similaires, mais 2 Sang supplémentaires devront être dépensés par le sujet de la prophétie. Si cela se manifeste sous forme de vision, c'est au personnage de voir comment les transmettre, si c'est sous forme d'un avantage instinctif, c'est au personnage de délivrer d'obscurs conseils. Le sujet bénéficiera d'une réserve de points comme précédemment. Ces points sont égaux cependant à la moitié des succès obtenu sur le jet du personnage."
+    ]
+  },
+  {
+    "name": "Plume du Fou",
+    "requirements": [
+      { "or": [{ "name": "Aliénation", "level": " 1" }] },
+      { "or": [{ "name": "Auspex", "level": " 3" }] }
+    ],
+    "source": "Libellus Sanguinis IV (2830) p110-111",
+    "description": [
+      "Permet d'implanter une folie contagieuse dans une oeuvre d'art ou un manuscrit. La victime n'est généralement que très peu consciente du lien entre l'oeuvre d'art ou du manuscrit et sa folie ou ses fantasmes. Les folies ne sont jamais fatales ou mortelles - l'objet est ainsi préservé de la destruction car un objet détruit mettrait fin aux tourments. Seule une observation prolongée d'une personne ayant les connaissances adéquates pourrait déceler la folie magique qui a été implantée dans l'objet.",
+      "Peut implanter n'importe quel pouvoir d'Aliénation qu'il maitrise (à l'exception de pouvoir comme Yeux du Chaos) dans un manuscrit ou une oeuvre d'art. 1 Sang, Manipulation+Artisanat, ou Linguistique+Musique (suivant le support) SR 5 + niveau du pouvoir implanté.",
+      "1 succès - 1 semaine",
+      "2 succès - 1 mois",
+      "3 succès - 3 mois",
+      "4 succès - 1 an",
+      "5 succès - Permanent",
+      "Un individu regardant l'objet (excepté le personnage lui même) plus de 2 minutes sera affecté par le pouvoir comme si le personnage lui même était présent (les changements futurs n'étant pas pris en compte par l'objet). Le seul effet supplémentaire est que la victime gagne un dérangement supplémentaire centré sur l'objet lui même. Il disparaitra une fois la durée passée. Tout prend fin si l'objet est détruit.",
+      "Si le jet pour affecter l'individu échoue (et donc qu'il résiste), celui ci pourra observer l'objet et découvrir ce qui se cache derrière. Perception+Occultisme SR 8 révèlera un objet maudit, voire d'autres détails à la discrétion du Conteur."
+    ]
+  },
+  {
+    "name": "Disparition",
+    "requirements": [
+      { "or": [{ "name": "Aliénation", "level": " 4" }] },
+      { "or": [{ "name": "Dissimulation", "level": " 5" }] }
+    ],
+    "source": "Libellus Sanguinis IV (2830) p111-112",
+    "description": [
+      "Permet de faire en sorte qu'une cible devienne un véritable fantôme. Il faut plonger son regard dans celui de la cible. Manipulation+Furtivité SR Vol de la cible. Le Nombre de succès détermine la durée :",
+      "1 succès - 1 tour",
+      "2 succès - 1 scène",
+      "3 succès - 1 nuit",
+      "4 succès - 1 semaine",
+      "5 succès - 1 mois",
+      "La cible disparait à la vue de tous (dépend du personnage : absorbée par les ombres, dévorée par les démons, enlevée par les anges) pendant cette durée. La cible ne peut rien faire d'autres que bredouiller et chercher un refuge pour éviter le soleil.S'il y a assez de succès, la victime sera alors véritablement maudite et sombrera en torpeur."
+    ]
+  },
+  {
+    "name": "Respirer une bouffée de folie",
+    "requirements": [
+      { "or": [{ "name": "Aliénation", "level": " 2" }] },
+      { "or": [{ "name": "Auspex", "level": " 3" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p102",
+    "description": [
+      "Le Malkavian peut  sentir la folie chez un autre. Il respire son odeur en s'approchant assez prêt de lui,  Perception+Empathie SR6. Permet de détecter une instabilité, permanente ou passagère, ou bien un état émotionnel fort. Sur 3 succès ou plus, permet de sentir un lien du sang."
+    ]
+  },
+  {
+    "name": "Affectation phobique",
+    "requirements": [
+      { "or": [{ "name": "Aliénation", "level": " 3" }] },
+      { "or": [{ "name": "Domination", "level": " 2" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p102",
+    "description": [
+      "Le Malkavian regarde dans les yeux une victime, et  prononce une menace, voilée ou non.  Charisme+Intimidation SR Volonté. Pour une minute par succès, la victime est envahi de vagues de terreur et d'anxiété liées à la menace. La victime ne peut rien faire d'autre que fuir, ou simplement lutter pour ne pas perdre sa contenance. Sur 6 succès ou plus, la Frénésie de peur est immédiate."
+    ]
+  },
+  {
+    "name": "Apocryphe de Sang",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Dissimulation", "level": " 1" }] }
+    ],
+    "source": "Libellus Sanguinis IV: Thieves in the Night Pg.75",
+    "description": [
+      "Permet de coder et interpréter messages et parole. Si c'est la parole qui est utilisé, les 2 interlocuteurs doivent être assez prêt l'un de l'autre pour pouvoir sentir et goûter le sang atomisé. Le baiser est le moyen le plus sûr. Si c'est l'écriture, le rédacteur peut dessiner des pictogrammes de sang sur du tissu en utilisant sa propre vitae. Le sang ne touche pas réellement le support, mais se dissipe et imprègne le tissu poreux, créant ainsi le message. Le destinataire doit ensuite dépenser un peu de son sang pour pouvoir parler au vampire ou pour projeter des vapeurs de sang afin de faire apparaitre le message. Dans tous les cas, l'Apocryphe ne permet pas de comprendre le code utilisé, il ne constitue que l'encre utilisé.",
+      "1 Sang pour comprendre ou lire le message qu'on soit l'expéditeur ou le destinataire. Aucun jet n'est nécessaire si 2 vampires sont l'un en face de l'autre. Pour les écrits, l'auteur doit faire Perception+Subterfuge SR 5 afin de déterminer la durée de vie du message",
+      "1 - 2 jours",
+      "2 - 4 jours",
+      "3 - 1 semaine",
+      "4 - 1 mois",
+      "5 - Permanent.",
+      "La lecture du message nécessite toujours 1 Sang, mais pas de jet de dés."
+    ]
+  },
+  {
+    "name": "Halo aliénant",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 2" }] },
+      { "or": [{ "name": "Aliénation", "level": " 3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p162",
+    "description": [
+      "Le Malkavian teinte son aura de tourbillons provoquant la folie pour quiconque la lit. Manipulation+Expression SR6, un tour de concentration, l'effet dure une scène. Quiconque lit l'aura sans avoir autant de succès que ceux obtenus pour ce pouvoir est victime d'une folie du Malkav pour autant de nuits que la différence obtenue."
+    ]
+  },
+  {
+    "name": "Répit de lucidité",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 5" }] },
+      { "or": [{ "name": "Aliénation", "level": " 2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p163",
+    "description": [
+      "Pouvoir rare, il permet lorsqu'on utilise Animalisme 5 de transmettre ses folies en même temps que la Bête. Ceci coûte 1 Sang par folie, ou 3 pour la folie de base des Malkavians."
+    ]
+  },
+  {
+    "name": "Murmures de haine",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Aliénation", "level": " 2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
+    "description": [
+      "La victime de ce pouvoir entend des murmures la poussant à des actes vils, ou bien la poussant à la paranoïa, nuit après nuit. Manipulation+Empathie SR Volonté, contact physique ou un contact visuel. Les murmures donnent de mauvais conseils, critiquent, parfois vont jusqu'au hurlement. Chaque semaine, la victime lance Volonté, SR6, puis +1 par semaine. 3 succès ou plus permettent de mettre fin au pouvoir de manière définitive. Quand le SR parvient à 10, ou que le jet de Volonté est un échec critique, la victime gagne une folie et le pouvoir prend fin."
     ]
   }
 ]
