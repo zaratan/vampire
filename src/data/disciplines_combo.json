@@ -1434,5 +1434,101 @@
     "description": [
       "Permet de se faire passer pour un être aimé par la victime. Si on ne connaît pas un tel être, la personne voit qui elle désire (et le vampire a intérêt à réfléchir très vite pour savoir comment réagir!).  Charisme+Empathie SR6"
     ]
+  },
+  {
+    "name": " Vigueur Animale",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 3" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 3" }] }
+    ],
+    "source": "Libellus Sanguinis IV (2830) p32-33, Dark Ages: Players Guide to Low Clans (20006) p159",
+    "description": [
+      "Permet de transmettre ses blessures à un animal goule. Les blessures apparaissent sur le corps de l'animal. Il gardera les cicatrices des blessures, même après guérison, et les poils qui repousseront seront blancs. Il faut que l'animal goule soit dans son champ de vision. 1 Sang, Vigueur+Animaux SR 8. Chaque succès transforme un niveau de santé de dégats (de n'importe quel type) à l'animal. Ce pouvoir doit être utilisé immédiatement après avoir été blessé (après le jet d'absorption)."
+    ]
+  },
+  {
+    "name": "Infliger au vassal",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 4" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p159",
+    "description": [
+      "Permet de transmettre ses blessures à une goule humaine. Les blessures apparaissent sur le corps de la victime. Il gardera les cicatrices des blessures, même après guérison, et les poils ou cheveux qui repousseront seront blancs. Il faut que la victime soit dans son champ de vision, et liée au Sang. 1 Sang, Vigueur+Animaux SR 8. Chaque succès transforme un niveau de santé de dégats (de n'importe quel type) à la victime. Ce pouvoir doit être utilisé immédiatement après avoir été blessé (après le jet d'absorption)."
+    ]
+  },
+  {
+    "name": " Esprit de la Nature",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 2" }] },
+      { "or": [{ "name": "Auspex", "level": " 4" }] }
+    ],
+    "source": "Libellus Sanguinis IV (2830) p33",
+    "description": [
+      "Uniquement connu par quelques Phuri Dae.",
+      "Permet d'étendre sa conscience dans la nature environnante afin de sentir les conditions générales : absence de danger, lieux sûrs ou d'humains. Impossible de déterminer le genre et le nombre de créatures dangereuses. Ce ne sont que des impressions. Perception+Animaux SR 8, et se concentrer 1 tour complet. Chaque succès donne d'avantage d'information sur une zone plus importante.",
+      "1 succès - quelques vagues informations sur un arpent environ (20 à 50 ares)",
+      "5 succès - des infos sur un col montagneux ou petite forêt, en indiquant les endroits les plus dangereux (et les plus sûrs).",
+      "un échec critique fournira évidemment des informations fausses ou erronées.",
+      "Ce pouvoir doit aider un personnage à explorer une zone et non remplacer l'exploration."
+    ]
+  },
+  {
+    "name": "Malédiction Cauchemardesque",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Chimérie", "level": "5" }] }
+    ],
+    "source": "Libellus Sanguinis IV (2830) p33",
+    "description": [
+      "Ce pouvoir vient de la jati indienne des Brahmanes et à travers eux, des Phuri Dae.",
+      "Permet d'invoquer la plus grande peur de la victime pour la tourmenter jour et nuit. Cette créature est uniquement perceptible par la victime, mais elle peut se faire connaitre de façon discrète aux autres. 1 Volonté (2 Volonté si la cible est Caïnite), Perception+Intimidation SR Volonté de la cible. Se concentrer 1 tour. La créature est invoquée pour 1 nuit par succès. Si le ravnos ne regarde pas la victime dans les yeux (mais qu'elle est quand même en vue), il aura une pénalité de +1. Si le ravnos est à moins d'un kilomètre et demi de la cible mais possède au moins un de ses objets personnels, il aura alors une pénalité de +2. Dans les autres cas, le ravnos ne pourra utiliser ce pouvoir.",
+      "Pour augmenter la durée de la malédiction, 1 Sang pour chaque nuit supplémentaire (à dépenser au moment de l'invocation). La créature disparait au lever du soleil après la dernière nuit. La cible souffre des handicaps Cauchemar et Hantise durant les effets de cette malédiction."
+    ]
+  },
+  {
+    "name": "Agonie sympathique",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "4" }] },
+      { "or": [{ "name": "Chimérie", "level": "2" }] }
+    ],
+    "source": "Clanbook: Ravnos (Revised Edition) (2364) p67, Dark Ages: Players Guide to Low Clans (20006) p166",
+    "description": [
+      "Le Ravnos utilisant ce pouvoir transfère la douleur qu'on lui inflige sur la personne le frappant. Le Ravnos dépense 1 Sang, Manipulation+Intimidation SR Perception+Maîtrise de Soi. Chaque succès permet d'ignorer un niveau de blessure, et d'infliger une pénalité équivalente à ce niveau sur la victime. Ce pouvoir dure une scène.",
+      "Même jet, le SR est la plus haute valeur entre Perception et Maîtrise de Soi. La victime cumule les dégâts fictifs et réels pour ses pénalités. Une seule victime à la fois peut être affectée. Le pouvoir est annulable à volonté."
+    ]
+  },
+  {
+    "name": "Désir du coeur",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Chimérie", "level": "2" }] }
+    ],
+    "source": "Clanbook: Ravnos (Revised Edition) (2364) p68",
+    "description": [
+      "Permet de créer une illusion correspondant au désir de la victime. Ce pouvoir se manifeste sous la forme d'un objet inanimé (lettre d'un être aimé par exemple). Intelligence+Subterfuge SR Volonté, 3 succès sont nécessaires. Cet objet peut être ensuite être recréé à volonté."
+    ]
+  },
+  {
+    "name": "Masque de Cathaye",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Chimérie", "level": "3" }] }
+    ],
+    "source": "Clanbook: Ravnos (Revised Edition) (2364) p68",
+    "description": [
+      "Ce pouvoir permet de se faire passer pour un Asuratizayya, un Kuei-jin balançant vers le Yin. Tout succès gagné par ce pouvoir contrecarre une succès sur un jet d'Auspex, Vision de la Vie des Kuei-Jin ou autre pouvoir assimilé. Manipulation+Subterfuge SR6. Si le pouvoir de lecture de la nature du Ravnos n'a pas de jet, la personne doit lancer Perception+Vigilance SR6. Ce pouvoir dure une nuit."
+    ]
+  },
+  {
+    "name": "Créer éphémère",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] },
+      { "or": [{ "name": "Chimérie", "level": "5" }] }
+    ],
+    "source": "Players guide to the low clans p159",
+    "description": [
+      "Permet de donner une substance à un objet créé via ce pouvoir, le rendant même fonctionnel, et on ne peut nier son existence. L'effet dure jusqu'au lever du jour. 3 Sang, 1 Volonté, Volonté SR8. L'objet créé ne doit pas être plus gros que le vampire. Si l'objet est vraiment compliqué, Intelligence+Artisanat pour le créer. Le seul moyen de nier l'objet est d'avoir Auspex (ou équivalent) supérieur à la Chimérie du vampire, et de dépenser 1 Volonté."
+    ]
   }
 ]
