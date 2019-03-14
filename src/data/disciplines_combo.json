@@ -128,11 +128,11 @@
       "1 point de volonté (ou 1 Sang si Nature connue). Manipulation+Expression SR6. La victime voit le lanceur, ou la victime de ce pouvoir, comme un animal, suivant la personnalité.",
       "Si volonté<3 : est persuadé de voir vraiment un homme à tête et corps animal",
       "Si volonté>3 : la personne semble avoir des traits animaux.",
-      "<i>1 succès</i> - 1 scène",
-      "<i>2 succès</i> - 1 nuit",
-      "<i>3 succès</i> - 1 semaine",
-      "<i>4 succès</i> - 1 mois",
-      "<i>5 succès</i> - 1 an."
+      "1 succès - 1 scène",
+      "2 succès - 1 nuit",
+      "3 succès - 1 semaine",
+      "4 succès - 1 mois",
+      "5 succès - 1 an."
     ]
   },
   {
@@ -161,7 +161,7 @@
       "3 succès - Maison",
       "4 succès - Paté de maison",
       "5 succès - Vaste propriété.",
-      "<i> Note importante:</i> ce pouvoir fonctionneavec la Bête du lanceur... plus on l'utilise, plus elle ressort."
+      " Note importante: ce pouvoir fonctionneavec la Bête du lanceur... plus on l'utilise, plus elle ressort."
     ]
   },
   {
@@ -278,12 +278,12 @@
     "source": "Archons and Templars (2425) p144",
     "description": [
       "Permet de voir/sentir/entendre un événement particulier, en fouillant l'esprit de la victime. Si le sujet coopère ou est de génération plus grande : Perception+Subterfuge SR6. Si le sujet est de génération inférieure et résiste : il utilise sa volonté SR6 pour résister.",
-      "Si <i>échec critique</i>, la victime voit un évènement de la vie du vampire, et est immunisé à son pouvoir.",
-      "<i>1 succès</i> - évènement <1h",
-      "<i>2 succès</i> - <1 jour",
-      "<i>3 succès</i> - <1 semaine",
-      "<i>4 succès</i> - <1 mois",
-      "<i>5 succès</i> - <1 an."
+      "Si échec critique, la victime voit un évènement de la vie du vampire, et est immunisé à son pouvoir.",
+      "1 succès - évènement <1h",
+      "2 succès - <1 jour",
+      "3 succès - <1 semaine",
+      "4 succès - <1 mois",
+      "5 succès - <1 an."
     ]
   },
   {
@@ -484,7 +484,7 @@
     ],
     "source": "Caine's Chosen (2428) p75",
     "description": [
-      "nbsp;Ce pouvoir permet de faire apparaître ou disparaître rapidement la <b>marque du croissant de Lune</b> de la secte. Le vampire dépense 1 Sang, et permet que la cible, et la cible seule, voit la marque, en un instant qui semble une hallucination. Toute personne avec Auspex 4 ou plus peut sentir qu'une chose surnaturelle vient de se passer. Seule une personne ayant ce score et regardant attentivement la main du vampire peut voir la marque si elle n'est pas cible du pouvoir."
+      "Ce pouvoir permet de faire apparaître ou disparaître rapidement la marque du croissant de Lune de la secte. Le vampire dépense 1 Sang, et permet que la cible, et la cible seule, voit la marque, en un instant qui semble une hallucination. Toute personne avec Auspex 4 ou plus peut sentir qu'une chose surnaturelle vient de se passer. Seule une personne ayant ce score et regardant attentivement la main du vampire peut voir la marque si elle n'est pas cible du pouvoir."
     ]
   },
   {
@@ -506,7 +506,7 @@
     ],
     "source": "Caine's Chosen (2428) p76",
     "description": [
-      "&nbsp;&nbsp;&nbsp;&nbsp;Ce pouvoir permet de prendre l'apparence de quelqu'un que la victime aime, ou au moins qu'elle apprécie énormément. Le vampire n'a pas de choix sur le visage : il l'adopte, c'est tout. Manipulation+Performance SR Volonté, 1 succès suffit. La cible peut être très secouée par l'apparence de son attaquant : elle résiste par Volonté SR6, elle subit une pénalité d'un nombre de dés égale aux succès restant, pour succès tours. Si la victime ne fait pas de succès, il est totalement choqué, et perd un tour entier. De plus, toute action contre sa cible se fait à SR10. Cette pénalité est annulable pour une action en dépensant 1 Volonté."
+      "Ce pouvoir permet de prendre l'apparence de quelqu'un que la victime aime, ou au moins qu'elle apprécie énormément. Le vampire n'a pas de choix sur le visage : il l'adopte, c'est tout. Manipulation+Performance SR Volonté, 1 succès suffit. La cible peut être très secouée par l'apparence de son attaquant : elle résiste par Volonté SR6, elle subit une pénalité d'un nombre de dés égale aux succès restant, pour succès tours. Si la victime ne fait pas de succès, il est totalement choqué, et perd un tour entier. De plus, toute action contre sa cible se fait à SR10. Cette pénalité est annulable pour une action en dépensant 1 Volonté."
     ]
   },
   {
@@ -555,6 +555,113 @@
     "source": "Wind from the East: The Mongols (2828) p71, Dark Ages: Players Guide to Low Clans (20006) p166",
     "description": [
       "Permet d'entraîner dans la terre des personnes (qui en ressortent en même temps que le vampire). Par point de sang en plus des 3 points normaux, permet d'entraîner 1 goule (y compris un animal, jusqu'à un poney!), un vampire de sa descendance, ou un vampire lié au sang."
+    ]
+  },
+  {
+    "name": "Regard Acéré",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Célérité", "level": " 2" }] }
+    ],
+    "source": "Libellus Sanguinis III (2823) p63",
+    "description": [
+      "Permet, pendant le tour où il est activé (2 Sang et 1 Volonté), de parer toute attaque avec la totalité de sa réserve de dés. Ne peut être utilisé que (Perception) fois par scène."
+    ]
+  },
+  {
+    "name": "Marche Forcée",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": " 2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p162",
+    "description": [
+      "1/2 Célérité points de sang au début de chaque heure. Marche normale multipliée par Célérité (6km/heure de marche en normal). S'arrête dès que le vampire stoppe son mouvement. Utilisable Force d'Ame heures chaque nuit."
+    ]
+  },
+  {
+    "name": "Ombre Feinte",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": " 2" }] },
+      { "or": [{ "name": "Dissimulation", "level": " 2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p165",
+    "description": [
+      "1 Sang, Célérité activée en plus. Toute attaque faite sur le vampire est à +2SR, car il donne la sensation d'être toujours un peu dans la fraction d'espace qu'il occupait précedement. Contrable normalement par Auspex",
+      "Le point de Sang dépensé peut dépasser la capacité de dépense de Sang par tour du vampire. La première action du vampire doit être défensive. Ce pouvoir est considéré comme de la Dissimulation et est contrable par Auspex."
+    ]
+  },
+  {
+    "name": "Tempérance du Sang",
+    "requirements": [
+      { "or": [{ "name": "Quietus", "level": " 4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
+    ],
+    "source": "Libellus Sanguinis III (2823) p63",
+    "description": [
+      "Permet de renforcer des objets (1 Sang nécessaire par tranche de 30cm de long), coûte 1 Volonté. Est utilisé pour préserver des reliques ou pour renforcer des armes (+1Dé de dégâts, incassable sauf par choc massif) ou armure (+1Dé de resistance, idem, les dégâts sont transmis par transfert d'énergie cinétique). Ne peut être utilisé sur des objets souples."
+    ]
+  },
+  {
+    "name": "Vérité par le Sang",
+    "requirements": [
+      { "or": [{ "name": "Quietus", "level": " 2" }] },
+      { "or": [{ "name": "Auspex", "level": " 4" }] }
+    ],
+    "source": "    Libellus Sanguinis III (2823) p63",
+    "description": [
+      "Perception+Subterfuge SR Volonté de la victime (1 jet par \"question\"), 1 Sang de la personne interrogée. Le vampire sait alors si la victime dit la vérité ou non. Dure une scène :",
+      "1 succès - sait si c'est un mensonge, un 1/2 mensonge ou la vérité",
+      "2 succès - sait pourquoi une demi vérité ou un mensonge est dit (état émotionel)",
+      "3 succès - Connaissance totale de la vérité telle que la connait le sujet",
+      "4 succès - idem, mais en plus connaissance de choses que le sujet oblitère inconsciement, ou a oublié, ou que Domination lui a fait oublié",
+      "5 succès ou + - Vérité totale, voir un peu plus..."
+    ]
+  },
+  {
+    "name": "Conserver le Sang Vif",
+    "requirements": [
+      { "or": [{ "name": "Quietus", "level": " 3" }] },
+      { "or": [{ "name": "Célérité", "level": " 3" }] }
+    ],
+    "source": "Vampire l'Age des Ténèbres - p.163, Dark Ages: Players Guide to Low Clans (20006) p163",
+    "description": [
+      "Le vampire peut regagner les points de Sang utilisés pour la Célérité après le combat.",
+      "NOTE : Ce pouvoir existe à l'époque Dark Ages pour n'importe qui (Anarch).",
+      "Précision du Dark Ages: Players Guide to Low Clans (20006) : le Sang revient au rythme de 1 par heure. Ce pouvoir est considéré comme toujours actif."
+    ]
+  },
+  {
+    "name": "Assèchement de l'Âme",
+    "requirements": [
+      { "or": [{ "name": "Quietus", "level": " 5" }] },
+      { "or": [{ "name": "Auspex", "level": " 4" }] }
+    ],
+    "source": "      Libellus Sanguinis III (2823) p62",
+    "description": [
+      "Lors d'une diablerie, le vampire dépense autant de volonté que la victime à d'Intelligence et lance Volonté SR Volonté +plus nombre de folies de la victime. S'il réussit, il gagne 1Xp par Compétence ou Connaissance que la victime possède à plus haut niveau que lui. De plus, a accès à la mémoire de la victime, de manière éthérée."
+    ]
+  },
+  {
+    "name": "Boire l'esprit",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Quietus", "level": " 5" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
+    "description": [
+      "Permet de voler souvenirs et connaissances lors de la diablerie. Le vampire dépense autant de points de Volonté que l'Intelligence de la victime, et lance Volonté SR Volonté (+1 par Folie de la victime). Chaque succès donne un point de bonus (comme à la création du personnage) utilisable pour augmenter une Compétence jusqu'au maximum le niveau de la victime. Les souvenirs forts sont pris à la victime, sous forme de flashs souvent cryptiques. Sur un échec critique, -1 en Volonté permanente par 1 obtenu (images négatives, de haine, centrées sur l'acte)."
+    ]
+  },
+  {
+    "name": "Odeur de Cain",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 2" }] },
+      { "or": [{ "name": "Rego Vitae", "level": " 1" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p164",
+    "description": [
+      "Ce pouvoir permet de sentir le Sang de vampire présent dans une créature. Perception+Occulte, la créature doit être dans le champ de perception normal du vampire. SR6 pour les vampires, SR8 pour sentir les goules (modifiable suivant les circonstances: le pouvoir étant toujours actif, même quand on dort). Avec le temps, il est possible de reconnaitre l'odeur de vampires en particulier."
     ]
   }
 ]
