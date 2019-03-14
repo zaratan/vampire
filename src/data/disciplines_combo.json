@@ -1393,5 +1393,46 @@
     "description": [
       "La victime de ce pouvoir entend des murmures la poussant à des actes vils, ou bien la poussant à la paranoïa, nuit après nuit. Manipulation+Empathie SR Volonté, contact physique ou un contact visuel. Les murmures donnent de mauvais conseils, critiquent, parfois vont jusqu'au hurlement. Chaque semaine, la victime lance Volonté, SR6, puis +1 par semaine. 3 succès ou plus permettent de mettre fin au pouvoir de manière définitive. Quand le SR parvient à 10, ou que le jet de Volonté est un échec critique, la victime gagne une folie et le pouvoir prend fin."
     ]
+  },
+  {
+    "name": "Lamentation du Loup",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Dissimulation", "level": "2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p168",
+    "description": [
+      "Permet d'hurler un message dans la nature, message qui voyage ensuite sur des kilomètres grâce aux loups qui viennent ajouter leur hurlement pour le faire voyager. Un individu l'entendant ne discernera qu'une étrange mélopée voyageant dans l'air. Celui qui possède Parole de Fauve entendra quand à lui une voix portée par les hurlements. Le message doit être bref (émotionnel, idée générale, danger, soit environ 2 phrases simples).",
+      "Manipulation+Animaux SR 6, le nombre de succès indique la distance :",
+      "1 succès - 8 kms",
+      "2 succès - 16 kms",
+      "3 succès - 80 kms",
+      "4 succès - 160 kms",
+      "5 succès - 400 kms",
+      "échec - aucun loup dans la région",
+      "échec critique - on attire une attention indésirable"
+    ]
+  },
+  {
+    "name": "Magnétisme animal",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p102",
+    "description": [
+      "Cette discipline permet au vampire de dégager un  charisme animal de premier ordre, en raffinant Masque aux Milles visages et en faisant appel à la Bête. Augmente de Animalisme dés les jets sociaux (principalement jets de séduction, de persuasion etc...) pour succès tours sur  Charisme+Subterfuge SR6. Un échec critique indique une frénésie immédiate."
+    ]
+  },
+  {
+    "name": "Visage de l'être aimé",
+    "requirements": [
+      { "or": [{ "name": "Dissimulation", "level": " 3" }] },
+      { "or": [{ "name": "Présence", "level": " 3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
+    "description": [
+      "Permet de se faire passer pour un être aimé par la victime. Si on ne connaît pas un tel être, la personne voit qui elle désire (et le vampire a intérêt à réfléchir très vite pour savoir comment réagir!).  Charisme+Empathie SR6"
+    ]
   }
 ]
