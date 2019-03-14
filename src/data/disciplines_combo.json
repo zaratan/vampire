@@ -944,5 +944,180 @@
     "description": [
       "Permet d'empoisonner la langue avec un poison subtil. 1 Sang, le vampire frappe avec sa langue sa victime. La blessure se referme lorsque la langue se rétracte, celle-ci reprend tout de suite sa forme normale. Si au moins une blessure est infligée à la victime, elle doit réussir Vigueur (SR6 pour un vampire, SR8 pour un être vivant), avec 3 succès. Pendant l'heure qui suit, tout pouvoir affectant les perceptions, les altérations mentales ou émotionnelles reçoit un succès automatique. Il faut noter que l'effet est souvent utilisé à des fins négatives, mais permet aussi de réparer plus facilement les dégâts dus à Domination par exemple. Les visions semblent aussi plus vivaces. Un humain faisant un échec critique devient apathique pour une heure (Volonté 8 pour faire une action)."
     ]
+  },
+  {
+    "name": " Lamentation du Loup",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Dissimulation ", "level": "2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p168",
+    "description": [
+      "Permet d'hurler un message dans la nature, message qui voyage ensuite sur des kilomètres grâce aux loups qui viennent ajouter leur hurlement pour le faire voyager. Un individu l'entendant ne discernera qu'une étrange mélopée voyageant dans l'air. Celui qui possède Parole de Fauve entendra quand à lui une voix portée par les hurlements. Le message doit être bref (émotionnel, idée générale, danger, soit environ 2 phrases simples).",
+      "Manipulation+Animaux SR 6, le nombre de succès indique la distance :",
+      "1 succès - 8 kms",
+      "2 succès - 16 kms",
+      "3 succès - 80 kms",
+      "4 succès - 160 kms",
+      "5 succès - 400 kms",
+      "échec - aucun loup dans la région",
+      "échec critique - on attire une attention indésirable"
+    ]
+  },
+  {
+    "name": " Griffes de Fenrir",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
+      { "or": [{ "name": "Protean", "level": " 2" }] }
+    ],
+    "source": "Wolves of the Sea (2820) p71",
+    "description": [
+      "Le vampire fait apparaître des griffes de 20cm de long, au lieu de celles habituelles de 3cm. Elles ont une apparence presque métallique, infligent Force+3 dégâts aggravés, et découpent tout matériau, du moment que le vampire à la force nécessaire pour l'endommager, et que la force recquise n'est pas de plus de 10. Toute manipulationdélicate se fait à +2SR quand ce pouvoir se manifeste."
+    ]
+  },
+  {
+    "name": " Blessé dans sa Chair",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame ", "level": " 2" }] },
+      { "or": [{ "name": "Dissimulation", "level": " 3" }] }
+    ],
+    "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
+    "description": [
+      "Commun chez les Gangrel des Villes. 1 Sang. Pour une scène, le vampire ne semble pas être affecté par les coups qu'on lui porte (pas de traces de blessures, de sang, etc...)."
+    ]
+  },
+  {
+    "name": " Améliorer la Chevauchée Sauvage",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Protean", "level": " 4" }] }
+    ],
+    "source": "Libellus Sanguinis III (2823) p29-30",
+    "description": [
+      "(cf Animalisme 4)",
+      "Même jet que pour Animalisme 4, mais lecture des succès sur la table suivante :",
+      "1 succès - Peut utiliser Auspex, Présence",
+      "2 succès - Domination, Aliénation, Animalisme",
+      "3 succès - Thaumaturgie, Chimérie, Force d'âme",
+      "4 succès - Protean, Puissance",
+      "5 succès - Célérité, peut utiliser de points de sang pour augmenter ses attributs physiques. Les points de sang sont ceux de l'animal. S'il lui reste la moitié ou moins de sang, il meurt.",
+      "Pas de neccessité de Volonté pour aller contre les instincts de l'animal.",
+      "Effet retour : l'animal influence le comportement du vampire très longtemps (peut aller jusqu'à plusieurs années) , 8 Volonté accélèrent la distanciation. Si l'animal éprouve une émotion sévère, Astuce+Empathie SR8. Si pas de succès, l'âme retourne dans le corps et le vampire se prend pour la bête."
+    ]
+  },
+  {
+    "name": " Immunité aux Griffes",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame ", "level": " 4" }] },
+      { "or": [{ "name": "Animalisme", "level": " 2" }] }
+    ],
+    "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
+    "description": [
+      "2 Sang. Pour une scène, le vampire peut résister aux armes naturelles d'un type d'animal (Animalisme+Force d'Ame en plus pour résister aux dégâts). Résistance aux griffes de Garou à la discrétion du Mj."
+    ]
+  },
+  {
+    "name": " Lire les Vents",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Auspex", "level": " 5" }] }
+    ],
+    "source": "Libellus Sanguinis III (2823) p30",
+    "description": [
+      "Permet de voir et d'entendre par tous les animaux du coin. Perception+Dressage SR7, les succès sont à répartir entre distance et impression",
+      "1 succès - A portée d'oreille, impressions générales",
+      "2 succès - 1.5km, détails flous",
+      "3 succès - 3km, détails",
+      "4 succès - 75km, détails, entend mal",
+      "5 succès - 150km, voit et entend clairement."
+    ]
+  },
+  {
+    "name": " Appel de la Meute Sauvage",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 5" }] },
+      { "or": [{ "name": "Protean", "level": " 4" }] }
+    ],
+    "source": "Libellus Sanguinis III (2823) p30",
+    "description": [
+      "Manipulation+Dressage, chaque succès affecte une goule du vampire. Le vampire devient immunisé à la Frénésie et transfert sa bête sur ses goules, leur conférant les avantages standards, en plus de Protéan 2. Les goules ne s'attaquent pas entre elles, ni leur maître. L'effet prend fin à l'aube, où si elles ne voient plus leur maître."
+    ]
+  },
+  {
+    "name": " Voir les Reflets des Formes",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Protean", "level": " 4" }] }
+    ],
+    "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
+    "description": [
+      "Permet de voir dans les auras des autres les formes qu'ils peuvent assumer. Perception+Occulte SR7. Avec les succès viennent les sensations sur les émotions liées à ces formes. Peut être résisté avec Dissimulation contre Auspex."
+    ]
+  },
+  {
+    "name": " Se Mêler aux Bêtes",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 3" }] },
+      { "or": [{ "name": "Protean", "level": " 6" }] }
+    ],
+    "source": "Clanbook: Gangrel (Revised Edition) (2352) p73",
+    "description": [
+      "Le vampire peut s'immerger dans un animal (assez large pour contenir la plus petite de ses formes animales). 3 Sang, Charisme+Dressage SR6. Plus de 3 succès permettent de guider entièrement l'animal. Condition pour la sortie de l'animal posée dès l'entrée (au lever du jour etc etc..). Expulsion si l'animal meurt. L'animal ne vieillit plus.Le vampire ne prend que les dégâts du feu infligés à l'animal. Il dépense 1 Sang à chaque lever de soleil, peut rester en torpeur dans la bête. Celle-ci est plus agressive, évite la lumière vive."
+    ]
+  },
+  {
+    "name": "Reflet de l'alpha",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 3" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p104",
+    "description": [
+      "Le Gangrel fait appel à la Bête, et exhale son instinct de domination animal, de manière à impressionner toute personne. Charisme+Animaux + Volonté (volonté reflète l'usage du pouvoir dans ce jet) résisté par Volonté de la part des victimes. Pour les garous, diviser les succès du vampire par 2. Si le vampire gagne le jet d'opposition, la (les) victime(s) affectée(s) agissent avec un respect craintif contre le Gangrel."
+    ]
+  },
+  {
+    "name": "Don de Loki",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Protean", "level": " 4" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p162",
+    "description": [
+      "Le vampire peut prendre la forme du dernier animal ou humain dont il a bu le sang. L'imitation est parfaite d'un point de vue physique. Ce pouvoir n'est utilisable que directement après avoir bu le sang, et l'animal a la taille d'un ours au maximum. 3 Sang, Manipulation+Subterfuge SR9, dure succès heures, +1 heure par Sang dépensé. Boire du sang d'un autre annule immédiatement l'effet. Un échec critique indique qu'on ne peut jamais prendre la forme du sujet. Tout pouvoir de détection fait passer le vampire pour la forme prise, sauf ceux détectant spécifiquement les changements. Ce pouvoir est le même que Protean 6."
+    ]
+  },
+  {
+    "name": "Brume fragmentée",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Protean", "level": " 5" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
+    "description": [
+      "Quand le vampire est attaqué, il peut dépenser 1 Sang et se transformer instantanément en brouillard. Après un tour, il regagne sa forme solide. Toutefois, un mouvement brusque à la périphérie de la vision peut être prise pour une attaque par erreur."
+    ]
+  },
+  {
+    "name": "Se mêler à la pierre",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
+      { "or": [{ "name": "Protean", "level": " 3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
+    "description": [
+      "Permet de se mêler à la pierre (même sculptée, du moment que le volume est suffisant pour contenir le vampire). Si la pierre est brisée, le vampire est expulsé."
+    ]
+  },
+  {
+    "name": "Hibernation torpide",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
+      { "or": [{ "name": "Protean", "level": " 3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
+    "description": [
+      "En dépensant 5 Sang et en réussissant Vigueur+Survie SR6, le vampire peut tomber en torpeur en terre et décider de se réveiller après une durée qu'il fixe à l'avance. Un échec indique qu'il se réveille la nuit suivante. Un échec critique indique une torpeur normale. A noter qu'il est possible de se fondre dans autre chose que le sol si le vampire possède un pouvoir adapté."
+    ]
   }
 ]
