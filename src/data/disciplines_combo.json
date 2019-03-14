@@ -1249,5 +1249,27 @@
     "description": [
       "Manipulation+Occultisme SR 7, 2 Sang. La tentacule créée possède deux fois le niveau d'Obténébration du vampire en Dextérité et en Force (+1 par point de sang dépensé), mesure 2,5 mètres de long, fait Force+2 dommages, possède 6 niveaux de blessure, mais prend des dommages du feu et de la lumière du soleil."
     ]
+  },
+  {
+    "name": "Déesse parmi les bêtes",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Ogham", "level": " 1" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
+    "description": [
+      "La Lhiannan peint son corps avec des runes de Sang, et devient une autorité spirituelle du monde animal. Manipulation+Survie SR6, 1 Sang, pendant succès heures, elle reçoit un succès automatique pour tout jet d'Animalisme sur son domaine. De plus, elle gagne l'Avantage Inoffensif envers les animaux jusqu'à la fin de la nuit."
+    ]
+  },
+  {
+    "name": "Se mêler aux arbres",
+    "requirements": [
+      { "or": [{ "name": "Ogham", "level": " 1" }] },
+      { "or": [{ "name": "Protean", "level": " 3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
+    "description": [
+      "Permet de fusionner avec un arbre comme avec Protean 3. Pour 1 Sang supplémentaire, possibilité de fusionner avec du bois mort. Si l'objet ou l'arbre est détruit, le vampire est expulsé."
+    ]
   }
 ]
