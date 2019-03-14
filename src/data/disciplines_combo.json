@@ -470,5 +470,54 @@
     "description": [
       "Ce pouvoir permet de discerner la vraie forme de toute personne en ayant changé. Perception+Empathie SR8. 1 succès permet de savoir que le sujet peut changer de forme. 2 succès permettent de savoir si la forme actuelle est la réelle. 3 pour voir la vraie forme en surimpression. 4 pour connaître toutes les formes déjà prises par le sujet. Ce pouvoir ne marche pas sur les illusions ou les influences sur l'esprit, seulement les pouvoirs affectant le corps réellement."
     ]
+  },
+  {
+    "name": "Révélation circonspecte",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": "1" }] },
+      {
+        "or": [
+          { "name": "Dissimulation", "level": "2" },
+          { "name": "Vicissitude", "level": "3" }
+        ]
+      }
+    ],
+    "source": "Caine's Chosen (2428) p75",
+    "description": [
+      "nbsp;Ce pouvoir permet de faire apparaître ou disparaître rapidement la <b>marque du croissant de Lune</b> de la secte. Le vampire dépense 1 Sang, et permet que la cible, et la cible seule, voit la marque, en un instant qui semble une hallucination. Toute personne avec Auspex 4 ou plus peut sentir qu'une chose surnaturelle vient de se passer. Seule une personne ayant ce score et regardant attentivement la main du vampire peut voir la marque si elle n'est pas cible du pouvoir."
+    ]
+  },
+  {
+    "name": "Leçons dans l'acier",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "1" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] }
+    ],
+    "source": "Caine's Chosen (2428) p76",
+    "description": [
+      "Pour les utilisateurs de ce pouvoir, Nietzsche a raison : ce qui ne vous tue pas vous rend plus fort. Si le vampire reçoit un niveau de blessure d'un opposant, il lance Vigueur+Occulte SR Volonté. Chaque succès permet de connaître un élément sur les capacités martiales de l'adversaire, en commençant par le plus évident."
+    ]
+  },
+  {
+    "name": "Masque de Judas",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
+    ],
+    "source": "Caine's Chosen (2428) p76",
+    "description": [
+      "&nbsp;&nbsp;&nbsp;&nbsp;Ce pouvoir permet de prendre l'apparence de quelqu'un que la victime aime, ou au moins qu'elle apprécie énormément. Le vampire n'a pas de choix sur le visage : il l'adopte, c'est tout. Manipulation+Performance SR Volonté, 1 succès suffit. La cible peut être très secouée par l'apparence de son attaquant : elle résiste par Volonté SR6, elle subit une pénalité d'un nombre de dés égale aux succès restant, pour succès tours. Si la victime ne fait pas de succès, il est totalement choqué, et perd un tour entier. De plus, toute action contre sa cible se fait à SR10. Cette pénalité est annulable pour une action en dépensant 1 Volonté."
+    ]
+  },
+  {
+    "name": "Encryptage sympathique",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Art de la mémoire", "level": "2" }] }
+    ],
+    "source": "Caine's Chosen (2428) p76",
+    "description": [
+      "Grâce à sa capacité de mémorisation et Auspex, le vampire peut instinctivement regarder l'esprit de sa victime et en extraire des pensées, qu'il mémorise sous forme symbolique, sans même en connaître la nature. Intelligence+Subterfuge SR Volonté. Il devient alors le porteur d'une information par succès, que seule la personne comprenant le symbole peut comprendre. Le vampire devient donc un parfait courrier. Les secrets nécessitent 5 succès à extraire de la tête des victimes. De manière instinctive, les vampires possédant ce pouvoir commencent, au bout d'un temps, à l'utiliser sur des personnes, inconsciemment."
+    ]
   }
 ]
