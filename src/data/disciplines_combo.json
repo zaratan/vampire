@@ -519,5 +519,42 @@
     "description": [
       "Grâce à sa capacité de mémorisation et Auspex, le vampire peut instinctivement regarder l'esprit de sa victime et en extraire des pensées, qu'il mémorise sous forme symbolique, sans même en connaître la nature. Intelligence+Subterfuge SR Volonté. Il devient alors le porteur d'une information par succès, que seule la personne comprenant le symbole peut comprendre. Le vampire devient donc un parfait courrier. Les secrets nécessitent 5 succès à extraire de la tête des victimes. De manière instinctive, les vampires possédant ce pouvoir commencent, au bout d'un temps, à l'utiliser sur des personnes, inconsciemment."
     ]
+  },
+  {
+    "name": "Voler la terrible rapidité",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Fortitude", "level": " 2" }] }
+    ],
+    "source": "Wind from the East: The Mongols (2828) p70",
+    "description": [
+      "L'Anda dépense 1 Sang, Vigueur+Sport SR6. 1 succès lui permet de parcourir 32km/h, chaque succès additionnel ajoute 8km/h. S'il descend sous la moitié de sa vitesse, le vampire perd l'avantage de ce pouvoir. Il peut le conserver en dépensant 1 point de Volonté par tour où il s'arrête. Ce pouvoir est utilisable une fois par nuit."
+    ]
+  },
+  {
+    "name": "Force partagée",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 3" }] },
+      { "or": [{ "name": "Protean", "level": " 2" }] }
+    ],
+    "source": "Wind from the East: The Mongols (2828) p70",
+    "description": [
+      "Les Andas se nourrissent sur leurs poneys, et leur retourne parfois la pareil : Charisme+Dressage SR7. Chaque succès est réparti parmi les effets suivants (ces capacités durent Animalisme jours). Ce don de sang ne crée pas de lien de sang, ni d'effet de goule.",
+      "augmenter la distance parcourue par la monture (1 succès = 2 fois la distance, 2 succès = 3 fois la distance etc)",
+      "augmenter la vitesse de galop (même système)",
+      "augmenter de 1 un attribut physique de la  monture (on peut au maximum doubler ces attributs)",
+      "la monture fait corps avec l'Anda. On ne peut le déloger du dos du poney, sauf s'il le veut (ou si les succès pour le faire dépassent 5 succès, à la discrétion du MJ). De plus, +1Dé en Equitation et +1Dé en mêlée montée durant ce pouvoir"
+    ]
+  },
+  {
+    "name": "Baiser d'Itügen",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Protean", "level": " 3" }] }
+    ],
+    "source": "Wind from the East: The Mongols (2828) p71, Dark Ages: Players Guide to Low Clans (20006) p166",
+    "description": [
+      "Permet d'entraîner dans la terre des personnes (qui en ressortent en même temps que le vampire). Par point de sang en plus des 3 points normaux, permet d'entraîner 1 goule (y compris un animal, jusqu'à un poney!), un vampire de sa descendance, ou un vampire lié au sang."
+    ]
   }
 ]
