@@ -343,7 +343,7 @@
     "name": "Attaché pour l'impact",
     "requirements": [
       { "or": [{ "name": "Force d'Ame", "level": "4" }] },
-      { "or": [{ "name": "Puissance", "level": "2" }] }
+      { "or": [{ "name": "Potence", "level": "2" }] }
     ],
     "source": "Mexico City by Night (2412) p115",
     "description": [
@@ -419,7 +419,7 @@
     "name": "Imprégnation férale",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "4" }] },
-      { "or": [{ "name": "Puissance", "level": "2" }] }
+      { "or": [{ "name": "Potence", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
     "description": [
@@ -429,7 +429,7 @@
   {
     "name": "Enfouissement partagé",
     "requirements": [
-      { "or": [{ "name": "Puissance", "level": "1" }] },
+      { "or": [{ "name": "Potence", "level": "1" }] },
       { "or": [{ "name": "Protean", "level": "3" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
@@ -671,7 +671,7 @@
     "name": "Je suis légion",
     "requirements": [
       { "or": [{ "name": "Daimonon", "level": " 3" }] },
-      { "or": [{ "name": "Obfuscate", "level": " 2" }] }
+      { "or": [{ "name": "Dissimulation", "level": " 2" }] }
     ],
     "source": "Clanbook: Baali (2817) p47",
     "description": [
@@ -682,7 +682,7 @@
     "name": "Courroux Enflammé",
     "requirements": [
       { "or": [{ "name": "Célérité", "level": " 3" }] },
-      { "or": [{ "name": "Puissance", "level": " 3" }] }
+      { "or": [{ "name": "Potence", "level": " 3" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p31, Clanbook: Brujah (Revised Edition) (2351) p66",
     "description": [
@@ -694,7 +694,7 @@
     "name": "Coeur d'Acier",
     "requirements": [
       { "or": [{ "name": "Présence", "level": " 3" }] },
-      { "or": [{ "name": "Puissance", "level": " 3" }] }
+      { "or": [{ "name": "Potence", "level": " 3" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p31, Clanbook: Brujah (Revised Edition) (2351) p66",
     "description": [
@@ -715,7 +715,7 @@
   {
     "name": "Pulsion du Mort Vivant",
     "requirements": [
-      { "or": [{ "name": "Puissance", "level": " 3" }] },
+      { "or": [{ "name": "Potence", "level": " 3" }] },
       { "or": [{ "name": "Auspex", "level": " 1" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p66",
@@ -738,7 +738,7 @@
     "name": "Esprit de Corps",
     "requirements": [
       { "or": [{ "name": "Présence", "level": " 5" }] },
-      { "or": [{ "name": "Puissance", "level": " 5" }] }
+      { "or": [{ "name": "Potence", "level": " 5" }] }
     ],
     "source": "Libellus Sanguinis II (2815) p101",
     "description": [
@@ -754,7 +754,7 @@
     "name": "Regard de Fer",
     "requirements": [
       { "or": [{ "name": "Présence", "level": " 3" }] },
-      { "or": [{ "name": "Puissance", "level": " 3" }] }
+      { "or": [{ "name": "Potence", "level": " 3" }] }
     ],
     "source": "Counsel of Primogen (2429) p101",
     "description": [
@@ -766,7 +766,7 @@
   {
     "name": "Fontaine d'humeurs malignes",
     "requirements": [
-      { "or": [{ "name": "Puissance", "level": " 2" }] },
+      { "or": [{ "name": "Potence", "level": " 2" }] },
       {
         "or": [
           { "name": "Mortis", "subname": "Voie des 4 humeurs", "level": "3" }
@@ -782,7 +782,7 @@
     "name": "Effigie de la tombe sculptée",
     "requirements": [
       { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
-      { "or": [{ "name": "Puissance", "level": "2" }] },
+      { "or": [{ "name": "Potence", "level": "2" }] },
       {
         "or": [
           { "name": "Mortis", "subname": "Pourriture du tombeau", "level": "2" }
@@ -798,7 +798,7 @@
     "name": "Rame de Charon",
     "requirements": [
       { "or": [{ "name": "Auspex", "level": " 5" }] },
-      { "or": [{ "name": "Nécromancie ", "level": "5" }] }
+      { "or": [{ "name": "Nécromancie", "level": "5" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p165",
     "description": [
@@ -915,7 +915,7 @@
   {
     "name": "Bête typhonienne",
     "requirements": [
-      { "or": [{ "name": "Puissance", "level": " 3" }] },
+      { "or": [{ "name": "Potence", "level": " 3" }] },
       { "or": [{ "name": "Serpentis", "level": " 4" }] }
     ],
     "source": "Clanbook: Setite (Revised Edition) (2360) p69",
@@ -949,7 +949,7 @@
     "name": " Lamentation du Loup",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": " 1" }] },
-      { "or": [{ "name": "Dissimulation ", "level": "2" }] }
+      { "or": [{ "name": "Dissimulation", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p168",
     "description": [
@@ -978,7 +978,7 @@
   {
     "name": " Blessé dans sa Chair",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame ", "level": " 2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
       { "or": [{ "name": "Dissimulation", "level": " 3" }] }
     ],
     "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
@@ -999,7 +999,7 @@
       "1 succès - Peut utiliser Auspex, Présence",
       "2 succès - Domination, Aliénation, Animalisme",
       "3 succès - Thaumaturgie, Chimérie, Force d'âme",
-      "4 succès - Protean, Puissance",
+      "4 succès - Protean, Potence",
       "5 succès - Célérité, peut utiliser de points de sang pour augmenter ses attributs physiques. Les points de sang sont ceux de l'animal. S'il lui reste la moitié ou moins de sang, il meurt.",
       "Pas de neccessité de Volonté pour aller contre les instincts de l'animal.",
       "Effet retour : l'animal influence le comportement du vampire très longtemps (peut aller jusqu'à plusieurs années) , 8 Volonté accélèrent la distanciation. Si l'animal éprouve une émotion sévère, Astuce+Empathie SR8. Si pas de succès, l'âme retourne dans le corps et le vampire se prend pour la bête."
@@ -1008,7 +1008,7 @@
   {
     "name": " Immunité aux Griffes",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame ", "level": " 4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 4" }] },
       { "or": [{ "name": "Animalisme", "level": " 2" }] }
     ],
     "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
@@ -1118,6 +1118,136 @@
     "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
       "En dépensant 5 Sang et en réussissant Vigueur+Survie SR6, le vampire peut tomber en torpeur en terre et décider de se réveiller après une durée qu'il fixe à l'avance. Un échec indique qu'il se réveille la nuit suivante. Un échec critique indique une torpeur normale. A noter qu'il est possible de se fondre dans autre chose que le sol si le vampire possède un pouvoir adapté."
+    ]
+  },
+  {
+    "name": "Clarté du vide",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Obtenebration", "level": "2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p165",
+    "description": [
+      "Ce pouvoir permet de mettre de côté toute passion, pour ne conserver que la pensée pure. Esprit+Occulte SR7, chaque succès ajoute 1 dé à la prochaine action mentale (maximum = doubler le nombre dés possibles). Toute action sociale se fait à +2SR."
+    ]
+  },
+  {
+    "name": "Témoin d'Arhiman",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "3" }] },
+      { "or": [{ "name": "Obtenebration", "level": "3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p170",
+    "description": [
+      "Les pupilles du Lasombra se dilatent en 2 puits noirs terrifiants, comme menant sur l'Abysse. Des visions de l'Abysse commencent à assaillir la victime. Manipulation+Occulte SR Volonté. La victime commence à voir des tâches noires à la périphérie de sa vision, entend des murmures. +2 à tout SR de Volonté ou de Vertu. Chaque jour, la victime peut tenter de se débarrasser de l'effet par Volonté SR Occulte+2, puis +1 par jour où il n'a pas réussi. Si la victime est hantée plus de jours que sa Volonté, elle perd sa faculté à regagner de la Volonté, jusqu'à se débarrasser de l'effet. Un humain subissant l'effet plus longtemps que Volonté+Astuce devient suicidaire."
+    ]
+  },
+  {
+    "name": "Eminence de l'Ombre conquérant le sang",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": " 5" }] },
+      {
+        "or": [
+          { "name": "Obtenebration", "level": " 5" },
+          { "name": "Vicissitude", "level": " 5" }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p166",
+    "description": [
+      "Le vampire prend la forme Ténébreuse, ou bien la forme Sanguine, niveau 5 de son pouvoir. Il entre alors dans le corps du réceptacle, en saisissant sa victime (Dextérité+Bagarre), par la bouche, en 3 tours. Une fois à l'intérieur, le vampire tente de réduire la volonté de la victime, avec Domination 5. Si c'est un échec critique, le vampire est vomi hors du corps, il est incapable de faire quoique ce soit pendant 5-Esprit tours. Si la Volonté est brisée, le vampire prend contrôle du corps, à loisirs. Il dort le jour, peut rester dans le corps tant qu'il a du Sang (il ressort quand il le veut, ou est expulsé comme décrit plus haut s'il a 0 Sang), il ne peut regagner de Sang parquelque moyen que ce soit.",
+      "Pouvoir avec Obtenebration : possibilité de posséder un vampire ou un humain. Sur un vampire, possibilité d'utiliser le Sang de celui-ci pour maintenir le corps en vie et guérir les blessures. Les yeux de la victime ont des pupilles qui sont des abysses noires sans fond.",
+      "Pouvoir avec Vicissitude : possibilité de posséder un humain (sur un vampire ... la victime diableriserait le vampire!). L'humain devient une goule, peut utiliser le Sang du vampire le possédant. De plus, possibilité d'utiliser des pouvoirs de Vicissitude pour reformer le corps. Des vagues courent parfois sur le corps de la goule.",
+      "A noter que dans le cas d'une possession humaine, le possédé peut résister à tout dégât avec Vigueur, et les dégâts peuvent être guéris avec le Sang du vampire. De plus, les signes (les yeux ou les vagues) sont très peu visibles (Perception+Vigilance SR9 pour les voir)."
+    ]
+  },
+  {
+    "name": "Echo du Vizir Subtil",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": " 2" }] },
+      { "or": [{ "name": "Obtenebration", "level": "2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p165",
+    "description": [
+      "Permet de murmurer à l'ombre d'une victime un Pouvoir de Domination. 1 Sang Manipulation+Empathie SR Volonté. Chaque succès permet de suspendre un pouvoir différent, pour une heure au maximum."
+    ]
+  },
+  {
+    "name": "Armurerie de l'Abysse",
+    "requirements": [
+      {
+        "or": [
+          { "name": "Force d'Ame", "level": "3" },
+          { "name": "Potence", "level": "3" }
+        ]
+      },
+      { "or": [{ "name": "Obtenebration", "level": "3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p163",
+    "description": [
+      "Permet de faire des armes et des armures à partir des ombres. 1 Sang, Manipulation+Compétence de fabrication SR6. Nécessite un tour de concentration complète pour solidifier l'objet (arme ou armure), qui se forme dans la main ou autour du corps. Les armures procurent au maximum Obtenebration dés pour résister aux dégâts autres que le feu ou le soleil. Les armes ajoutent à la force au maximum la valeur en Obtenebration du vampire.",
+      "Les vampires avec Puissance peuvent produire des armes, ceux avec Force d'Ame des armures. Ceux combinant les 2 pouvoirs peuvent créer les 2. Les objets persistent pendant une scène, ou une heure maximum."
+    ]
+  },
+  {
+    "name": "Armure de Ténèbres",
+    "requirements": [
+      { "or": [{ "name": "Obtenebration", "level": " 4" }] },
+      { "or": [{ "name": "Fortitude", "level": " 2" }] }
+    ],
+    "source": "Vampire: The Dark Ages Companion (2804) p87",
+    "description": [
+      "1 Volonté, 2 Sang, Volonté SR 8. Le nombre de succès indique le nombre  de dés à ajouter pour la résistance aux rayons du soleil. Ceci dure tant que le vampire se concentre. Manipulation+Fabrication pour donner à cette armure une forme épousant des vêtements par exemple."
+    ]
+  },
+  {
+    "name": " Voile d'Absence",
+    "requirements": [
+      { "or": [{ "name": "Obtenebration", "level": " 3" }] },
+      { "or": [{ "name": "Domination", "level": "3" }] }
+    ],
+    "source": "Clanbook: Lasombra (Revised Edition) (2362) p71-72",
+    "description": [
+      "1 Sang, Man+Occ SR 7. Permet au vampire d'occulter une zone, où les personnes ne pensent simplement pas à regarder. Leur regard passe sur cette zone. Requiert plus de succès que le lanceur sur Volonté SR7 pour passer outre ce pouvoir, qui prends effet sur 3m de diamètre à un endroit visible par le vampire."
+    ]
+  },
+  {
+    "name": " Ténèbres Etouffantes",
+    "requirements": [
+      { "or": [{ "name": "Obtenebration", "level": " 2" }] },
+      { "or": [{ "name": "Dissimulation", "level": " 1" }] }
+    ],
+    "source": "Libellus Sanguinis I (2807) p33",
+    "description": [
+      "Ast+Occ SR 6. Sur un succès, les ténèbres entourent la source de lumière la plus proche."
+    ]
+  },
+  {
+    "name": " Les Yeux des Ténèbres",
+    "requirements": [
+      { "or": [{ "name": "Obtenebration", "level": " 3" }] },
+      { "or": [{ "name": "Auspex", "level": "3" }] }
+    ],
+    "source": "Libellus Sanguinis I (2807) p33",
+    "description": [
+      "Dextérité+Occultisme SR7, les yeux de la victime sont plongés dans les ténèbres pour",
+      "1 succès - 1 tour",
+      "2 succès - 1 minute",
+      "3 succès - 5 minutes",
+      "4 succès - 30 minutes",
+      "5 succès - 1 heure.",
+      "Il existe une variation o&ugrave; le Lasombra obscurcit ses yeux mais voit au travers, en faisant deux puits de ténèbres (Volonté SR 5 pour ne pas fuir)."
+    ]
+  },
+  {
+    "name": "Acier Noir",
+    "requirements": [
+      { "or": [{ "name": "Obtenebration", "level": " 3" }] },
+      { "or": [{ "name": "Potence", "level": "3" }] }
+    ],
+    "source": "Libellus Sanguinis I (2807) p33",
+    "description": [
+      "Manipulation+Occultisme SR 7, 2 Sang. La tentacule créée possède deux fois le niveau d'Obténébration du vampire en Dextérité et en Force (+1 par point de sang dépensé), mesure 2,5 mètres de long, fait Force+2 dommages, possède 6 niveaux de blessure, mais prend des dommages du feu et de la lumière du soleil."
     ]
   }
 ]
