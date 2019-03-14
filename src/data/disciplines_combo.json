@@ -168,7 +168,7 @@
     "name": "Peau de l'Ours",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "2" }] },
-      { "or": [{ "name": "Protean", "level": "4 " }] }
+      { "or": [{ "name": "Protean", "level": "4" }] }
     ],
     "source": "Wolves of the Sea (2820) p70, Dark Ages: Players Guide to Low Clans (20006) - p159",
     "description": [
@@ -522,8 +522,8 @@
   {
     "name": "Voler la terrible rapidité",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 1" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
+      { "or": [{ "name": "Animalisme", "level": "1" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] }
     ],
     "source": "Wind from the East: The Mongols (2828) p70",
     "description": [
@@ -533,8 +533,8 @@
   {
     "name": "Force partagée",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 3" }] },
-      { "or": [{ "name": "Protean", "level": " 2" }] }
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Protean", "level": "2" }] }
     ],
     "source": "Wind from the East: The Mongols (2828) p70",
     "description": [
@@ -548,8 +548,8 @@
   {
     "name": "Baiser d'Itügen",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 1" }] },
-      { "or": [{ "name": "Protean", "level": " 3" }] }
+      { "or": [{ "name": "Animalisme", "level": "1" }] },
+      { "or": [{ "name": "Protean", "level": "3" }] }
     ],
     "source": "Wind from the East: The Mongols (2828) p71, Dark Ages: Players Guide to Low Clans (20006) p166",
     "description": [
@@ -560,7 +560,7 @@
     "name": "Regard Acéré",
     "requirements": [
       { "or": [{ "name": "Auspex", "level": "2" }] },
-      { "or": [{ "name": "Célérité", "level": " 2" }] }
+      { "or": [{ "name": "Célérité", "level": "2" }] }
     ],
     "source": "Libellus Sanguinis III (2823) p63",
     "description": [
@@ -570,8 +570,8 @@
   {
     "name": "Marche Forcée",
     "requirements": [
-      { "or": [{ "name": "Célérité", "level": " 2" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
+      { "or": [{ "name": "Célérité", "level": "2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p162",
     "description": [
@@ -581,8 +581,8 @@
   {
     "name": "Ombre Feinte",
     "requirements": [
-      { "or": [{ "name": "Célérité", "level": " 2" }] },
-      { "or": [{ "name": "Dissimulation", "level": " 2" }] }
+      { "or": [{ "name": "Célérité", "level": "2" }] },
+      { "or": [{ "name": "Dissimulation", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p165",
     "description": [
@@ -593,8 +593,8 @@
   {
     "name": "Tempérance du Sang",
     "requirements": [
-      { "or": [{ "name": "Quietus", "level": " 4" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
+      { "or": [{ "name": "Quietus", "level": "4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] }
     ],
     "source": "Libellus Sanguinis III (2823) p63",
     "description": [
@@ -604,8 +604,8 @@
   {
     "name": "Vérité par le Sang",
     "requirements": [
-      { "or": [{ "name": "Quietus", "level": " 2" }] },
-      { "or": [{ "name": "Auspex", "level": " 4" }] }
+      { "or": [{ "name": "Quietus", "level": "2" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] }
     ],
     "source": "    Libellus Sanguinis III (2823) p63",
     "description": [
@@ -620,8 +620,8 @@
   {
     "name": "Conserver le Sang Vif",
     "requirements": [
-      { "or": [{ "name": "Quietus", "level": " 3" }] },
-      { "or": [{ "name": "Célérité", "level": " 3" }] }
+      { "or": [{ "name": "Quietus", "level": "3" }] },
+      { "or": [{ "name": "Célérité", "level": "3" }] }
     ],
     "source": "Vampire l'Age des Ténèbres - p.163, Dark Ages: Players Guide to Low Clans (20006) p163",
     "description": [
@@ -633,8 +633,8 @@
   {
     "name": "Assèchement de l'Âme",
     "requirements": [
-      { "or": [{ "name": "Quietus", "level": " 5" }] },
-      { "or": [{ "name": "Auspex", "level": " 4" }] }
+      { "or": [{ "name": "Quietus", "level": "5" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] }
     ],
     "source": "      Libellus Sanguinis III (2823) p62",
     "description": [
@@ -644,8 +644,8 @@
   {
     "name": "Boire l'esprit",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 4" }] },
-      { "or": [{ "name": "Quietus", "level": " 5" }] }
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Quietus", "level": "5" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
     "description": [
@@ -655,10 +655,10 @@
   {
     "name": "Odeur de Cain",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 2" }] },
+      { "or": [{ "name": "Auspex", "level": "2" }] },
       {
         "or": [
-          { "name": "Thaumaturgie", "subname": "Rego Vitae", "level": " 1" }
+          { "name": "Thaumaturgie", "subname": "Rego Vitae", "level": "1" }
         ]
       }
     ],
@@ -670,8 +670,8 @@
   {
     "name": "Je suis légion",
     "requirements": [
-      { "or": [{ "name": "Daimonon", "level": " 3" }] },
-      { "or": [{ "name": "Dissimulation", "level": " 2" }] }
+      { "or": [{ "name": "Daimonon", "level": "3" }] },
+      { "or": [{ "name": "Dissimulation", "level": "2" }] }
     ],
     "source": "Clanbook: Baali (2817) p47",
     "description": [
@@ -681,8 +681,8 @@
   {
     "name": "Courroux Enflammé",
     "requirements": [
-      { "or": [{ "name": "Célérité", "level": " 3" }] },
-      { "or": [{ "name": "Potence", "level": " 3" }] }
+      { "or": [{ "name": "Célérité", "level": "3" }] },
+      { "or": [{ "name": "Potence", "level": "3" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p31, Clanbook: Brujah (Revised Edition) (2351) p66",
     "description": [
@@ -693,8 +693,8 @@
   {
     "name": "Coeur d'Acier",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 3" }] },
-      { "or": [{ "name": "Potence", "level": " 3" }] }
+      { "or": [{ "name": "Présence", "level": "3" }] },
+      { "or": [{ "name": "Potence", "level": "3" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p31, Clanbook: Brujah (Revised Edition) (2351) p66",
     "description": [
@@ -704,8 +704,8 @@
   {
     "name": "Fléau d'Alecto",
     "requirements": [
-      { "or": [{ "name": "Célérité", "level": " 2" }] },
-      { "or": [{ "name": "Présence", "level": " 4" }] }
+      { "or": [{ "name": "Célérité", "level": "2" }] },
+      { "or": [{ "name": "Présence", "level": "4" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p31",
     "description": [
@@ -715,8 +715,8 @@
   {
     "name": "Pulsion du Mort Vivant",
     "requirements": [
-      { "or": [{ "name": "Potence", "level": " 3" }] },
-      { "or": [{ "name": "Auspex", "level": " 1" }] }
+      { "or": [{ "name": "Potence", "level": "3" }] },
+      { "or": [{ "name": "Auspex", "level": "1" }] }
     ],
     "source": "Clanbook: Brujah (1st Edition) (2051) p66",
     "description": [
@@ -726,8 +726,8 @@
   {
     "name": "Commander au Destrier",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 3" }] },
-      { "or": [{ "name": "Animalisme", "level": " 2" }] }
+      { "or": [{ "name": "Présence", "level": "3" }] },
+      { "or": [{ "name": "Animalisme", "level": "2" }] }
     ],
     "source": "Libellus Sanguinis II (2815) p101",
     "description": [
@@ -737,8 +737,8 @@
   {
     "name": "Esprit de Corps",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 5" }] },
-      { "or": [{ "name": "Potence", "level": " 5" }] }
+      { "or": [{ "name": "Présence", "level": "5" }] },
+      { "or": [{ "name": "Potence", "level": "5" }] }
     ],
     "source": "Libellus Sanguinis II (2815) p101",
     "description": [
@@ -753,8 +753,8 @@
   {
     "name": "Regard de Fer",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 3" }] },
-      { "or": [{ "name": "Potence", "level": " 3" }] }
+      { "or": [{ "name": "Présence", "level": "3" }] },
+      { "or": [{ "name": "Potence", "level": "3" }] }
     ],
     "source": "Counsel of Primogen (2429) p101",
     "description": [
@@ -766,7 +766,7 @@
   {
     "name": "Fontaine d'humeurs malignes",
     "requirements": [
-      { "or": [{ "name": "Potence", "level": " 2" }] },
+      { "or": [{ "name": "Potence", "level": "2" }] },
       {
         "or": [
           { "name": "Mortis", "subname": "Voie des 4 humeurs", "level": "3" }
@@ -781,7 +781,7 @@
   {
     "name": "Effigie de la tombe sculptée",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] },
       { "or": [{ "name": "Potence", "level": "2" }] },
       {
         "or": [
@@ -797,7 +797,7 @@
   {
     "name": "Rame de Charon",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 5" }] },
+      { "or": [{ "name": "Auspex", "level": "5" }] },
       { "or": [{ "name": "Nécromancie", "level": "5" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p165",
@@ -808,7 +808,7 @@
   {
     "name": "Eveiller la malédiction endormie",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] },
       { "or": [{ "name": "Mortis", "level": "5" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p164",
@@ -819,7 +819,7 @@
   {
     "name": "Clarté du vide",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Auspex", "level": "1" }] },
       {
         "or": [
           { "name": "Mortis", "subname": "Le corps du monstre", "level": "2" }
@@ -834,7 +834,7 @@
   {
     "name": "Sous l'Egide de l'Entropie",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 3" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] },
       {
         "or": [
           {
@@ -853,8 +853,8 @@
   {
     "name": "Maladie Dévoilée",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 2" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 7" }] }
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "7" }] }
     ],
     "source": "Clanbook: Cappadocian (2805) p41",
     "description": [
@@ -864,8 +864,8 @@
   {
     "name": "Constitution Merveilleuse",
     "requirements": [
-      { "or": [{ "name": "Mortis", "level": " 2" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 8" }] }
+      { "or": [{ "name": "Mortis", "level": "2" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "8" }] }
     ],
     "source": "Clanbook: Cappadocian (2805) p41",
     "description": [
@@ -892,8 +892,8 @@
   {
     "name": "Eclosion de la Vipère",
     "requirements": [
-      { "or": [{ "name": "Serpentis", "level": " 4" }] },
-      { "or": [{ "name": "Protean", "level": " 2" }] }
+      { "or": [{ "name": "Serpentis", "level": "4" }] },
+      { "or": [{ "name": "Protean", "level": "2" }] }
     ],
     "source": "Vampire: The Dark Ages (2800) p164",
     "description": [
@@ -904,8 +904,8 @@
   {
     "name": "Visage de l'être aimé",
     "requirements": [
-      { "or": [{ "name": "Dissimulation", "level": " 3" }] },
-      { "or": [{ "name": "Présence", "level": " 3" }] }
+      { "or": [{ "name": "Dissimulation", "level": "3" }] },
+      { "or": [{ "name": "Présence", "level": "3" }] }
     ],
     "source": "Clanbook: Setite (Revised Edition) (2360) p69, Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
@@ -915,8 +915,8 @@
   {
     "name": "Bête typhonienne",
     "requirements": [
-      { "or": [{ "name": "Potence", "level": " 3" }] },
-      { "or": [{ "name": "Serpentis", "level": " 4" }] }
+      { "or": [{ "name": "Potence", "level": "3" }] },
+      { "or": [{ "name": "Serpentis", "level": "4" }] }
     ],
     "source": "Clanbook: Setite (Revised Edition) (2360) p69",
     "description": [
@@ -926,8 +926,8 @@
   {
     "name": "Peser le coeur",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 3" }] },
-      { "or": [{ "name": "Serpentis", "level": " 5" }] }
+      { "or": [{ "name": "Auspex", "level": "3" }] },
+      { "or": [{ "name": "Serpentis", "level": "5" }] }
     ],
     "source": "Clanbook: Setite (Revised Edition) (2360) p70",
     "description": [
@@ -937,8 +937,8 @@
   {
     "name": "Baiser engourdissant du serpent",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 3" }] },
-      { "or": [{ "name": "Serpentis", "level": " 2" }] }
+      { "or": [{ "name": "Présence", "level": "3" }] },
+      { "or": [{ "name": "Serpentis", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p164",
     "description": [
@@ -948,7 +948,7 @@
   {
     "name": " Lamentation du Loup",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Animalisme", "level": "1" }] },
       { "or": [{ "name": "Dissimulation", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p168",
@@ -967,8 +967,8 @@
   {
     "name": " Griffes de Fenrir",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
-      { "or": [{ "name": "Protean", "level": " 2" }] }
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] },
+      { "or": [{ "name": "Protean", "level": "2" }] }
     ],
     "source": "Wolves of the Sea (2820) p71",
     "description": [
@@ -978,8 +978,8 @@
   {
     "name": " Blessé dans sa Chair",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
-      { "or": [{ "name": "Dissimulation", "level": " 3" }] }
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] },
+      { "or": [{ "name": "Dissimulation", "level": "3" }] }
     ],
     "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
     "description": [
@@ -989,8 +989,8 @@
   {
     "name": " Améliorer la Chevauchée Sauvage",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 4" }] },
-      { "or": [{ "name": "Protean", "level": " 4" }] }
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
     ],
     "source": "Libellus Sanguinis III (2823) p29-30",
     "description": [
@@ -1008,8 +1008,8 @@
   {
     "name": " Immunité aux Griffes",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 4" }] },
-      { "or": [{ "name": "Animalisme", "level": " 2" }] }
+      { "or": [{ "name": "Force d'Ame", "level": "4" }] },
+      { "or": [{ "name": "Animalisme", "level": "2" }] }
     ],
     "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
     "description": [
@@ -1019,8 +1019,8 @@
   {
     "name": " Lire les Vents",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 4" }] },
-      { "or": [{ "name": "Auspex", "level": " 5" }] }
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Auspex", "level": "5" }] }
     ],
     "source": "Libellus Sanguinis III (2823) p30",
     "description": [
@@ -1035,8 +1035,8 @@
   {
     "name": " Appel de la Meute Sauvage",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 5" }] },
-      { "or": [{ "name": "Protean", "level": " 4" }] }
+      { "or": [{ "name": "Animalisme", "level": "5" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
     ],
     "source": "Libellus Sanguinis III (2823) p30",
     "description": [
@@ -1046,8 +1046,8 @@
   {
     "name": " Voir les Reflets des Formes",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 4" }] },
-      { "or": [{ "name": "Protean", "level": " 4" }] }
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
     ],
     "source": "Clanbook: Gangrel (Revised Edition) (2352) p72",
     "description": [
@@ -1057,8 +1057,8 @@
   {
     "name": " Se Mêler aux Bêtes",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 3" }] },
-      { "or": [{ "name": "Protean", "level": " 6" }] }
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Protean", "level": "6" }] }
     ],
     "source": "Clanbook: Gangrel (Revised Edition) (2352) p73",
     "description": [
@@ -1068,8 +1068,8 @@
   {
     "name": "Reflet de l'alpha",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 4" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 3" }] }
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] }
     ],
     "source": "Counsel of Primogen (2429) p104",
     "description": [
@@ -1079,8 +1079,8 @@
   {
     "name": "Don de Loki",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 4" }] },
-      { "or": [{ "name": "Protean", "level": " 4" }] }
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Protean", "level": "4" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p162",
     "description": [
@@ -1090,8 +1090,8 @@
   {
     "name": "Brume fragmentée",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 1" }] },
-      { "or": [{ "name": "Protean", "level": " 5" }] }
+      { "or": [{ "name": "Auspex", "level": "1" }] },
+      { "or": [{ "name": "Protean", "level": "5" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
     "description": [
@@ -1101,8 +1101,8 @@
   {
     "name": "Se mêler à la pierre",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
-      { "or": [{ "name": "Protean", "level": " 3" }] }
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] },
+      { "or": [{ "name": "Protean", "level": "3" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
     "description": [
@@ -1112,8 +1112,8 @@
   {
     "name": "Hibernation torpide",
     "requirements": [
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] },
-      { "or": [{ "name": "Protean", "level": " 3" }] }
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] },
+      { "or": [{ "name": "Protean", "level": "3" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
@@ -1123,7 +1123,7 @@
   {
     "name": "Clarté du vide",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Auspex", "level": "1" }] },
       { "or": [{ "name": "Obtenebration", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p165",
@@ -1145,11 +1145,11 @@
   {
     "name": "Eminence de l'Ombre conquérant le sang",
     "requirements": [
-      { "or": [{ "name": "Domination", "level": " 5" }] },
+      { "or": [{ "name": "Domination", "level": "5" }] },
       {
         "or": [
-          { "name": "Obtenebration", "level": " 5" },
-          { "name": "Vicissitude", "level": " 5" }
+          { "name": "Obtenebration", "level": "5" },
+          { "name": "Vicissitude", "level": "5" }
         ]
       }
     ],
@@ -1164,7 +1164,7 @@
   {
     "name": "Echo du Vizir Subtil",
     "requirements": [
-      { "or": [{ "name": "Domination", "level": " 2" }] },
+      { "or": [{ "name": "Domination", "level": "2" }] },
       { "or": [{ "name": "Obtenebration", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p165",
@@ -1192,8 +1192,8 @@
   {
     "name": "Armure de Ténèbres",
     "requirements": [
-      { "or": [{ "name": "Obtenebration", "level": " 4" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 2" }] }
+      { "or": [{ "name": "Obtenebration", "level": "4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "2" }] }
     ],
     "source": "Vampire: The Dark Ages Companion (2804) p87",
     "description": [
@@ -1203,7 +1203,7 @@
   {
     "name": " Voile d'Absence",
     "requirements": [
-      { "or": [{ "name": "Obtenebration", "level": " 3" }] },
+      { "or": [{ "name": "Obtenebration", "level": "3" }] },
       { "or": [{ "name": "Domination", "level": "3" }] }
     ],
     "source": "Clanbook: Lasombra (Revised Edition) (2362) p71-72",
@@ -1214,8 +1214,8 @@
   {
     "name": " Ténèbres Etouffantes",
     "requirements": [
-      { "or": [{ "name": "Obtenebration", "level": " 2" }] },
-      { "or": [{ "name": "Dissimulation", "level": " 1" }] }
+      { "or": [{ "name": "Obtenebration", "level": "2" }] },
+      { "or": [{ "name": "Dissimulation", "level": "1" }] }
     ],
     "source": "Libellus Sanguinis I (2807) p33",
     "description": [
@@ -1225,7 +1225,7 @@
   {
     "name": " Les Yeux des Ténèbres",
     "requirements": [
-      { "or": [{ "name": "Obtenebration", "level": " 3" }] },
+      { "or": [{ "name": "Obtenebration", "level": "3" }] },
       { "or": [{ "name": "Auspex", "level": "3" }] }
     ],
     "source": "Libellus Sanguinis I (2807) p33",
@@ -1242,7 +1242,7 @@
   {
     "name": "Acier Noir",
     "requirements": [
-      { "or": [{ "name": "Obtenebration", "level": " 3" }] },
+      { "or": [{ "name": "Obtenebration", "level": "3" }] },
       { "or": [{ "name": "Potence", "level": "3" }] }
     ],
     "source": "Libellus Sanguinis I (2807) p33",
@@ -1253,8 +1253,8 @@
   {
     "name": "Déesse parmi les bêtes",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 1" }] },
-      { "or": [{ "name": "Ogham", "level": " 1" }] }
+      { "or": [{ "name": "Animalisme", "level": "1" }] },
+      { "or": [{ "name": "Ogham", "level": "1" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
     "description": [
@@ -1264,8 +1264,8 @@
   {
     "name": "Se mêler aux arbres",
     "requirements": [
-      { "or": [{ "name": "Ogham", "level": " 1" }] },
-      { "or": [{ "name": "Protean", "level": " 3" }] }
+      { "or": [{ "name": "Ogham", "level": "1" }] },
+      { "or": [{ "name": "Protean", "level": "3" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
@@ -1275,7 +1275,7 @@
   {
     "name": " Prophétie",
     "requirements": [
-      { "or": [{ "name": "Aliénation", "level": " 3" }] },
+      { "or": [{ "name": "Aliénation", "level": "3" }] },
       { "or": [{ "name": "Auspex", "level": "4" }] }
     ],
     "source": "Libellus Sanguinis IV (2830) p109-111",
@@ -1288,8 +1288,8 @@
   {
     "name": "Plume du Fou",
     "requirements": [
-      { "or": [{ "name": "Aliénation", "level": " 1" }] },
-      { "or": [{ "name": "Auspex", "level": " 3" }] }
+      { "or": [{ "name": "Aliénation", "level": "1" }] },
+      { "or": [{ "name": "Auspex", "level": "3" }] }
     ],
     "source": "Libellus Sanguinis IV (2830) p110-111",
     "description": [
@@ -1307,8 +1307,8 @@
   {
     "name": "Disparition",
     "requirements": [
-      { "or": [{ "name": "Aliénation", "level": " 4" }] },
-      { "or": [{ "name": "Dissimulation", "level": " 5" }] }
+      { "or": [{ "name": "Aliénation", "level": "4" }] },
+      { "or": [{ "name": "Dissimulation", "level": "5" }] }
     ],
     "source": "Libellus Sanguinis IV (2830) p111-112",
     "description": [
@@ -1324,8 +1324,8 @@
   {
     "name": "Respirer une bouffée de folie",
     "requirements": [
-      { "or": [{ "name": "Aliénation", "level": " 2" }] },
-      { "or": [{ "name": "Auspex", "level": " 3" }] }
+      { "or": [{ "name": "Aliénation", "level": "2" }] },
+      { "or": [{ "name": "Auspex", "level": "3" }] }
     ],
     "source": "Counsel of Primogen (2429) p102",
     "description": [
@@ -1335,8 +1335,8 @@
   {
     "name": "Affectation phobique",
     "requirements": [
-      { "or": [{ "name": "Aliénation", "level": " 3" }] },
-      { "or": [{ "name": "Domination", "level": " 2" }] }
+      { "or": [{ "name": "Aliénation", "level": "3" }] },
+      { "or": [{ "name": "Domination", "level": "2" }] }
     ],
     "source": "Counsel of Primogen (2429) p102",
     "description": [
@@ -1346,8 +1346,8 @@
   {
     "name": "Apocryphe de Sang",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 1" }] },
-      { "or": [{ "name": "Dissimulation", "level": " 1" }] }
+      { "or": [{ "name": "Auspex", "level": "1" }] },
+      { "or": [{ "name": "Dissimulation", "level": "1" }] }
     ],
     "source": "Libellus Sanguinis IV: Thieves in the Night Pg.75",
     "description": [
@@ -1364,8 +1364,8 @@
   {
     "name": "Halo aliénant",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 2" }] },
-      { "or": [{ "name": "Aliénation", "level": " 3" }] }
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Aliénation", "level": "3" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p162",
     "description": [
@@ -1375,8 +1375,8 @@
   {
     "name": "Répit de lucidité",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 5" }] },
-      { "or": [{ "name": "Aliénation", "level": " 2" }] }
+      { "or": [{ "name": "Animalisme", "level": "5" }] },
+      { "or": [{ "name": "Aliénation", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p163",
     "description": [
@@ -1386,8 +1386,8 @@
   {
     "name": "Murmures de haine",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 4" }] },
-      { "or": [{ "name": "Aliénation", "level": " 2" }] }
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      { "or": [{ "name": "Aliénation", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
@@ -1397,7 +1397,7 @@
   {
     "name": "Lamentation du Loup",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Animalisme", "level": "1" }] },
       { "or": [{ "name": "Dissimulation", "level": "2" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p168",
@@ -1416,7 +1416,7 @@
   {
     "name": "Magnétisme animal",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
       { "or": [{ "name": "Dissimulation", "level": "3" }] }
     ],
     "source": "Counsel of Primogen (2429) p102",
@@ -1427,8 +1427,8 @@
   {
     "name": "Visage de l'être aimé",
     "requirements": [
-      { "or": [{ "name": "Dissimulation", "level": " 3" }] },
-      { "or": [{ "name": "Présence", "level": " 3" }] }
+      { "or": [{ "name": "Dissimulation", "level": "3" }] },
+      { "or": [{ "name": "Présence", "level": "3" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
@@ -1438,8 +1438,8 @@
   {
     "name": " Vigueur Animale",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 3" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 3" }] }
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "3" }] }
     ],
     "source": "Libellus Sanguinis IV (2830) p32-33, Dark Ages: Players Guide to Low Clans (20006) p159",
     "description": [
@@ -1449,8 +1449,8 @@
   {
     "name": "Infliger au vassal",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 4" }] },
-      { "or": [{ "name": "Force d'Ame", "level": " 4" }] }
+      { "or": [{ "name": "Animalisme", "level": "4" }] },
+      { "or": [{ "name": "Force d'Ame", "level": "4" }] }
     ],
     "source": "Dark Ages: Players Guide to Low Clans (20006) p159",
     "description": [
@@ -1460,8 +1460,8 @@
   {
     "name": " Esprit de la Nature",
     "requirements": [
-      { "or": [{ "name": "Animalisme", "level": " 2" }] },
-      { "or": [{ "name": "Auspex", "level": " 4" }] }
+      { "or": [{ "name": "Animalisme", "level": "2" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] }
     ],
     "source": "Libellus Sanguinis IV (2830) p33",
     "description": [
@@ -1545,7 +1545,7 @@
   {
     "name": "Regard de mensonges",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 2" }] },
+      { "or": [{ "name": "Auspex", "level": "2" }] },
       { "or": [{ "name": "Valeren", "level": "1" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p168",
@@ -1567,7 +1567,7 @@
   {
     "name": "Main de l'artisan",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Auspex", "level": "1" }] },
       { "or": [{ "name": "Célérité", "level": "1" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p168",
@@ -1578,8 +1578,8 @@
   {
     "name": "Faveur du Diplomate",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 5" }] },
-      { "or": [{ "name": "Auspex", "level": " 3" }] }
+      { "or": [{ "name": "Présence", "level": "5" }] },
+      { "or": [{ "name": "Auspex", "level": "3" }] }
     ],
     "source": "Libellus Sanguinis II (2815) p37",
     "description": [
@@ -1589,8 +1589,8 @@
   {
     "name": "Double Sens",
     "requirements": [
-      { "or": [{ "name": "Présence", "level": " 6" }] },
-      { "or": [{ "name": "Auspex", "level": " 3" }] }
+      { "or": [{ "name": "Présence", "level": "6" }] },
+      { "or": [{ "name": "Auspex", "level": "3" }] }
     ],
     "source": "Libellus Sanguinis II (2815) p37",
     "description": [
@@ -1658,6 +1658,97 @@
     "source": "Counsel of Primogen (2429) p102",
     "description": [
       "Permet de sortir une réplique cinglante instantanément, forçant la partie d'en face au silence grâce à Présence. Esprit+Empathie SR7, +1SR si la victime n'est pas connue. Force la partie adverse au silence, de honte, pendant succès tours (x2 si ce n'est pas une Toreador). 1 point de Volonté annule l'effet. A noter que les Toreadors ne voient pas tous d'un bon oeil le recours un peu facile à ce pouvoir."
+    ]
+  },
+  {
+    "name": "Vue Thaumaturgique",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Thaumaturgie", "level": "1" }] }
+    ],
+    "source": "Clanbook: Tzimisce (Revised Edition) (2361) p47",
+    "description": [
+      "Idem Auspex 2, mais permet de voir précisément les traces de magie vampirique. Perception+Occulte SR8, permet d'identifier les voies utilisées, 1 seul succès nécessaire si le vampire dispose du pouvoir. Ne permet pas de comprendre la Vraie Magie ou la magie statique."
+    ]
+  },
+  {
+    "name": "Changement d'humeur",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Domination", "level": "4" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p103",
+    "description": [
+      "Cette technique requiert le contact visuel, et la cible doit regarder le Tremere. Celui-ci regarde l'aura de la victime, et fait des gestes, émet des grognements, des sourires etc... de façon a faire transiter l'aura de la victime vers un état d'esprit voulu. Ceci dure plusieurs minutes. Manipulation+empathie SR7. L'étendue du succès donne l'effet (qualité de changement par rapport à l'effet voulu) et la durée :",
+      "1 Effet superficiel, dure 5 minutes à peine",
+      "2 Effet modéré, dure 10 minutes",
+      "3 Effet modéré, 1/2 heure",
+      "4 Effet complet, dure la scène entière",
+      "5 Complet, dure toute la nuit",
+      "6 Complet, dure toute la semaine"
+    ]
+  },
+  {
+    "name": "Avertissement de la Bénédiction",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Daimonon", "level": "1" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p159",
+    "description": [
+      "Ce pouvoir permet de mettre en évidence le côté sacré d'une personne ou d'un objet, comme Auspex 2. Avec 1 succès, les Bénis et les reliques sacrées sont entourées d'une aura dorée, les aires bénies irradient une lueur similaire. Avec 3 succès, détection de ceux suivant la Voie du Paradis avec un niveau de 8 ou plus, la lumière est différente de ceux ayant le Vraie Foi. 5 succès permettent de voir le 3ème d'Oeil d'un Salubri. La manière dont les Tremere ont appris ce pouvoir est inconnue. Mais le fait que les Salubri soient trouvables par ce biais est un sujet d'inquiétude morale dans le clan."
+    ]
+  },
+  {
+    "name": "Boire l'esprit",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "4" }] },
+      {
+        "or": [
+          { "name": "Thaumaturgie", "subname": "Voie du Sang", "level": "5" }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p160",
+    "description": [
+      "Permet de voler souvenirs et connaissances lors de la diablerie. Le vampire dépense autant de points de Volonté que l'Intelligence de la victime, et lance Volonté SR Volonté (+1 par Folie de la victime). Chaque succès donne un point de bonus (comme à la création du personnage) utilisable pour augmenter une Compétence jusqu'au maximum le niveau de la victime. Les souvenirs forts sont pris à la victime, sous forme de flashs souvent cryptiques. Sur un échec critique, -1 en Volonté permanente par 1 obtenu (images négatives, de haine, centrées sur l'acte)."
+    ]
+  },
+  {
+    "name": "Odeur de Cain",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      {
+        "or": [
+          { "name": "Thaumaturgie", "subname": "Rego Vitae", "level": "1" }
+        ]
+      }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p164",
+    "description": [
+      "Ce pouvoir permet de sentir le Sang de vampire présent dans une créature. Perception+Occulte, la créature doit être dans le champ de perception normal du vampire. SR6 pour les vampires, SR8 pour sentir les goules (modifiable suivant les circonstances: le pouvoir étant toujours actif, même quand on dort). Avec le temps, il est possible de reconnaitre l'odeur de vampires en particulier."
+    ]
+  },
+  {
+    "name": "Marionnettiste spectral",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "5" }] },
+      { "or": [{ "name": "Domination", "level": "5" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p166",
+    "description": [
+      "Secret très gardé du clan Tremere, ce pouvoir permet sous forme astrale de prendre possession d'un corps via Domination 5. Tout dégât infligé l'est à la victime et à la forme spectrale du vampire. Si l'hôte meurt, l'expulsion du corps est instantanée et rompt la corde d'argent."
+    ]
+  },
+  {
+    "name": "Vue Mystique",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Thaumaturgie", "level": "2" }] }
+    ],
+    "source": "Dark Ages: Players Guide to Low Clans (20006) p163",
+    "description": [
+      "Ce pouvoir permet de voir les flux magiques des objets et de l'environnement, et les vivants. Vigilance+Empathie SR8. 1 succès permet de voir l'aspect magique de l'objet étudié. 2 succès permet de voir si le flux magique lui est propre ou non. 3 succès disent si l'effet est nuisible ou pas, si c'est une illusion. 4 succès permettent de savoir quelle magie est employée, mais pas le style s'il n'a pas été utilisé auparavant. 5 succès ouvrent l'esprit du vampire au flot magique, permettant de voir les lignes de forces et les réserves de pouvoir. Les humains capables de magie luisent d'étincelles par ce pouvoir."
     ]
   }
 ]
