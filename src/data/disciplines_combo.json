@@ -674,5 +674,90 @@
     "description": [
       "Manipulation+Commandement SR 6 pour appeler un démon qui prend place aux côtés du vampire dans son corps, et qui répond à sa place lorsqu'il le désire. C'est un moyen de pouvoir passer sans encombre un interrogatoire sous Auspex ou Domination, puisque l'esprit ne ment pas forcément là où vous, vous le devriez."
     ]
+  },
+  {
+    "name": "Courroux Enflammé",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": " 3" }] },
+      { "or": [{ "name": "Puissance", "level": " 3" }] }
+    ],
+    "source": "Clanbook: Brujah (1st Edition) (2051) p31, Clanbook: Brujah (Revised Edition) (2351) p66",
+    "description": [
+      "(Iconoclaste) La tête et les poings du vampire se recouvrent de sang. Tout dégât au contact devient aggravé. De plus, la victime touchée doit réussir Volonté SR 6 pour agir le tour d'après.",
+      "La version du Clanbook Brujah seconde édition spécifie l'usage d'un point de Sang pour activer le pouvoir, et ne parle pas du jet de Volonté"
+    ]
+  },
+  {
+    "name": "Coeur d'Acier",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      { "or": [{ "name": "Puissance", "level": " 3" }] }
+    ],
+    "source": "Clanbook: Brujah (1st Edition) (2051) p31, Clanbook: Brujah (Revised Edition) (2351) p66",
+    "description": [
+      "(Individualiste) Ajoute 2 à tout SR de Domination, de Présence ou tout autre jet visant à influencer le Brujah. En dépensant 1 Volonté, il peut, en parlant à un autre, le renforcer dans sa conviction, augmentant de 1 les SR des actions destinées à manipuler ou convaincre cette personne. Dure 1 heure ou une scène, suivant laquelle des 2 périodes est la plus courte."
+    ]
+  },
+  {
+    "name": "Fléau d'Alecto",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": " 2" }] },
+      { "or": [{ "name": "Présence", "level": " 4" }] }
+    ],
+    "source": "Clanbook: Brujah (1st Edition) (2051) p31",
+    "description": [
+      "(Idéaliste) Le Brujah apprend à diriger ses Frénésies sur d'autres. 1 Volonté, Volonté SR Volonté, chaque succès inflige un dégât à son adversaire. De plus, si cette personne possède une Bête, elle est sujette à des Frénésies à SR+2."
+    ]
+  },
+  {
+    "name": "Pulsion du Mort Vivant",
+    "requirements": [
+      { "or": [{ "name": "Puissance", "level": " 3" }] },
+      { "or": [{ "name": "Auspex", "level": " 1" }] }
+    ],
+    "source": "Clanbook: Brujah (1st Edition) (2051) p66",
+    "description": [
+      "Per+Emp SR 6. Chaque succès permet de déterminer quelles disciplines physiques possède un vampire, et à quel niveau (Puissance, Force d'Ame, Célérité)"
+    ]
+  },
+  {
+    "name": "Commander au Destrier",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      { "or": [{ "name": "Animalisme", "level": " 2" }] }
+    ],
+    "source": "Libellus Sanguinis II (2815) p101",
+    "description": [
+      "1 Volonté, Manipulation+Dressage SR 7. Le vampire peut influencer en masse les montures adverses ou les montures de ses camarades. +3SR pour les jets d'équitation pour les adversaires, -2SR pour les amis. De plus, les montures amies peuvent rester calmes dans des situations qui les feraient fuir d'habitude."
+    ]
+  },
+  {
+    "name": "Esprit de Corps",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 5" }] },
+      { "or": [{ "name": "Puissance", "level": " 5" }] }
+    ],
+    "source": "Libellus Sanguinis II (2815) p101",
+    "description": [
+      "Force+Intimidation SR 7. Tout pouvoir adverse infligeant la peur ou empêchant de combattre se fait à +2SR. De plus chaque ami reçoit 1 pt de Puissance par tranche de deux succès. Ce pouvoir affecte :",
+      "1 succès - 1 personne",
+      "2 succès - 2 personnes",
+      "3 succès - 6 personnes",
+      "4 succès - 20 personnes",
+      "5 succès ou + - Toute personne dans le groupe de combat du vampire et dans son entourage (i.e. pouvant au moins l'entr'apercevoir)"
+    ]
+  },
+  {
+    "name": "Regard de Fer",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      { "or": [{ "name": "Puissance", "level": " 3" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p101",
+    "description": [
+      "Pouvoir appris typiquement à un nouveau Primogène Brujah. Il permet en général d'impressionner toute personne (du clan Brujah souvent) qui n'est pas tout a fait d'accord avec son supérieur.",
+      "Charisme+Manipulation SR Standard, démonstration de force (briser une table en chêne etc..). Les succès s'ajoutent à tout jet d'intimidation sur la personne qui a croisé le regard du personnage lors de sa démonstration ou juste après.",
+      "Ce pouvoir perd son effet s'il est trop utilisé : 1/2 effet si plus deux fois par mois, 1/4 effet si 3 fois par mois. Au delà, tout le monde devient accoutumé à ces démonstrations, donc il n'y a plus d'effet."
+    ]
   }
 ]
