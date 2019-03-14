@@ -851,7 +851,7 @@
     ]
   },
   {
-    "name": "Maladie D&eacute;voil&eacute;e",
+    "name": "Maladie Dévoilée",
     "requirements": [
       { "or": [{ "name": "Auspex", "level": " 2" }] },
       { "or": [{ "name": "Force d'Ame", "level": " 7" }] }
@@ -897,7 +897,7 @@
     ],
     "source": "Vampire: The Dark Ages (2800) p164",
     "description": [
-      "Le vampire se concentre un tour, dépense 4 Sang, et dégorge un serpent fait de son sang, possédant une morsure venimeuse. Nécessite <b>1 Sang tous les trois jours</b> pour survivre, obéit aux commandements de son maître dont il reflète l'esprit.",
+      "Le vampire se concentre un tour, dépense 4 Sang, et dégorge un serpent fait de son sang, possédant une morsure venimeuse. Nécessite 1 Sang tous les trois jours pour survivre, obéit aux commandements de son maître dont il reflète l'esprit.",
       "Le Players guide to the low-clans ajoute que le serpent possède Force d'Ame 1 et Puissance 1. Il se dissout si détruit ou non nourri, le sang acide fait 4 dés de dommages aggravés s'il est ingéré. Animalisme permet de communiquer avec eux, mais la personnalité de leur créateur est trop proche pour les rendre naturels."
     ]
   },
@@ -909,7 +909,7 @@
     ],
     "source": "Clanbook: Setite (Revised Edition) (2360) p69, Dark Ages: Players Guide to Low Clans (20006) p167",
     "description": [
-      "Permet de se faire passer pour <b>un être aimé</b> par la victime. Si on ne connaît pas un tel être, la personne voit qui elle désire (et le vampire a intérêt à réfléchir très vite pour savoir comment réagir!). <b> Charisme+Empathie</b> SR6"
+      "Permet de se faire passer pour un être aimé par la victime. Si on ne connaît pas un tel être, la personne voit qui elle désire (et le vampire a intérêt à réfléchir très vite pour savoir comment réagir!).  Charisme+Empathie SR6"
     ]
   },
   {
@@ -920,7 +920,7 @@
     ],
     "source": "Clanbook: Setite (Revised Edition) (2360) p69",
     "description": [
-      "Ce pouvoir permet de prendre la forme de la mythique <b>Bête Typhonienne</b>. Coûte <b>3 Sang, </b>la transformation dure 3 tours. +1 en Force, Vigueur, Dextérité, bénéfice du niveau 3 de Serpentis \"Peau de la vipère\", le vampire peut utiliser sa Vigeur pour résister aux morsures et aux griffes. De plus, la morsure de la Bête est empoisonnée, la Bête court à double vitesse, et gagne +2Dés pour tout jet lié à l'odorat ou l'ouïe."
+      "Ce pouvoir permet de prendre la forme de la mythique Bête Typhonienne. Coûte 3 Sang, la transformation dure 3 tours. +1 en Force, Vigueur, Dextérité, bénéfice du niveau 3 de Serpentis \"Peau de la vipère\", le vampire peut utiliser sa Vigeur pour résister aux morsures et aux griffes. De plus, la morsure de la Bête est empoisonnée, la Bête court à double vitesse, et gagne +2Dés pour tout jet lié à l'odorat ou l'ouïe."
     ]
   },
   {
@@ -1556,12 +1556,108 @@
   {
     "name": "Oeil du Paradis impitoyable",
     "requirements": [
-      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] },
       { "or": [{ "name": "Valeren", "level": "4" }] }
     ],
     "source": "Dark Ages: Players Guide to High Clans (20007) p166",
     "description": [
       "L'oeil du Salubri s'ouvre en grand, et devient d'un doré incandescent, tel le soleil, illuminant, et brûlant les vampires. 1 Sang et 1 Volonté, Conscience SR6 (donc, requiert Conscience). L'effet touche tout vampire devant lui, qui est brûlé par le Soleil, de 1 à 3 dégâts aggravés, suivant les habits le couvrant. L'effet dure un tour, mais peut être prolongé en redépensant 1 Volonté et 1 Sang, autant de fois que voulu. Le Salubri subit en partie l'effet sous la forme de 3 blessures léthales, résistibles normalement. Chaque dégât se manifeste par un flux de Sang tombant du 3ème oeil. Un Salubri mourrant à cause de ces blessures voit ses cendres se disperser dans une lumière blanche."
+    ]
+  },
+  {
+    "name": "Main de l'artisan",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 1" }] },
+      { "or": [{ "name": "Célérité", "level": "1" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p168",
+    "description": [
+      "Le vampire dépense 1 Sang, puis X Sang additionnels. X divise alors le temps nécessaire pour accomplir une oeuvre d'art. Ceci est valable pour une tâche et une seule. Toutefois, le vampire peut suspendre le pouvoir, s'il ne s'éloigne pas plus d'une heure de son oeuvre."
+    ]
+  },
+  {
+    "name": "Faveur du Diplomate",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 5" }] },
+      { "or": [{ "name": "Auspex", "level": " 3" }] }
+    ],
+    "source": "Libellus Sanguinis II (2815) p37",
+    "description": [
+      "1 Sang, concentration d'un tour sur le sujet. Le vampire sait alors quoi dire pour convaincre son interlocuteur d'accéder à sa demande. Si celle-ci est totalement contraire aux convictions de la victime, elle peut résister par un jet de Volonté SR 8. L'effet dure un tour."
+    ]
+  },
+  {
+    "name": "Double Sens",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 6" }] },
+      { "or": [{ "name": "Auspex", "level": " 3" }] }
+    ],
+    "source": "Libellus Sanguinis II (2815) p37",
+    "description": [
+      "1 point de volonté par tour, Manipulation+Empathie SR (10-Perception de la victime). Une personne, au choix du vampire, perçoit le réel discours caché derrière les phrases que le vampire prononce à haute voix."
+    ]
+  },
+  {
+    "name": "Félicité",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": "3" }] },
+      { "or": [{ "name": "Domination", "level": "2" }] }
+    ],
+    "source": "Clanbook: Toreador (Revised Edition) (2356) p73",
+    "description": [
+      "Ce pouvoir permet de se préparer psychologiquement à affronter la Bête. Le Toreador se concentre sur une oeuvre d'art, éprouve alors le défaut de son clan. Pendant toute la scène suivant sa transe, il peut bénéficier d'un rond additionnel sur une vertue (et une seule) s'il a réussit à invoquer ce pouvoir par Intelligence+Survie SR 2*la vertue à augmenter.",
+      "L'oeuvre d'art doit correspondre à la vertue augmentée. Il peut aider un autre vampire, en projetant la paix intérieur qu'il a acquis. Le jet est alors à +1SR. Ce pouvoir n'est utilisable que par les vampires suivant la Voie de l'Humanité."
+    ]
+  },
+  {
+    "name": "Peinture de l'âme",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": "2" }] },
+      { "or": [{ "name": "Auspex", "level": "4" }] }
+    ],
+    "source": "Clanbook: Toreador (Revised Edition) (2356) p74",
+    "description": [
+      "Ce pouvoir avait disparu avec la disparition de Katherine de Montpellier. Depuis sa sortie de torpeur, elle l'a appris à quelques personnes. Le Toreador étudie pendant une heure la personne, y compris son aura, et s'abandonne totalement à sa passion créatrice, forgeant une image inconsciente de la cible. L'oeuvre est alors faite (tableau, sculpture etc...) en une seule fois (parfois, exceptionnellement, ceci nécessite plusieurs dizaines d'heures), en état de transe.",
+      "Manipulation+Empathie SR9. Chaque succès permet à l'artiste de faire apparaître de manière indéniable les traits suivants : Nature, puis Voie ou Volonté ou une Vertue. Toute personne possédant ce pouvoir et voyant l'oeuvre comprendra les signes placés par l'artiste. Une personne non initiée doit réussir  Perception+Empathie  ou  Perception+Artisanat SR Variable.",
+      "Note : utiliser ce pouvoir ne veut pas dire que vous avez fait un chef d'oeuvre."
+    ]
+  },
+  {
+    "name": "Double langage",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": "1" }] },
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Dissimulation", "level": "1" }] }
+    ],
+    "source": "Clanbook: Toreador (Revised Edition) (2356) p75",
+    "description": [
+      "Ce pouvoir n'est pas vraiment un secret de clan : il permet de faire passer, aux milieux de phrases, des  bruits parasites qui sont en fait des mots. Savoir les écouter permet de comprendre des phrases entière, le non initié ne pouvant se douter qu'une conversation peut avoir lieu devant lui.  Perception+Subterfuge SR5 permet de comprendre ce qui est dit. Intelligence+Expression SR6 permet de créer les phrases."
+    ]
+  },
+  {
+    "name": "Dans le mille",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "3" }] },
+      { "or": [{ "name": "Présence", "level": "3" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p103",
+    "description": [
+      "En discutant quelque temps avec sa victime, puis en utilisant ce pouvoir, le Toreador est capable d'étaler au grand jour les faiblesses de celle-ci, les assénant telles des vérités atroces.  Esprit+Perception SR6.",
+      "1-2 La victime est rendue sans voix par la honte ou la rage, jusqu'à la fin de la scène",
+      "3-4 La cible explose de colère",
+      "5 La cible devient violente contre le Toreador, ou même contre elle même, de honte",
+      "6 Frénésie immédiate"
+    ]
+  },
+  {
+    "name": "Langue acérée",
+    "requirements": [
+      { "or": [{ "name": "Célérité", "level": "1" }] },
+      { "or": [{ "name": "Présence", "level": "1" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p102",
+    "description": [
+      "Permet de sortir une réplique cinglante instantanément, forçant la partie d'en face au silence grâce à Présence. Esprit+Empathie SR7, +1SR si la victime n'est pas connue. Force la partie adverse au silence, de honte, pendant succès tours (x2 si ce n'est pas une Toreador). 1 point de Volonté annule l'effet. A noter que les Toreadors ne voient pas tous d'un bon oeil le recours un peu facile à ce pouvoir."
     ]
   }
 ]
