@@ -663,5 +663,16 @@
     "description": [
       "Ce pouvoir permet de sentir le Sang de vampire présent dans une créature. Perception+Occulte, la créature doit être dans le champ de perception normal du vampire. SR6 pour les vampires, SR8 pour sentir les goules (modifiable suivant les circonstances: le pouvoir étant toujours actif, même quand on dort). Avec le temps, il est possible de reconnaitre l'odeur de vampires en particulier."
     ]
+  },
+  {
+    "name": "Je suis légion",
+    "requirements": [
+      { "or": [{ "name": "Daimonon", "level": " 3" }] },
+      { "or": [{ "name": "Obfuscate", "level": " 2" }] }
+    ],
+    "source": "Clanbook: Baali (2817) p47",
+    "description": [
+      "Manipulation+Commandement SR 6 pour appeler un démon qui prend place aux côtés du vampire dans son corps, et qui répond à sa place lorsqu'il le désire. C'est un moyen de pouvoir passer sans encombre un interrogatoire sous Auspex ou Domination, puisque l'esprit ne ment pas forcément là où vous, vous le devriez."
+    ]
   }
 ]
