@@ -7,6 +7,19 @@ import SEO from '../components/seo';
 import SectionHeader from '../styles/SectionHeader';
 import ComboPower from '../components/ComboPower';
 
+// Remove me when gatsby build can finally flatten array…
+Object.defineProperty(Array.prototype, 'flat', {
+  value(depth = 1) {
+    return this.reduce(function(flat, toFlatten) {
+      return flat.concat(
+        Array.isArray(toFlatten) && depth - 1
+          ? toFlatten.flat(depth - 1)
+          : toFlatten
+      );
+    }, []);
+  },
+});
+
 const ComboPage = () => {
   const data = useStaticQuery(graphql`
     {
@@ -31,6 +44,7 @@ const ComboPage = () => {
   const disciplinesData = data.allDisciplinesComboJson.edges
     .map(node => node.node)
     .sort((a, b) => {
+      console.log(Array.from(a.requirements));
       const aReq = a.requirements
         .flat()
         .map(e => e.or)
