@@ -946,7 +946,7 @@
     ]
   },
   {
-    "name": " Lamentation du Loup",
+    "name": "Lamentation du Loup",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "1" }] },
       { "or": [{ "name": "Dissimulation", "level": "2" }] }
@@ -965,7 +965,7 @@
     ]
   },
   {
-    "name": " Griffes de Fenrir",
+    "name": "Griffes de Fenrir",
     "requirements": [
       { "or": [{ "name": "Force d'Ame", "level": "2" }] },
       { "or": [{ "name": "Protean", "level": "2" }] }
@@ -976,7 +976,7 @@
     ]
   },
   {
-    "name": " Blessé dans sa Chair",
+    "name": "Blessé dans sa Chair",
     "requirements": [
       { "or": [{ "name": "Force d'Ame", "level": "2" }] },
       { "or": [{ "name": "Dissimulation", "level": "3" }] }
@@ -987,7 +987,7 @@
     ]
   },
   {
-    "name": " Améliorer la Chevauchée Sauvage",
+    "name": "Améliorer la Chevauchée Sauvage",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "4" }] },
       { "or": [{ "name": "Protean", "level": "4" }] }
@@ -1006,7 +1006,7 @@
     ]
   },
   {
-    "name": " Immunité aux Griffes",
+    "name": "Immunité aux Griffes",
     "requirements": [
       { "or": [{ "name": "Force d'Ame", "level": "4" }] },
       { "or": [{ "name": "Animalisme", "level": "2" }] }
@@ -1017,7 +1017,7 @@
     ]
   },
   {
-    "name": " Lire les Vents",
+    "name": "Lire les Vents",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "4" }] },
       { "or": [{ "name": "Auspex", "level": "5" }] }
@@ -1033,7 +1033,7 @@
     ]
   },
   {
-    "name": " Appel de la Meute Sauvage",
+    "name": "Appel de la Meute Sauvage",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "5" }] },
       { "or": [{ "name": "Protean", "level": "4" }] }
@@ -1044,7 +1044,7 @@
     ]
   },
   {
-    "name": " Voir les Reflets des Formes",
+    "name": "Voir les Reflets des Formes",
     "requirements": [
       { "or": [{ "name": "Auspex", "level": "4" }] },
       { "or": [{ "name": "Protean", "level": "4" }] }
@@ -1055,7 +1055,7 @@
     ]
   },
   {
-    "name": " Se Mêler aux Bêtes",
+    "name": "Se Mêler aux Bêtes",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "3" }] },
       { "or": [{ "name": "Protean", "level": "6" }] }
@@ -1201,7 +1201,7 @@
     ]
   },
   {
-    "name": " Voile d'Absence",
+    "name": "Voile d'Absence",
     "requirements": [
       { "or": [{ "name": "Obtenebration", "level": "3" }] },
       { "or": [{ "name": "Domination", "level": "3" }] }
@@ -1212,7 +1212,7 @@
     ]
   },
   {
-    "name": " Ténèbres Etouffantes",
+    "name": "Ténèbres Etouffantes",
     "requirements": [
       { "or": [{ "name": "Obtenebration", "level": "2" }] },
       { "or": [{ "name": "Dissimulation", "level": "1" }] }
@@ -1223,7 +1223,7 @@
     ]
   },
   {
-    "name": " Les Yeux des Ténèbres",
+    "name": "Les Yeux des Ténèbres",
     "requirements": [
       { "or": [{ "name": "Obtenebration", "level": "3" }] },
       { "or": [{ "name": "Auspex", "level": "3" }] }
@@ -1273,7 +1273,7 @@
     ]
   },
   {
-    "name": " Prophétie",
+    "name": "Prophétie",
     "requirements": [
       { "or": [{ "name": "Aliénation", "level": "3" }] },
       { "or": [{ "name": "Auspex", "level": "4" }] }
@@ -1436,7 +1436,7 @@
     ]
   },
   {
-    "name": " Vigueur Animale",
+    "name": "Vigueur Animale",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "3" }] },
       { "or": [{ "name": "Force d'Ame", "level": "3" }] }
@@ -1458,7 +1458,7 @@
     ]
   },
   {
-    "name": " Esprit de la Nature",
+    "name": "Esprit de la Nature",
     "requirements": [
       { "or": [{ "name": "Animalisme", "level": "2" }] },
       { "or": [{ "name": "Auspex", "level": "4" }] }
@@ -1889,6 +1889,252 @@
     "source": "Clanbook Tzimisce p73",
     "description": [
       "Ce pouvoir permet de créer un Vozhd, sans recours à la magie koldunique. Le vampire regroupe 15 à 20 goules, puis lance Intelligence+Altération Corporelle SR10. Avec 1 succès, construire et maîtriser la Vozhd dure presque 1 an, avec 5 succès, ce délai est réduit à 1 mois. Tout jet de Vicissitude par la suite sur le Vozhd est à +2SR, et tout jet d'Animalisme à +3SR. Un échec critique résulte en une masse de chair non viable, ou bien en un Vozhd en frénésie permanente."
+    ]
+  },
+  {
+    "name": "Contemplation du Vif Argent",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": "2" }] },
+      { "or": [{ "name": "Temporis", "level": "3" }] }
+    ],
+    "source": "Dark Ages: Players Guide to High Clans (20007) p169",
+    "description": [
+      "Le vampire peut mettre son esprit hors du temps, évaluer totalement une situation, et faire reprendre le cours des évènements en y répondant avec la meilleur réponse possible.",
+      "1 Sang, Esprit+Vigilance, le temps s'arrête pour le corps, mais pas pour l'esprit du vampire. Il ne peut influencer le monde physique, ni utiliser de pouvoir mental pour cela, mais il peut changer sa perspective de vue par Auspex s'il en a la possibilité par exemple. Il peut rester dans sa bulle de temps mentale aussi longtemps qu'il le désire. Sur chaque succès, il a -1SR sur sa prochaine action, avec un minimum de SR de 3. Sur un échec critique, il reste bloqué dans son espace mental pendant des années, contemplant la même situation, et devient fou. A noter que certains évènements sont inévitables, mais qu'il est possible d'en minimiser l'impact."
+    ]
+  },
+  {
+    "name": "Maîtrise d'Enoia",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 1" }] },
+      { "or": [{ "name": "Protean", "level": " 3" }] }
+    ],
+    "source": "Road of the Beast (20030) p72",
+    "description": [
+      "Permet d'adapter certains attributs exprimés par Protean à l'environnement. Esprit+Survie SR6, 1 caractéristique de pouvoir peut être changé par succès. En règle général, le changement permet d'obtenir -2 sur un SR de survie en milieu extérieur. Exemples :",
+      "Griffes : elles deviennent recourbées, facilitant les actions d'escalade aux arbres",
+      "Yeux : sensibilité au mouvement plus qu'à la lumière -2SR pour voir quelque chose bouger, +1SR pour distinguer quelqu'un d'immobile ou camouflé.",
+      "Pieds/Mains : élargissement des pieds pour marcher sur la neige"
+    ]
+  },
+  {
+    "name": "Tester la Voie",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": "3" }] },
+      { "or": [{ "name": "Auspex", "level": " 2" }] }
+    ],
+    "source": "Road of the Beast (20030) p72",
+    "description": [
+      "Ce pouvoir est utilisé par les gardiens des lieux sacrés de ceux suivant la Voie de la Bête, et permet de distinguer, dans la façon de parler, d'agir, qui suit vraiment cette voie (la Bête devant être sous jacente). Le joueur lance sa Voie, SR8",
+      "1 succès - il peut déterminer si la personne est hostile à la Voie de la Bête",
+      "2 succès - permet de savoir si la personne est intéressée par cette voie",
+      "3 succès - permet de savoir s'il suit cette voie",
+      "4 succès - permet de déterminer quel chemin de la Voie il suit",
+      "5 succès ou + - permet de dire s'il est bas sur la Voie (1-4), moyennement avancé</a> (5-7) ou très avancé (8-10). Un échec critique le place d'office dans cette dernière catégorie."
+    ]
+  },
+  {
+    "name": "Révoquer le Don d'Adam",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 4" }] },
+      { "or": [{ "name": "Protean", "level": " 4" }] }
+    ],
+    "source": "Road of the Beast (20030) p72",
+    "description": [
+      "Dieu a donné à Adam le pouvoir sur les Bête.... les pratiquants de ce pouvoir veulent le pouvoir sur l'humain : ils transforment un humain en animal, avec sa pleine conscience d'être humain (donc capable de pensée, d'actions complexes etc...), le relâchent et le traquent. Ils disent que c'est la chasse la plus grisante qui soit. L'humain doit boire 2 Sang du vampire, puis le vampire se concentre, et touche les parties du corps qui se transforment au fur et à mesure. Le rituel dure 5 minutes. Par point de Sang supplémentaire, on peut faire varier la taille de l'animal obtenu de 10% de la masse (un autre vampire, ne connaissant pas ce pouvoir, peut donner son sang). L'effet prend fin à la fin de la nuit, la victime gardant une conscience parfaite de ce qui s'est passé, et souvent devenant folle."
+    ]
+  },
+  {
+    "name": "Une oreille pour le mensonge",
+    "requirements": [{ "or": [{ "name": "Auspex", "level": "2" }] }],
+    "source": "Road of Kings (20031) p72",
+    "description": [
+      "Permet de savoir si l'interlocuteur dit sciemment un mensonge ou non. Perception+Empathie SR Manipulation+Subterfuge"
+    ]
+  },
+  {
+    "name": "Inspirer la grandeur",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      {
+        "or": [
+          { "name": "Potence", "level": " 3" },
+          { "name": "Force d'Ame", "level": " 3" }
+        ]
+      }
+    ],
+    "source": "Road of Kings (20031) p72",
+    "description": [
+      "Le vampire, en motivant ses troupes par un discours, peut dépenser des poings de sang pour augmenter la Force (ou la Puissance pour une goule ou un vampire) et/ou la Vigueur (ou la Force d'Âme).  Charisme+Commandement SR7 indique le nombre de points de sang maximum dépensables, répartis ensuite. Ce nombre est limité par la génération. Les poings données peuvent faire dépasser les limites de génération, ou 5 pour des mortels."
+    ]
+  },
+  {
+    "name": "Inspirer la grandeur version forte",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      {
+        "or": [
+          { "name": "Potence", "level": " 3" },
+          { "name": "Force d'Ame", "level": " 3" }
+        ]
+      }
+    ],
+    "source": "Road of Kings (20031) p72",
+    "description": [
+      "Même chose que la version normale, mais le nombre de succès est répartissable en plus sur le nombre de personnes affectées.",
+      "1 succès - 2 personnes",
+      "2 succès - 4 personnes",
+      "3 succès - 8 personnes",
+      "4 succès - 20 personnes",
+      "5 succès ou + - Toute personne à proximité."
+    ]
+  },
+  {
+    "name": "La voix de la Vérité",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": " 2" }] },
+      { "or": [{ "name": "Présence", "level": "3" }] }
+    ],
+    "source": "Road of Kings (20031) p73",
+    "description": [
+      "Voir Aura de l'Indéniable vérité, mais applicable sur une seule personne."
+    ]
+  },
+  {
+    "name": "Son de la parole brisée",
+    "requirements": [
+      { "or": [{ "name": "Auspex", "level": " 4" }] },
+      {
+        "or": [
+          { "name": "Domination", "level": " 4" },
+          { "name": "Présence", "level": " 4" }
+        ]
+      }
+    ],
+    "source": "Road of Kings (20031) p73",
+    "description": [
+      "Perception+Commandement SR Volonté permet de savoir si un vassal a brisé sa parole:",
+      "1 succès - le vampire sait qu'un vassal a trahi",
+      "2 succès - le vampire a vaguement une idée de qui a pu trahir",
+      "3 succès - le vampire sait quel vassal a trahi, mais ne connaît les circonstances que vaguement",
+      "4 succès - le vampire comprend mieux les circonstances, quel serment ou obligation a été brisé",
+      "5 succès ou + - Vision du vassal pendant quelques secondes, possibilité donc de voir son environnement"
+    ]
+  },
+  {
+    "name": "Regard du juste",
+    "requirements": [
+      { "or": [{ "name": "Potence", "level": " 3" }] },
+      { "or": [{ "name": "Présence", "level": " 2" }] }
+    ],
+    "source": "Road of Heaven (20032) p68",
+    "description": [
+      "Le vampire peut brûler de l'intérieur ses victimes en utilisant son propre péché, imposant le jugement du juste sur elles. Un contact les yeux dans les yeux suffit. Jet de Voie SR Voie de la victime. Un échec critique indique l'obligation d'un acte de contrition avant de réutiliser ce pouvoir. Chaque succès inflige un aggravé, résistible par Force d'Ame SR7 +(7-Voie de la victime). Ce pouvoir n'est plus utilisable sur une même victime tant qu'elle n'a pas changé son niveau de Voie."
+    ]
+  },
+  {
+    "name": "Aura d'acier",
+    "requirements": [
+      { "or": [{ "name": "Force d'Ame", "level": " 3" }] },
+      { "or": [{ "name": "Volonté ", "level": "6" }] }
+    ],
+    "source": "Road of Heaven (20032) p69",
+    "description": [
+      "Ce pouvoir permet d'ignorer les pénalités des niveaux de blessures qu'on a, ainsi que ceux acquis lors des succès tours suivants, en utilisant la force de sa Foi. 1 Sang, Jet de Voie SR6. Ce pouvoir est un réflexe, et le Sang dépensé ne rentre pas dans la limite de génération."
+    ]
+  },
+  {
+    "name": "Moment de Grâce",
+    "requirements": [
+      { "or": [{ "name": "Présence", "level": " 3" }] },
+      { "or": [{ "name": "Domination", "level": " 4" }] }
+    ],
+    "source": "Road of Heaven (20032) p69",
+    "description": [
+      "Ce pouvoir permet de faire comprendre que la Voie du Paradis est LA Voie : elle ne fonctionne que sur ceux ne suivant pas la Voie du Paradis. 1 Volonté et 1 Sang, Voie SR Voie de la victime. Si c'est un succès, la victime a durant la scène suivante la Voie du Paradis à un niveau égal au nombre de succès du jet. Toute perte dans cette Voie temporaire du Paradis se répercute par une perte dans la Voie originale de la victime, la plongeant dans une spirale de dégénérescence."
+    ]
+  },
+  {
+    "name": "Communion de la Bête",
+    "requirements": [
+      { "or": [{ "name": "Animalisme", "level": " 3" }] },
+      { "or": [{ "name": "Auspex", "level": " 4" }] }
+    ],
+    "source": "Road of Humanity (20034) p70",
+    "description": [
+      "Permet de forcer la Bête d'un autre à parler de manière intelligible. La Bête s'exprime suivant le clan (Brujah = fier et violente, Ventrue = Froide et dominatrice etc.). 1 Volonté, Manipulation+Intimidation SR Volonté de la cible. Si c'est un succès, dépense d'un Sang, jet d'opposition Contrôle de Soi/Instinct vs Contrôle de Soi/Instinct, SR6 pour les 2 opposants. Si c'est un succès, la Bête est obligée de répondre, sans pouvoir agir violemment, pendant succès tours (succès sur le 1er jet de Manipulation+Intimidation). La Bête se souvient de toute action sous Frénésie, sait quand une influence extérieure a agit sur le vampire. Même si le sujet est volontaire, la Bête tente toujours de résister, car elle monte au niveau de l'esprit sain. Si le jet de Contrôle de Soi est un échec, on ne peut réutiliser ce pouvoir pendant une Lune."
+    ]
+  },
+  {
+    "name": "Peau mortelle",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": " 3" }] },
+      { "or": [{ "name": "Dissimulation", "level": " 3" }] }
+    ],
+    "source": "Road of Humanity (20034) p71",
+    "description": [
+      "Ce pouvoir fait croire aux mortels que le vampire a la peau chaude, respire, et tout ce qui fait de lui un humain. Son effet est à mi-chemin entre la Domination et la Dissimulation, les humains ne voyant que ce qu'ils veulent voir."
+    ]
+  },
+  {
+    "name": "Chant de la Vie",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": " 1" }] },
+      { "or": [{ "name": "Présence", "level": " 1" }] }
+    ],
+    "source": "Clanbook: Ventrue (1st Edition) (2058) p77",
+    "description": [
+      "Permet de déterminer par un mot ou deux d'une personne vivante quel est son véritable Comportement."
+    ]
+  },
+  {
+    "name": "Refus de la Faveur d'Aphrodite",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": " 3" }] },
+      { "or": [{ "name": "Force d'Ame", "level": " 3" }] }
+    ],
+    "source": "Clanbook: Ventrue (1st Edition) (2058) p77",
+    "description": [
+      "Permet d'ignorer les pouvoirs de Présence de niveau 1 à 3 des vampires de génération supérieure à la sienne."
+    ]
+  },
+  {
+    "name": "Aura d'Indéniable Vérité",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "4" }] },
+      { "or": [{ "name": "Présence", "level": "4" }] }
+    ],
+    "source": "Libellus Sanguinis I (2807) p94, Road of Kings (20031) p74",
+    "description": [
+      "Charisme+Commandement SR Volonté. Les personnes affectées ne peuvent mentir en présence du vampire.",
+      "1 succès - Prochaine phrase",
+      "2 succès - Prochaine minute",
+      "3 succès - 10 minutes",
+      "4 succès - Pour la scène",
+      "5 succès - Tant que le vampire est présent.",
+      "Ceci n'affecte que les vampires de générations inférieures."
+    ]
+  },
+  {
+    "name": "Ami distant",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "2" }] },
+      { "or": [{ "name": "Présence", "level": "4" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p104 ",
+    "description": [
+      "Une fois que le vampire a réussi a imposer un de ses pouvoirs de Présence sur la victime (quel que soit ce pouvoir), il peut engager un jet de Volonté SR8 résisté par Volonté SR8 avec la dite victime. Pendant les succès mois qui suivent, chaque fois que le nom du vampire est évoqué par la victime ou devant elle, elle se souvient de l'impression laissée par le pouvoir de Présence (souvent une influence de Présence 2, d'où le nom du pouvoir) et agit en fonction de cette impression. Si la victime est un ennemi du vampire, elle considéra qu'au fond, c'est ce qu'elle pense vraiment de lui."
+    ]
+  },
+  {
+    "name": "Quasi loyauté absolue",
+    "requirements": [
+      { "or": [{ "name": "Domination", "level": "5" }] },
+      { "or": [{ "name": "Présence", "level": "5" }] }
+    ],
+    "source": "Counsel of Primogen (2429) p104",
+    "description": [
+      "Le vampire capte le regard de la victime, et cette dernière tombe dans une transe quasi extatique vis à vis de lui : l'effet d'un lien du sang multiplié par 10, mais ne durant qu'une nuit. Quitter la présence de la victime provoque en elle une anxiété et un stress émotionnel. Une fois l'effet fini, il reste une sensation éthérée de ce qui s'est passé, avec parfois un désir que cela resurvienne. L'effet anesthésiant du pouvoir est tel que seuls les actes contraints les plus ignobles sont remémorés. Charisme+Manipulation SR Volonté. 1 succès indique une inclinaison forte de la victime pour le vampire, 2 succès ou plus un effet total."
     ]
   }
 ]
