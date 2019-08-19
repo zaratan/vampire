@@ -86,7 +86,7 @@ module.exports = {
             client_email: process.env.GA_CLIENT_EMAIL,
             private_key: process.env.GA_SECRET_KEY,
           },
-          minimumThreshold: 0.03,
+          minimumThreshold: 0.0003,
           // The "period" for fetching analytic data.
           period: {
             startDate: new Date('2018-1-1'),
