@@ -1,12 +1,22 @@
 {
   "version": 2,
   "name": "Litanies@next",
+  "build": {
+    "env": {
+      "GA_CLIENT_EMAIL": "@ga_client_email",
+      "GA_SECRET_KEY": "@ga_secret_key"
+    }
+  },
   "builds": [
     {
       "src": "package.json",
       "use": "@now/static-build",
-      "config": { "distDir": "public" }
+      "config": {
+        "distDir": "public"
+      }
     }
   ],
-  "alias": ["vampire.zaratan.fr"]
+  "alias": [
+    "vampire.zaratan.fr"
+  ]
 }
