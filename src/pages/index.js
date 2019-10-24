@@ -63,7 +63,6 @@ const IndexPage = () => {
         .map(e => e.name)
     )
   ).sort();
-  console.log(comboRequirements);
 
   return (
     <Layout>

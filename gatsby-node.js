@@ -74,7 +74,6 @@ exports.createPages = ({ graphql, actions }) => {
         }
       `)
         .then(result => {
-          console.log(result);
           const comboRequirements = Array.from(
             new Set(
               result.data.allDisciplinesComboJson.edges

@@ -46,7 +46,6 @@ const ComboPage = () => {
   const disciplinesData = data.allDisciplinesComboJson.edges
     .map(node => node.node)
     .sort((a, b) => {
-      console.log(Array.from(a.requirements));
       const aReq = a.requirements
         .flat()
         .map(e => e.or)
@@ -59,7 +58,6 @@ const ComboPage = () => {
         .map(e => e.level);
       return Math.max(...aReq) - Math.max(...bReq);
     });
-  console.log(disciplinesData);
   return (
     <Layout>
       <SEO title="Disciplines Combinées" />
