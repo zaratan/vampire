@@ -3,5 +3,8 @@
   "name": "Litanies@next",
   "alias": [
     "vampire.zaratan.fr"
-  ]
+  ],
+  "engines": {
+    "node": "10.x"
+  }
 }
