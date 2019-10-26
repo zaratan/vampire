@@ -1,12 +1,6 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
+// @flow
 
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { type Node } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import styled, { ThemeProvider } from 'styled-components';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -31,7 +25,7 @@ const Main = styled.main`
   }
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({ children }: { children: Node }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -42,7 +36,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data: { site: { siteMetadata: { title: string } } }) => (
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle />
@@ -54,9 +48,5 @@ const Layout = ({ children }) => (
     )}
   />
 );
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default Layout;

@@ -1,7 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
+// @flow
 
-const StyledFooter = styled.footer`
+import React from 'react';
+import styled, { type StyledComponent } from 'styled-components';
+import type { ThemeType } from '../styles/theme';
+
+const StyledFooter: StyledComponent<{}, ThemeType, HTMLElement> = styled.footer`
   background-color: ${props => props.theme.shadow};
   color: #fff;
   height: 4rem;
@@ -24,7 +27,7 @@ const FooterComponent = styled.span`
   }
 `;
 
-const Link = styled.a`
+const Link: StyledComponent<{}, ThemeType, HTMLAnchorElement> = styled.a`
   color: ${props => props.theme.accent};
 `;
 

@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import { graphql } from 'gatsby';
 
@@ -6,16 +8,34 @@ import SEO from '../components/seo';
 import DisciplineLevel from '../components/DisciplineLevel';
 import SectionHeader from '../styles/SectionHeader';
 import LevelsLink from '../components/LevelsLink';
+import type { LevelType, PowerType } from '../types/DisciplineTypes';
 
-const Discipline = ({ pageContext, data }) => {
+const Discipline = ({
+  pageContext,
+  data,
+}: {
+  pageContext: { discipline: string, thaumaturgyPath: string },
+  data: {
+    allDisciplinesJson: {
+      group: [
+        {
+          fieldValue: string,
+          edges: { node: PowerType }[],
+        }
+      ],
+    },
+  },
+}) => {
   const { discipline, thaumaturgyPath } = pageContext;
 
   const disciplineData = data.allDisciplinesJson.group
-    .map(group => ({
-      level: group.fieldValue,
-      powers: group.edges.map(e => e.node),
+    .map(gr => ({
+      level: gr.fieldValue,
+      powers: gr.edges.map(e => e.node),
     }))
-    .sort((a, b) => a.level - b.level);
+    .sort(
+      (a: LevelType, b: LevelType) => parseInt(a.level) - parseInt(b.level)
+    );
 
   return (
     <Layout>
@@ -25,7 +45,7 @@ const Discipline = ({ pageContext, data }) => {
       </SectionHeader>
       <LevelsLink data={disciplineData} />
       <ul>
-        {disciplineData.map(level => (
+        {disciplineData.map((level: LevelType) => (
           <DisciplineLevel level={level} />
         ))}
       </ul>

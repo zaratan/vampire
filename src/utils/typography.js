@@ -1,3 +1,4 @@
+// @flow
 import Typography from 'typography';
 import moraga from 'typography-theme-stow-lake';
 

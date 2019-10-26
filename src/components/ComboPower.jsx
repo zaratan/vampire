@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import styled from 'styled-components';
 
@@ -12,6 +14,11 @@ import {
 } from '../styles/DisciplineParts';
 import { useScroll } from '../hooks/use_scroll';
 import { LinkIcon } from '../styles/Icon';
+import type {
+  RequirementsType,
+  ExtraRequirementsType,
+  ComboPowerType,
+} from '../types/ComboTypes';
 
 const Et = styled.span`
   :not(:first-of-type) {
@@ -40,7 +47,13 @@ const RequirementsDiv = styled.div`
   font-size: 1.1rem;
 `;
 
-const ExtraRequirements = ({ requirements, extraRequirements }) => {
+const ExtraRequirements = ({
+  requirements,
+  extraRequirements,
+}: {
+  requirements: RequirementsType,
+  extraRequirements: ExtraRequirementsType,
+}) => {
   if (requirements.length === 0) {
     return (
       <span>
@@ -58,11 +71,18 @@ const ExtraRequirements = ({ requirements, extraRequirements }) => {
     </Extra>
   );
 };
-const Requirements = ({ requirements, extraRequirements }) => (
+const Requirements = ({
+  requirements,
+  extraRequirements,
+}: {
+  requirements: RequirementsType,
+  extraRequirements: ExtraRequirementsType,
+}) => (
   <RequirementsDiv>
     <span>
       {requirements
-        .sort((a, b) => b.or[0].name - a.or[0].name)
+        .slice()
+        .sort((a, b) => b.or[0].level - a.or[0].level)
         .map(requirement => (
           <Et>
             {requirement.or.map(req => (
@@ -83,7 +103,7 @@ const Requirements = ({ requirements, extraRequirements }) => (
   </RequirementsDiv>
 );
 
-const ComboPower = ({ power }) => {
+const ComboPower = ({ power }: { power: ComboPowerType }) => {
   const hash = `combo-power-${slugify(power.name.toLowerCase())}`;
   const scrollRef = useScroll(hash);
   return (

@@ -1,20 +1,23 @@
-import React, { useState, useRef, useEffect } from 'react';
-import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// @flow
+
+import React, { useState, useEffect } from 'react';
+import styled, { type StyledComponent } from 'styled-components';
 
 import DisciplinePower from './DisciplinePower';
 import { Icon, LinkIcon } from '../styles/Icon';
 import { useScroll } from '../hooks/use_scroll';
+import type { ThemeType } from '../styles/theme';
+import type { LevelType } from '../types/DisciplineTypes';
 
-const NoteLevel = styled.li`
+const NoteLevel: StyledComponent<{}, {}, HTMLLIElement> = styled.li`
   margin-bottom: 2rem;
 `;
 
-const LevelItem = styled.li`
+const LevelItem: StyledComponent<{}, {}, HTMLLIElement> = styled.li`
   margin-bottom: 3rem;
 `;
 
-const LevelHeader = styled.h2`
+const LevelHeader: StyledComponent<{}, {}, HTMLHeadingElement> = styled.h2`
   margin-bottom: 2rem;
 
   @media (pointer: fine) and (hover: hover) {
@@ -29,7 +32,7 @@ const LevelHeader = styled.h2`
   }
 `;
 
-const LevelName = styled.span`
+const LevelName: StyledComponent<{}, ThemeType, HTMLSpanElement> = styled.span`
   cursor: pointer;
 
   :focus {
@@ -50,8 +53,10 @@ const Powers = styled.ul`
   display: ${props => (props.show ? 'inherit' : 'none')};
 `;
 
-const DisciplineLevel = ({ level }) => {
-  const powers = level.powers.sort((a, b) => (a.title < b.title ? -1 : 1));
+const DisciplineLevel = ({ level }: { level: LevelType }) => {
+  const powers = level.powers
+    .slice()
+    .sort((a, b) => (a.title < b.title ? -1 : 1));
   const [open, setOpen] = useState(true);
   const toggleFold = () => {
     setOpen(!open);
@@ -71,7 +76,7 @@ const DisciplineLevel = ({ level }) => {
       <NoteLevel>
         <ul>
           {powers.map(power => (
-            <DisciplinePower power={power} level={level.level} />
+            <DisciplinePower power={power} level={level.level.toString()} />
           ))}
         </ul>
       </NoteLevel>
@@ -97,7 +102,7 @@ const DisciplineLevel = ({ level }) => {
       </LevelHeader>
       <Powers show={open}>
         {powers.map(power => (
-          <DisciplinePower power={power} level={level.level} />
+          <DisciplinePower power={power} level={level.level.toString()} />
         ))}
       </Powers>
     </LevelItem>

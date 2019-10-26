@@ -1,0 +1,14 @@
+[ignore]
+.*/tmp
+.*/.cache
+.*/public
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

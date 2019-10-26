@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+// @flow
+import styled, { type StyledComponent } from 'styled-components';
 
-const SectionHeader = styled.h1`
+const SectionHeader: StyledComponent<{}, {}, HTMLHeadingElement> = styled.h1`
   text-align: center;
   margin 2rem;
   /* font-size: 3rem; */

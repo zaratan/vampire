@@ -1,9 +1,11 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import React from 'react';
-import styled from 'styled-components';
+// @flow
 
-const StyledHeader = styled.header`
+import { Link } from 'gatsby';
+import React from 'react';
+import styled, { type StyledComponent } from 'styled-components';
+import type { ThemeType } from '../styles/theme';
+
+const StyledHeader: StyledComponent<{}, ThemeType, HTMLElement> = styled.header`
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -76,7 +78,7 @@ const StyledLink = styled(Link)`
   color: #fff;
 `;
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle }: { siteTitle?: string }) => (
   <StyledHeader>
     <Title>
       <StyledLink to="/">{siteTitle}</StyledLink>
@@ -86,10 +88,6 @@ const Header = ({ siteTitle }) => (
     </About>
   </StyledHeader>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
 
 Header.defaultProps = {
   siteTitle: ``,

@@ -1,7 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
+// @flow
 
-const TableStyle = styled.div`
+import React from 'react';
+import styled, { type StyledComponent } from 'styled-components';
+
+const TableStyle: StyledComponent<{}, {}, HTMLDivElement> = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -15,7 +17,7 @@ const TableStyle = styled.div`
   }
 `;
 
-const Line = styled.div`
+const Line: StyledComponent<{}, {}, HTMLDivElement> = styled.div`
   display: flex;
   justify-content: flex-start;
   padding: 1rem;
@@ -26,12 +28,16 @@ const Line = styled.div`
   }
 `;
 
-const Cell = styled.span`
+const Cell: StyledComponent<
+  { number: number },
+  {},
+  HTMLSpanElement
+> = styled.span`
   width: ${props => `${100 / props.number}%`};
   padding: 0 0.2rem;
 `;
 
-const Table = ({ data }) =>
+const Table = ({ data }: { data?: string[][] }) =>
   data ? (
     <TableStyle>
       {data.map(line => (

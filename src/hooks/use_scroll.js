@@ -1,10 +1,12 @@
+// @flow
+
 import React, { useRef, useEffect } from 'react';
 
-export function useScroll(hash) {
-  const linkRef = useRef(null);
+export function useScroll(hash: string) {
+  const linkRef = useRef<HTMLElement | null>(null);
   useEffect(() => {
     if (window.location.hash === `#${hash}`) {
-      linkRef.current.scrollIntoView();
+      if (linkRef.current) linkRef.current.scrollIntoView();
     }
   }, [hash]);
   return linkRef;

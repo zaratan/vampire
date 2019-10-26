@@ -1,3 +1,5 @@
+// @flow
+
 const { NODE_ENV, NOW_GITHUB_COMMIT_REF } = process.env;
 const isProduction =
   NODE_ENV === 'production' && NOW_GITHUB_COMMIT_REF === 'master';
@@ -70,5 +72,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-flow`,
   ],
 };

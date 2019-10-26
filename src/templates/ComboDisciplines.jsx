@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import { graphql } from 'gatsby';
 
@@ -6,7 +8,15 @@ import SEO from '../components/seo';
 import SectionHeader from '../styles/SectionHeader';
 import ComboPower from '../components/ComboPower';
 
-const ComboDisciplines = ({ pageContext, data }) => {
+import type { ComboPowerType } from '../types/ComboTypes';
+
+const ComboDisciplines = ({
+  pageContext,
+  data,
+}: {
+  pageContext: { discipline: string },
+  data: { allDisciplinesComboJson: { edges: [{ node: ComboPowerType }] } },
+}) => {
   const { discipline } = pageContext;
 
   const disciplinesData = data.allDisciplinesComboJson.edges
@@ -22,7 +32,7 @@ const ComboDisciplines = ({ pageContext, data }) => {
           req => req.or.filter(disc => disc.name === discipline).length >= 1
         )[0]
         .or.find(disc => disc.name === discipline);
-      return aReq.level - bReq.level;
+      return (aReq ? aReq.level : 0) - (bReq ? bReq.level : 0);
     });
   return (
     <Layout>

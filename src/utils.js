@@ -1,18 +1,22 @@
-import Discipline from './templates/Discipline';
+// @flow
+
+import type { DisciplineType } from './types/DisciplineTypes';
 
 const slugify = require('slugify');
 
-export const toDisciplineNames = arr =>
-  Array.from(new Set(arr.map(disc => disc.name)));
+export const toDisciplineNames = (arr: [DisciplineType]) => [
+  ...new Set<string>(arr.map(disc => disc.name)),
+];
 
-export const displineToPath = name => `/${slugify(name.toLowerCase())}`;
-export const thaumaturgyToPath = name =>
+export const displineToPath = (name: string) =>
+  `/${slugify(name.toLowerCase())}`;
+export const thaumaturgyToPath = (name: string) =>
   `/thaumaturgy/${slugify(name.toLowerCase())}`;
 
-export const thaumaturgyPathToPath = (thaumaturgy, path) =>
+export const thaumaturgyPathToPath = (thaumaturgy: string, path: string) =>
   `/thaumaturgy/${slugify(thaumaturgy.toLowerCase())}/${slugify(
     path.toLowerCase()
   )}`;
 
-export const comboWithPath = comboDiscipline =>
+export const comboWithPath = (comboDiscipline: string) =>
   `combo/${slugify(comboDiscipline.toLowerCase())}`;

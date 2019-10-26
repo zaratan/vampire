@@ -1,15 +1,24 @@
+// @flow
+
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { thaumaturgyPathToPath } from '../utils';
-import DisciplinePower from '../components/DisciplinePower';
 import Disciplines from '../styles/Disciplines';
 import DisciplineLevel from '../components/DisciplineLevel';
 import SectionHeader from '../styles/SectionHeader';
 
-const Thaumaturgie = ({ pageContext, data }) => {
+import type { DisciplineType } from '../types/DisciplineTypes';
+
+const Thaumaturgie = ({
+  pageContext,
+  data,
+}: {
+  pageContext: { discipline: string },
+  data: { allDisciplinesJson: { edges: [{ node: DisciplineType }] } },
+}) => {
   const { discipline } = pageContext;
   const paths = Array.from(
     new Set(data.allDisciplinesJson.edges.map(node => node.node.subname))
@@ -18,7 +27,7 @@ const Thaumaturgie = ({ pageContext, data }) => {
     .sort();
   const powers = data.allDisciplinesJson.edges
     .map(node => node.node)
-    .filter(e => e.level === 0 && e.subname === '');
+    .filter((e: DisciplineType) => e.level === 0 && e.subname === '');
 
   return (
     <Layout>
@@ -28,7 +37,7 @@ const Thaumaturgie = ({ pageContext, data }) => {
         <DisciplineLevel level={{ level: '0', powers }} />
       </ul>
       <Disciplines>
-        {paths.map(path => (
+        {paths.map((path: string) => (
           <li key={path}>
             <Link to={thaumaturgyPathToPath(discipline, path)}>{path}</Link>
           </li>

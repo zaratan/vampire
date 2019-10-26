@@ -1,9 +1,3 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 // You can delete this file if you're not using it
 
 const slugify = require('slugify');
@@ -11,18 +5,6 @@ const path = require('path');
 
 const toDisciplineNames = arr =>
   Array.from(new Set(arr.map(disc => disc.fieldValue)));
-
-// Object.defineProperty(Array.prototype, 'flat', {
-//   value(depth = 1) {
-//     return this.reduce(function(flat, toFlatten) {
-//       return flat.concat(
-//         Array.isArray(toFlatten) && depth - 1
-//           ? toFlatten.flat(depth - 1)
-//           : toFlatten
-//       );
-//     }, []);
-//   },
-// });
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -57,8 +39,8 @@ exports.createPages = ({ graphql, actions }) => {
         .catch(e => console.log(e));
       resolve();
     }),
-    new Promise(async resolve => {
-      await graphql(`
+    new Promise(resolve => {
+      graphql(`
         {
           allDisciplinesComboJson {
             edges {

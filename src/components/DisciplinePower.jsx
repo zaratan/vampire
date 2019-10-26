@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from 'react';
-import styled from 'styled-components';
+// @flow
+
+import React from 'react';
 import slugify from 'slugify';
 
 import Table from './Table';
@@ -12,8 +13,15 @@ import {
   Small,
 } from '../styles/DisciplineParts';
 import { useScroll } from '../hooks/use_scroll';
+import type { PowerType } from '../types/DisciplineTypes';
 
-const DisciplinePower = ({ power, level }) => {
+const DisciplinePower = ({
+  power,
+  level,
+}: {
+  power: PowerType,
+  level: string,
+}) => {
   const linkHash = `level-${level}-power-${slugify(power.title.toLowerCase())}`;
 
   const header = useScroll(linkHash);

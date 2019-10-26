@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+// @flow
+import styled, { type StyledComponent } from 'styled-components';
 
-const Disciplines = styled.ul`
+const Disciplines: StyledComponent<{}, {}, HTMLUListElement> = styled.ul`
   columns: 3;
 
   @media only screen and (max-width: 600px) {

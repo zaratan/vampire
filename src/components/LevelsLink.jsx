@@ -1,7 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
+// @flow
 
-const LevelContainer = styled.p`
+import React from 'react';
+import styled, { type StyledComponent } from 'styled-components';
+
+import type { LevelType } from '../types/DisciplineTypes';
+
+const LevelContainer: StyledComponent<{}, {}, HTMLParagraphElement> = styled.p`
   display: flex;
   justify-content: center;
 `;
@@ -11,7 +15,7 @@ const LevelLink = styled.a`
   padding: 0 0.5rem;
 `;
 
-const LevelsLink = ({ data }) =>
+const LevelsLink = ({ data }: { data: LevelType[] }) =>
   data.length !== 1 || data[0].level !== '0' ? (
     <LevelContainer>
       Go to level:{' '}

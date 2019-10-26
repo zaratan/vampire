@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+// @flow
+import styled, { type StyledComponent } from 'styled-components';
 
-export const Title = styled.h3`
+export const Title: StyledComponent<{}, {}, HTMLHeadingElement> = styled.h3`
   margin-bottom: 0.5rem;
 
   @media (pointer: fine) and (hover: hover) {
@@ -15,23 +16,23 @@ export const Title = styled.h3`
   }
 `;
 
-export const Description = styled.div`
+export const Description: StyledComponent<{}, {}, HTMLDivElement> = styled.div`
   font-size: 0.9rem;
 `;
 
-export const Item = styled.li`
+export const Item: StyledComponent<{}, {}, HTMLLIElement> = styled.li`
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
 `;
 
-export const Small = styled.small`
+export const Small: StyledComponent<{}, {}, HTMLElement> = styled.small`
   margin-top: 0.5rem;
   align-self: flex-end;
   max-width: 50%;
   font-size: 0.6rem;
 `;
 
-export const Line = styled.p`
+export const Line: StyledComponent<{}, {}, HTMLParagraphElement> = styled.p`
   margin-bottom: 0.3rem;
 `;
