@@ -34,17 +34,17 @@
     "typography-theme-stow-lake": "^0.16.19"
   },
   "devDependencies": {
-    "eslint": "^5.16.0 || ^6.1.0",
-    "eslint-config-airbnb": "18.0.1",
-    "eslint-config-prettier": "^6.4.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.2.0",
-    "flow-bin": "^0.110.1",
-    "gatsby-cli": "^2.8.5",
-    "prettier": "^1.18.2"
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "flow-bin": "^0.151.0",
+    "gatsby-cli": "^3.5.0",
+    "prettier": "^2.3.0"
   },
   "keywords": [
     "gatsby"
